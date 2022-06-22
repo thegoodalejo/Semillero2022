@@ -83,7 +83,7 @@ public class Club {
 		}
 
 		boolean agrego = false;
-		if (contVIP < 2 || contRegular < 20) {
+		if (contVIP < 10 || contRegular < 20) {
 
 			if (socios.size() == 0) {
 				Socio socio = new Socio(pCedula, pNombre, pTipo);
