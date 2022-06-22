@@ -274,14 +274,19 @@ public class Socio
      *         2. Dispara una excepción si el autorizado ya existía en la lista de autorizados de este socio. <br>
      *         3. Dispara una excepción si el socio no tiene fondos para financiar un nuevo autorizado.
      */
-    public void agregarAutorizado( String pNombreAutorizado ) throws Exception
+    public void agregarAutorizado( String pNombreAutorizado, String cedulaAutorizada, int edad ) throws Exception
     {
-        // Verificar que el nombre del socio no es el mismo del que se quiere autorizar
-        if( pNombreAutorizado.equals( darNombre( ) ) )
+      
+    	
+    	// Verificar que el nombre del socio no es el mismo del que se quiere autorizar
+        if( pNombreAutorizado.equals( darNombre( ) )   )
         {
             throw new Exception( "No puede agregar el socio como autorizado." );
         }
-
+        // Verificar la edad del autorizado
+        if(edad<18) {
+        	 throw new Exception( "No puede agregar como autorizado por ser menor de edad" );
+        }
         // Verificar que el socio posee fondos para financiar un nuevo autorizado
         if( fondos == 0 )
         {

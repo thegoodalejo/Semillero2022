@@ -144,14 +144,16 @@ public class InterfazClub extends JFrame
      */
     public void agregarAutorizado( )
     {
-        String nombreAutorizado = JOptionPane.showInputDialog( this, "Ingrese el nombre del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
+    	String nombreAutorizado = JOptionPane.showInputDialog( this, "Ingrese el nombre del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
         String cedulaSocio = panelListaSocios.darCedulaSocioSeleccionado( );
+        int edad = Integer.parseInt(JOptionPane.showInputDialog( this, "Ingrese la edad:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE )); 
+         String cedulaAutorizada  = JOptionPane.showInputDialog( this, "Ingrese la cedula del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
         if( nombreAutorizado != null && !nombreAutorizado.isEmpty( ) )
         {
             try
             {
                 // Se agrega el autorizado y se actualiza la información del panel
-                club.agregarAutorizadoSocio( cedulaSocio, nombreAutorizado );
+                club.agregarAutorizadoSocio( cedulaSocio, nombreAutorizado, cedulaAutorizada, edad );
                 ArrayList<String> autorizados = new ArrayList<String>( club.darAutorizadosSocio( cedulaSocio ) );
                 panelAutorizadosSocio.cambiarAutorizados( autorizados );
             }

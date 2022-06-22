@@ -209,9 +209,9 @@ public class Club {
 	 *                   3. Dispara una excepción si el socio no tiene fondos para
 	 *                   financiar un nuevo autorizado.
 	 */
-	public void agregarAutorizadoSocio(String pCedulaSocio, String pNombreAutorizado) throws Exception {
+	public void agregarAutorizadoSocio(String pCedulaSocio, String pNombreAutorizado, String cedulaAutorizada, int edad) throws Exception {
 		Socio s = buscarSocio(pCedulaSocio);
-		s.agregarAutorizado(pNombreAutorizado);
+		s.agregarAutorizado(pNombreAutorizado, cedulaAutorizada,edad );
 
 	}
 
