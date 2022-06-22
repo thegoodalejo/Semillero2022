@@ -284,9 +284,24 @@ public class Socio {
 		if (fondos == 0) {
 			throw new Exception("El socio no tiene fondos para financiar un nuevo autorizado.");
 		}
-		
-		//TODO
-	
+
+		// Verificar que no sea menor de edad
+
+		/*
+		 * Si sale 0 es mayor de edad Si sale 1 en menor de edad
+		 */
+		int random = (int) (Math.random() * 2);
+
+		if (random == 0) {
+			// Si el nombre no existía entonces lo agregamos
+			if (!existeAutorizado(pNombreAutorizado)) {
+				autorizados.add(pNombreAutorizado);
+			} else {
+				throw new Exception("El autorizado ya existe.");
+			}
+		} else {
+			throw new Exception("El autorizado no puede ser menor de edad");
+		}
 
 	}
 
