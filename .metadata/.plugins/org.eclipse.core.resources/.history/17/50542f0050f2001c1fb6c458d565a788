@@ -1,0 +1,37 @@
+package HanoiTowers;
+
+import java.util.Stack;
+
+public class HanoiMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Stack<Integer> tOrigin = new Stack<Integer>();
+		Stack<Integer> tAux = new Stack<Integer>();
+		Stack<Integer> tDestiny = new Stack<Integer>();
+		int hanoiSize = 1;
+		int aux;
+		
+		tOrigin.push(4);
+		tOrigin.push(3);
+		tOrigin.push(2);
+		tOrigin.push(1);
+		
+		if (hanoiSize == 1)
+		{
+			aux = tOrigin.pop();
+			tDestiny.push(aux);
+			for (int el:tOrigin)
+			{
+				System.out.println(el);
+			}
+		}else if(hanoiSize>1)
+		{
+			System.out.println("Continuar...");
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+package HanoiTowers;
+
+import java.util.Iterator;
+import java.util.Stack;
+
+public class HanoiMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Stack<Integer> t1 = new Stack<Integer>();
+		Stack<Integer> t2 = new Stack<Integer>();
+		Stack<Integer> t3 = new Stack<Integer>();
+		int hanoiSize = 1;
+		int aux;
+		
+		t1.push(4);
+		t1.push(3);
+		t1.push(2);
+		t1.push(1);
+		
+		if (hanoiSize == 1)
+		{
+			aux = t1.pop();
+			t3.push(aux);
+			for (int el:t3)
+			{
+				System.out.println(el);
+			}
+		}else if(hanoiSize>1)
+		{
+			System.out.println("Continuar...");
+		}
+		
+		
+	}
+
+}
