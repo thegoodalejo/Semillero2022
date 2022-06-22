@@ -152,7 +152,6 @@ public class InterfazClub extends JFrame
     	
     	if (esApto==true)
     	{
-    		String cedulaAutorizado = JOptionPane.showInputDialog( this, "Ingrese la cédula del autorizado:", "Aregar Cédula", JOptionPane.QUESTION_MESSAGE );
     		String nombreAutorizado = JOptionPane.showInputDialog( this, "Ingrese el nombre del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
     		String cedulaSocio = panelListaSocios.darCedulaSocioSeleccionado( );
     		if( nombreAutorizado != null && !nombreAutorizado.isEmpty( ) )
