@@ -37,7 +37,7 @@ public class Socio
     /**
      * Dinero base con el que empiezan todos los socios VIP.
      */
-    public final static double FONDOS_INICIALES_VIP = 0;
+    public final static double FONDOS_INICIALES_VIP = 100000;
 
     /**
      * Dinero máximo que puede tener un socio regular en sus fondos.

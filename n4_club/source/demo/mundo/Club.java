@@ -71,14 +71,14 @@ public class Club
         // Revisar que no haya ya un socio con la misma cédula
         
         // Revisar que no se haya alcanzado el límite de subscripciones VIP
+    	
         
-        // Se crea el objeto del nuevo socio (todavía no se ha agregado al club)
-        Socio socio = new Socio(pCedula, pNombre, pTipo); 
+        // Se crea el objeto del nuevo socio (todavía no se ha agregado al club) ->OK
+    	Socio socio = new Socio(pCedula, pNombre, pTipo); 
+
+    	// Se agrega el nuevo socio al club ->OK
         socios.add(socio);
 
-            
-        // Se agrega el nuevo socio al club
-        
     }
 
     /**
