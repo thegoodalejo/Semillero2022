@@ -16,8 +16,10 @@ public class Club
 
     /**
      * Cantidad máxima de socios VIP que acepta el club.
+     * Cantidad máxima de socios Regulares que acepta el club.
      */
-    public final static int MAXIMO_VIP = 3;
+    public final static int MAXIMO_VIP = 10;
+    public final static int MAXIMO_REG = 20;
 
     // -----------------------------------------------------------------
     // Atributos
