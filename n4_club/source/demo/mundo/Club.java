@@ -72,6 +72,7 @@ public class Club
     	if(socios.size()==0){
     		Socio socio = new Socio(pCedula, pNombre, pTipo);
     		socios.add(socio);
+    		  JOptionPane.showMessageDialog( null, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
     	}else{
     		for (int i = 0; i < socios.size() && !agrego; i++) {
     			if(socios.get(i).darCedula().equalsIgnoreCase(pCedula)){
@@ -80,7 +81,8 @@ public class Club
     				
     			}else{
     				Socio socio = new Socio(pCedula, pNombre, pTipo);
-    				socios.add(socio);	
+    				socios.add(socio);
+    				  JOptionPane.showMessageDialog(null, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
     				agrego = true;
     			}
     		}

@@ -128,7 +128,7 @@ public class InterfazClub extends JFrame
         	  panelListaSocios.refrescar( club.darSocios( ) );
 
               actualizar( );
-              JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+            
           
           
         }
