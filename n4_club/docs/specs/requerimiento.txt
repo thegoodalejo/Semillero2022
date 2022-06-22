@@ -1,0 +1,27 @@
+Complete el codigo del ejercicio de acuerdo al siguiente enunciado
+
+Se quiere construir una aplicación para administrar un club social. Esta aplicación permite manejar los socios, sus consumos y las personas autorizadas por cada socio para que pueda entrar y usar los servicios del club.
+
+HU001: Afiliar socio al club, se debe permitir crear un socio, de cada socio se conoce:
+•	Cédula. No puede haber dos socios con la misma cédula.
+•	Nombre.
+•	Monto fondo.
+•	El tipo de suscripción. Puede ser VIP o Regular. 
+•	La lista de personas autorizadas.
+Criterios de aceptación: 
+•	El monto del fondo inicial se determina según el tipo de suscripción del socio: los socios Regulares con $50.000 y los socios VIP con $100.000. 
+•	El socio es registrado en la base de datos 
+•	Se registra la lista de autorizado
+•	En el club puede haber máximo 10 socios VIP.
+•	En el club puede haber máximo 20 socios Regulares.
+
+HU002: Registrar una persona autorizada por un socio, de cada autorizado se conoce: 
+•	Cédula
+•	Nombre 
+Criterios de aceptación: 
+•	El autorizado es registrado en la base de datos
+•	El autorizado NO puede ser menor de edad
+
+Adicional:
+	el boton 1 debe mostrar que equipo lo resolvio 
+	el boton 2 debe mostrar los nombres de los integrantes del equipo
