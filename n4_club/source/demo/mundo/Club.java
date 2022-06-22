@@ -2,6 +2,8 @@ package demo.mundo;
 
 import java.util.ArrayList;
 
+import javax.swing.JOptionPane;
+
 import demo.mundo.Socio.Tipo;
 
 /**
@@ -66,15 +68,24 @@ public class Club
      */
     public void afiliarSocio( String pCedula, String pNombre, Tipo pTipo ) throws Exception
     {
-
-        // Revisar que no haya ya un socio con la misma cédula
-        
-        // Revisar que no se haya alcanzado el límite de subscripciones VIP
-        
-        // Se crea el objeto del nuevo socio (todavía no se ha agregado al club)
-            
-        // Se agrega el nuevo socio al club
-        
+    	boolean agrego= false;
+    	if(socios.size()==0){
+    		Socio socio = new Socio(pCedula, pNombre, pTipo);
+    		socios.add(socio);
+    	}else{
+    		for (int i = 0; i < socios.size() && !agrego; i++) {
+    			if(socios.get(i).darCedula().equalsIgnoreCase(pCedula)){
+    				JOptionPane.showMessageDialog(null, "Esta cedula ya se encuentra registrada");
+    				agrego = true;
+    				
+    			}else{
+    				Socio socio = new Socio(pCedula, pNombre, pTipo);
+    				socios.add(socio);	
+    				agrego = true;
+    			}
+    		}
+    	}
+    	
     }
 
     /**

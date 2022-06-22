@@ -120,13 +120,17 @@ public class InterfazClub extends JFrame
      */
     public void afiliarSocio( String pCedula, String pNombre, Tipo pTipo )
     {
+    	
         try
         {
-            club.afiliarSocio( pCedula, pNombre, pTipo );
-            panelListaSocios.refrescar( club.darSocios( ) );
+         club.afiliarSocio( pCedula, pNombre, pTipo );
+          
+        	  panelListaSocios.refrescar( club.darSocios( ) );
 
-            actualizar( );
-            JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+              actualizar( );
+              JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+          
+          
         }
         catch( Exception e )
         {
