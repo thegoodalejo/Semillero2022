@@ -85,6 +85,7 @@ public class Club
         	// Se agrega el nuevo socio al club ->OK
             socios.add(socio);
     	}
+  
 
 
     }
@@ -122,6 +123,23 @@ public class Club
     {
         int conteo = 0;
 		//Cuento socios VIP
+        for(Socio socio:socios) {
+        	if(socio.darTipo().equals(Tipo.VIP)) {
+        		conteo++;
+        	}
+        }        
+        return conteo;
+    }
+    
+    public int contarSociosREG( )
+    {
+        int conteo = 0;
+		//Cuento socios REGULAR
+        for(Socio socio:socios) {
+        	if(socio.darTipo().equals(Tipo.REGULAR)) {
+        		conteo++;
+        	}
+        }        
         return conteo;
     }
 

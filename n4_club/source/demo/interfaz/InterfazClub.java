@@ -121,22 +121,50 @@ public class InterfazClub extends JFrame
      */
     public void afiliarSocio( String pCedula, String pNombre, Tipo pTipo )
     {
-        try
-        {
-        	if(club.buscarSocio(pCedula) == null) {
-            club.afiliarSocio( pCedula, pNombre, pTipo );
-            panelListaSocios.refrescar( club.darSocios( ) );
-            actualizar();
-            JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
-        	}else{
-        	 JOptionPane.showMessageDialog( this, "El usuario Ya existe", "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+
+        	switch(pTipo) {
+        	
+        	
+        	case VIP :
+        		if(club.contarSociosVIP()<club.MAXIMO_VIP){
+        			AgregarSocio( pCedula, pNombre, pTipo );
+        		}else
+        		{
+        			JOptionPane.showMessageDialog( this, "No se puede agregar mas usuarios de tipo VIP", "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+        		}
+           break;
+ 
+        		
+        	case REGULAR :
+        		if(club.contarSociosREG()<club.MAXIMO_REG){
+        			AgregarSocio( pCedula,  pNombre,  pTipo );
+        		}else
+        		{
+        			JOptionPane.showMessageDialog( this, "No se puede agregar mas usuarios de tipo REGULAR", "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+        		}
+        	 break;
         	}
-        }
-        catch( Exception e )
-        {
-            e.printStackTrace( );
-            JOptionPane.showMessageDialog( this, e.getMessage( ), "Afiliar socio", JOptionPane.ERROR_MESSAGE );
-        }
+        	
+  
+   
+    }
+    
+    public void AgregarSocio(String pCedula, String pNombre, Tipo pTipo ){
+    	if(club.buscarSocio(pCedula) == null) {
+            try {
+            	club.afiliarSocio( pCedula, pNombre, pTipo );
+                panelListaSocios.refrescar( club.darSocios( ) );
+                actualizar();
+                JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+            } catch( Exception e )
+			        {
+			            e.printStackTrace( );
+			            JOptionPane.showMessageDialog( this, e.getMessage( ), "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+			        }
+
+	          }else{
+	        	 JOptionPane.showMessageDialog( this, "El usuario Ya existe", "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+	          }
     }
 
     /**
