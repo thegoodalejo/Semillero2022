@@ -105,4 +105,16 @@ public class Main {
 		System.out.println("****************************");
 
 	}
+	
+	static void towerHanoi() {
+		
+	}
+	
 }
+
+
+
+
+
+
+
