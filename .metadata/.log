@@ -37,3 +37,54 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY org.eclipse.launchbar.core 2 0 2022-06-22 15:19:43.591
 !MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-06-22 16:10:26.832
+!MESSAGE Failed reading credentials from secure store
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: Salt must be 8 bytes long
+	at org.eclipse.equinox.internal.security.storage.JavaEncryption.handle(JavaEncryption.java:212)
+	at org.eclipse.equinox.internal.security.storage.JavaEncryption.internalDecrypt(JavaEncryption.java:192)
+	at org.eclipse.equinox.internal.security.storage.JavaEncryption.decrypt(JavaEncryption.java:176)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getModulePassword(SecurePreferencesRoot.java:276)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getPassword(SecurePreferencesRoot.java:224)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:262)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:106)
+	at org.eclipse.egit.core.securestorage.EGitSecureStore.getCredentials(EGitSecureStore.java:76)
+	at org.eclipse.egit.ui.internal.SecureStoreUtils.getCredentialsQuietly(SecureStoreUtils.java:62)
+	at org.eclipse.egit.ui.internal.credentials.EGitCredentialsProvider.get(EGitCredentialsProvider.java:105)
+	at org.eclipse.jgit.transport.HttpAuthMethod.authorize(HttpAuthMethod.java:220)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:489)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:379)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:155)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1250)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.security.InvalidAlgorithmParameterException: Salt must be 8 bytes long
+	at com.sun.crypto.provider.PBES1Core.init(PBES1Core.java:241)
+	at com.sun.crypto.provider.PBEWithMD5AndDESCipher.engineInit(PBEWithMD5AndDESCipher.java:221)
+	at javax.crypto.Cipher.implInit(Cipher.java:809)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:867)
+	at javax.crypto.Cipher.init(Cipher.java:1399)
+	at javax.crypto.Cipher.init(Cipher.java:1330)
+	at org.eclipse.equinox.internal.security.storage.JavaEncryption.internalDecrypt(JavaEncryption.java:187)
+	... 18 more
+
+!ENTRY org.eclipse.egit.core 4 0 2022-06-22 16:10:40.592
+!MESSAGE An exception occurred during push on URI https://github.com/thegoodalejo/Semillero2022: https://github.com/thegoodalejo/Semillero2022: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/thegoodalejo/Semillero2022: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:169)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/thegoodalejo/Semillero2022: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:491)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:379)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:155)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1250)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more

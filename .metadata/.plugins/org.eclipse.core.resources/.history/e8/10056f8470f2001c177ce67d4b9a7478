@@ -244,6 +244,6 @@ public class Club
      */
     public String metodo2( )
     {
-        return "JUAN SEBASTIAN MARTINEZ \n SANTIAGO SEGURO \n JUAN ESTEBAN HENAO ";
+        return "respuesta2";
     }
 }

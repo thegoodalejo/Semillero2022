@@ -72,7 +72,7 @@ public class Club
     	if(socios.size()==0){
     		Socio socio = new Socio(pCedula, pNombre, pTipo);
     		socios.add(socio);
-    		  JOptionPane.showMessageDialog( null, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+    		  JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
     	}else{
     		for (int i = 0; i < socios.size() && !agrego; i++) {
     			if(socios.get(i).darCedula().equalsIgnoreCase(pCedula)){
@@ -82,7 +82,7 @@ public class Club
     			}else{
     				Socio socio = new Socio(pCedula, pNombre, pTipo);
     				socios.add(socio);
-    				  JOptionPane.showMessageDialog(null, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+    				  JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
     				agrego = true;
     			}
     		}
@@ -235,7 +235,7 @@ public class Club
      */
     public String metodo1( )
     {
-        return "EQUIPO 1";
+        return "respuesta1";
     }
 
     /**
@@ -244,6 +244,6 @@ public class Club
      */
     public String metodo2( )
     {
-        return "JUAN SEBASTIAN MARTINEZ \n SANTIAGO SEGURO \n JUAN ESTEBAN HENAO ";
+        return "respuesta2";
     }
 }
