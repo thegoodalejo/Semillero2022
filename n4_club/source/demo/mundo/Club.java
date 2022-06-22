@@ -233,8 +233,8 @@ public class Club
      * @return Resultado extensión 1.
      */
     public String metodo1( )
-    {
-        return "respuesta1";
+    {	String Nombre_Equipo = "Equipo 2";
+        return Nombre_Equipo;
     }
 
     /**
@@ -243,6 +243,7 @@ public class Club
      */
     public String metodo2( )
     {
-        return "respuesta2";
+    	String Int_Equipo2 = "Mario Garcia"+"\n"+"Ivan Rios"+"\n"+"Juan Pablo Palacios";
+        return Int_Equipo2;
     }
 }
