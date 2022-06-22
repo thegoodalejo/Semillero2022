@@ -123,10 +123,14 @@ public class InterfazClub extends JFrame
     {
         try
         {
+        	if(club.buscarSocio(pCedula) == null) {
             club.afiliarSocio( pCedula, pNombre, pTipo );
             panelListaSocios.refrescar( club.darSocios( ) );
             actualizar();
             JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
+        	}else{
+        	 JOptionPane.showMessageDialog( this, "El usuario Ya existe", "Afiliar socio", JOptionPane.ERROR_MESSAGE );
+        	}
         }
         catch( Exception e )
         {

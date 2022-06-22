@@ -2,6 +2,8 @@ package demo.mundo;
 
 import java.util.ArrayList;
 
+import javax.swing.JOptionPane;
+
 import demo.mundo.Socio.Tipo;
 
 /**
@@ -71,15 +73,19 @@ public class Club
     	
     	
         // Revisar que no haya ya un socio con la misma cédula
-        
-        // Revisar que no se haya alcanzado el límite de subscripciones VIP
     	
-        
-        // Se crea el objeto del nuevo socio (todavía no se ha agregado al club) ->OK
-    	Socio socio = new Socio(pCedula, pNombre, pTipo); 
+    	if(buscarSocio(pCedula) != null) {
+            // Revisar que no se haya alcanzado el límite de subscripciones VIP
+    		System.out.print("ya existe");
+    		
+    	}else {
+            // Se crea el objeto del nuevo socio (todavía no se ha agregado al club) ->OK
+        	Socio socio = new Socio(pCedula, pNombre, pTipo); 
 
-    	// Se agrega el nuevo socio al club ->OK
-        socios.add(socio);
+        	// Se agrega el nuevo socio al club ->OK
+            socios.add(socio);
+    	}
+
 
     }
 
