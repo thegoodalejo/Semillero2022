@@ -66,12 +66,16 @@ public class Club
      */
     public void afiliarSocio( String pCedula, String pNombre, Tipo pTipo ) throws Exception
     {
-
+    	
+    	
         // Revisar que no haya ya un socio con la misma cédula
         
         // Revisar que no se haya alcanzado el límite de subscripciones VIP
         
         // Se crea el objeto del nuevo socio (todavía no se ha agregado al club)
+        Socio socio = new Socio(pCedula, pNombre, pTipo); 
+        socios.add(socio);
+
             
         // Se agrega el nuevo socio al club
         

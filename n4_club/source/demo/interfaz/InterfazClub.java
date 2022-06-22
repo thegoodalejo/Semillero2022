@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 import javax.swing.UIManager;
 
 import demo.mundo.Club;
+import demo.mundo.Socio;
 import demo.mundo.Socio.Tipo;
 
 /**
@@ -124,8 +125,7 @@ public class InterfazClub extends JFrame
         {
             club.afiliarSocio( pCedula, pNombre, pTipo );
             panelListaSocios.refrescar( club.darSocios( ) );
-
-            actualizar( );
+            actualizar();
             JOptionPane.showMessageDialog( this, "El usuario ha sido ingresado", "Afiliar socio", JOptionPane.INFORMATION_MESSAGE );
         }
         catch( Exception e )
@@ -220,7 +220,7 @@ public class InterfazClub extends JFrame
     public void actualizar( )
     {
         String cedula = panelListaSocios.darCedulaSocioSeleccionado( );
-        panelSocio.actualizar( club.buscarSocio( cedula ) );
+        panelSocio.actualizar( club.buscarSocio(cedula) );
         panelFacturas.cambiarFacturas( club.darFacturasSocio( cedula ) );
         panelAutorizadosSocio.cambiarAutorizados( club.darAutorizadosSocio( cedula ) );
     }

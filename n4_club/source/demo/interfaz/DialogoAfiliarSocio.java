@@ -22,6 +22,7 @@ import javax.swing.border.CompoundBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
+import demo.mundo.Socio;
 import demo.mundo.Socio.Tipo;
 
 /**
@@ -168,7 +169,8 @@ public class DialogoAfiliarSocio extends JDialog implements ActionListener
             }
             else
             {
-                principal.afiliarSocio( strCedula, strNombre, tipoSuscripcion );
+                
+            	principal.afiliarSocio( strCedula, strNombre, tipoSuscripcion);
                 dispose( );
             }
         }
