@@ -144,24 +144,43 @@ public class InterfazClub extends JFrame
      */
     public void agregarAutorizado( )
     {
-        String nombreAutorizado = JOptionPane.showInputDialog( this, "Ingrese el nombre del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
-        String cedulaSocio = panelListaSocios.darCedulaSocioSeleccionado( );
-        if( nombreAutorizado != null && !nombreAutorizado.isEmpty( ) )
-        {
-            try
+    	boolean esApto;
+    	int cedulaDialog = JOptionPane.showConfirmDialog(this,"¿El autorizado es mayor de edad?","Verificar Mayoría de Edad",JOptionPane.YES_NO_OPTION);
+    	System.out.println(cedulaDialog);
+    	switch (cedulaDialog)
+    	{
+    	case 0: esApto = true; break;
+    	case 1: esApto = false; break;
+    	default: esApto = false; break;
+    	}
+    	
+    	if (esApto==true)
+    	{
+    		String nombreAutorizado = JOptionPane.showInputDialog( this, "Ingrese el nombre del autorizado:", "Agregar autorizado", JOptionPane.QUESTION_MESSAGE );
+    		String cedulaSocio = panelListaSocios.darCedulaSocioSeleccionado( );
+    		if( nombreAutorizado != null && !nombreAutorizado.isEmpty( ) )
             {
-                // Se agrega el autorizado y se actualiza la información del panel
-                club.agregarAutorizadoSocio( cedulaSocio, nombreAutorizado );
-                ArrayList<String> autorizados = new ArrayList<String>( club.darAutorizadosSocio( cedulaSocio ) );
-                panelAutorizadosSocio.cambiarAutorizados( autorizados );
+                try
+                {
+                    // Se agrega el autorizado y se actualiza la información del panel
+                    club.agregarAutorizadoSocio( cedulaSocio, nombreAutorizado );
+                    ArrayList<String> autorizados = new ArrayList<String>( club.darAutorizadosSocio( cedulaSocio ) );
+                    panelAutorizadosSocio.cambiarAutorizados( autorizados );
+                }
+                catch( Exception e )
+                {
+                    JOptionPane.showMessageDialog( this, e.getMessage( ), "Error", JOptionPane.ERROR_MESSAGE );
+                }
             }
-            catch( Exception e )
-            {
-                JOptionPane.showMessageDialog( this, e.getMessage( ), "Error", JOptionPane.ERROR_MESSAGE );
-            }
-        }
+    	}else
+    	{
+    		JOptionPane.showMessageDialog(this, "No se pueden agregar asociados menores de edad","Error",JOptionPane.ERROR_MESSAGE);
+    	}
+    	
+        
     }
-
+    
+   
   
     /**
      * Paga la factura actualmente seleccionada.
