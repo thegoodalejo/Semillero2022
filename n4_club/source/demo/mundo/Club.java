@@ -115,7 +115,19 @@ public class Club {
 				}
 			}
 
-			//TODOOOOOOOOOOOOOOO
+			// Revisar que no se haya alcanzado el límite de subscripciones VIP
+			for (Socio socio : socios) {
+				if (socio.darTipo() == Tipo.VIP) {
+					vip++;
+				}
+			}
+
+			// Revisar que no se haya alcanzado el límite de subscripciones REGULAR
+			for (Socio socio : socios) {
+				if (socio.darTipo() == Tipo.REGULAR) {
+					regular++;
+				}
+			}
 
 			if (!existe) {
 				// Se crea el objeto del nuevo socio (todavía no se ha agregado al club)
