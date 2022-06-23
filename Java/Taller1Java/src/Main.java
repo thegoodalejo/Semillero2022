@@ -108,6 +108,23 @@ public class Main {
 	
 	static void towerHanoi() {
 		
+		/*
+		 * Numero minimo de movimiento necesarios para resolver la torre de hanoi 2 elevado a n - 1
+		 * n -> numero de discos
+		 * 
+		 * Patron para cuando el numero de discos es par auxiliar, destino, origen, auxiliar, destino, origen, etc
+		 * */
+		int origen = 1;
+		int destino = 2;
+		int auxiliar = 3;
+		int n = 4;
+		
+		int iteraciones = (int)(Math.pow(2, n) - 1);
+		
+		for(int a = 0; a < iteraciones; a++) {
+			
+		}
+		
 	}
 	
 }
