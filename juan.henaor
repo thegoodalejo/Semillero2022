@@ -1,2 +1,21 @@
 archivo hecho por juan henao
 
+hola juan, el programa funciona como se pidio, buen trabajo
+
+algunas observaciones serian
+
+el nombramiento lo trabajamos con camelCase
+ejemplo cantidad_ml seria cantidadMl
+
+una posible mejora seria crear metodos 
+te ayuden a reducir la cantidad de codigo extenso y duplicado
+
+ejemplo tienesu n Thread.sleep que lo llamas multiples veces
+y lo tienes con try catch
+
+si haces una utilidad en otra clase y la llamas desde tu main"Tienda"
+te ahorras todos esos try/catch
+
+la parte donde llamas opcion <4 && opcion >0 la pudiste ahorrar con el switch q ya implementaste
+
+
