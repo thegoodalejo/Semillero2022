@@ -1,6 +1,6 @@
 package EstantePackage;
 
-public class Dvd extends Estante {
+public class Dvd extends Estante implements IReproducible {
 	String nombre;
 	int duracion;
 	static int contador = 0;
@@ -18,5 +18,12 @@ public class Dvd extends Estante {
 		System.out.println("DVD: "+nombre+"Duracion: "+duracion+"Descripcion:"+descripcion);
 		
 	}
+	
+	@Override
+	public void reproducir() {
+		System.out.println("Reproduciendo DVD con duracion: "+duracion);
+		
+	}
+
 
 }
