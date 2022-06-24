@@ -1,6 +1,6 @@
 package EstantePackage;
 
-public class Libro extends Estante {
+public class Libro extends EstanteNoReproducible {
 	String titulo;
 	String autor;
 	static int contador = 0;

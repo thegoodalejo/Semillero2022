@@ -1,6 +1,6 @@
 package EstantePackage;
 
-public class Cassete extends Estante implements IReproducible {
+public class Cassete extends EstanteReproducible {
 	int duracion;
 	
 
