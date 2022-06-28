@@ -16,8 +16,8 @@ public class Main {
 		Maestro maestro2 = new Maestro("Rigoberto", 33);
 		//Instanciamos aula y oficina
 		
-		Aula aula1 = new Aula(1,101);
-		Oficina oficina1 = new Oficina(5,501);
+		Aula aula1 = new Aula(12,593);
+		Oficina oficina1 = new Oficina(5,12);
 		
 		
 		aula1.ingresar(estudiante1);
