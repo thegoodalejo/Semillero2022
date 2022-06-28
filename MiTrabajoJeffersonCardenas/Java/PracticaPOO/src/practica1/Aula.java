@@ -6,4 +6,9 @@ public class Aula extends Salon{
 		super(piso, numero);
 	}
 
+	public void ingresar(Persona persona) {
+		contador++;
+		personas.add(persona);
+		System.out.println("Estudiante: " + persona.nombre);
+	}
 }
