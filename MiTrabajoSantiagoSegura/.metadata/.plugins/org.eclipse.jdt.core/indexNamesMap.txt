@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+file:/C:/Users/santiago.segurag/Documents/semillero/Semillero2022/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+meta_index
