@@ -1,17 +1,18 @@
 package practica1;
 
-public class Estudiante extends Persona{
+public abstract class Estudiante extends Persona{
 	
+	String idioma;
 	
-	public Estudiante(String nombre, int edad){
+	public Estudiante(String nombre, int edad, String idioma){
 		super(nombre, edad);
+		this.idioma=idioma;
 	}
 	
-	public Estudiante(String nombre, int edad, String nacionalidad){
-		super(nombre, edad, nacionalidad);
-	}
 	
 	public void nombreEstudiante() {
 		System.out.println("El estudiante es: "+nombre);
 	}
+	
+	public abstract void recibirClase();
 }

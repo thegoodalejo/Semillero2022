@@ -4,15 +4,15 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Estudiante estudiante1 = new Estudiante("Juan", 20, "Italiano");
-		Estudiante estudiante2 = new Estudiante("Jefferson", 22, "Ruso");
-		Estudiante estudiante3 = new Estudiante("Ivan", 31);
-		Estudiante estudiante4 = new Estudiante("Santiago", 25);
-		Estudiante estudiante5 = new Estudiante("Juan Pablo", 30);
-		Estudiante estudiante6 = new Estudiante("Carmelo", 24);
-		Estudiante estudiante7 = new Estudiante("Mario", 26);
-		Estudiante estudiante8 = new Estudiante("Marlon", 23);
-		Estudiante estudiante9 = new Estudiante("Juan Sebastian", 29);
+		Estudiante estudiante1 = new EstudianteNativo("Juan", 20,"ESPAÑOL");
+		Estudiante estudiante2 = new EstudianteNativo("Jefferson", 22,"ESPAÑOL");
+		Estudiante estudiante3 = new EstudianteNativo("Ivan", 31,"ESPAÑOL");
+		Estudiante estudiante4 = new EstudianteExtranjero("Santiago", 25,"ITALIANO");
+		Estudiante estudiante5 = new EstudianteExtranjero("Juan Pablo", 30,"ITALIANO");
+		Estudiante estudiante6 = new EstudianteExtranjero("Carmelo", 24,"RUSO");
+		Estudiante estudiante7 = new EstudianteExtranjero("Mario", 26,"ITALIANO");
+		Estudiante estudiante8 = new EstudianteExtranjero("Marlon", 23,"RUSO");
+		Estudiante estudiante9 = new EstudianteExtranjero("Juan Sebastian", 29,"ITALIANO");
 		
 		Maestro maestro1 = new Maestro("Alejandro", 27);
 		Maestro maestro2 = new Maestro("Rigoberto", 33);
@@ -39,9 +39,16 @@ public class Main {
 		oficina1.ingresar(maestro1);
 		oficina1.ingresar(maestro2);
 		
+		aula1.iniciarClase();
+		
 		aula1.resumen();
 		aula2.resumen();
 		aula3.resumen();
 		oficina1.resumen();
+		
+		
+		aula1.iniciarClase();
+		aula2.iniciarClase();
+		aula3.iniciarClase();
 	}
 }

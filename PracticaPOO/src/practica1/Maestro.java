@@ -6,10 +6,7 @@ public class Maestro extends Persona{
 		super(nombre, edad);
 	}
 	
-	public Maestro(String nombre, int edad, String nacionalidad){
-		super(nombre, edad, nacionalidad);
-	}
-	
+
 	public void nombreMaestro() {
 		System.out.println("El Maestro es: "+nombre);
 	}
