@@ -1,5 +1,6 @@
 package fabrica;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -27,6 +28,34 @@ public class Main {
 		celular2.verCaracteristicas();
 		celular3.verCaracteristicas();
 
+		//
+		
+		Ensamble ensamble = new Ensamble(1,3,"Ensamble de equipos Gama Alta",50);
+		Testeo testeo = new Testeo(5,4,"Testeo de equipos Gama Alta",20);
+		
+		System.out.println("");
+		System.out.println("*******************************Ingreso de equipos al Area de ENSAMBLE*******************************");
+		ensamble.ingresar(consola1);
+		ensamble.ingresar(consola2);
+		ensamble.ingresar(celular1);
+		ensamble.ingresar(consola4);
+		ensamble.ingresar(consola5);
+		
+		System.out.println("");
+		System.out.println("*******************************Ingreso de equipos al Area de TESTEO*******************************");
+		testeo.ingresar(consola1);
+		testeo.ingresar(celular1);
+		testeo.ingresar(celular2);
+		testeo.ingresar(celular1);
+		
+		System.out.println("");
+		System.out.println("*******************************Proceso Actual de Ensamble*******************************");
+		ensamble.enProceso();
+		
+		System.out.println("");
+		System.out.println("*******************************Proceso Actual de Testeo*******************************");
+		testeo.enProceso();
+		
 	}
 
 }
