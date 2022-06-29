@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\juan.martinezs\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero Automatización\GitHub\Semillero2022\.metadata\.plugins\org.eclipse.jdt.core
+4090512902.index
+1244691958.index
