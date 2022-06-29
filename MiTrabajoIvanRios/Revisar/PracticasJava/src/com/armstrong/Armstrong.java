@@ -25,7 +25,7 @@ public class Armstrong {
 					ArrayList<Integer> numeroSeparado = new ArrayList<Integer>();
 					numeroSeparado = descomponerNumero(numero);
 					for (int n : numeroSeparado) {
-						suma = suma + calcularCubo(n);
+						suma = suma + calcularPotencia(n,numeroSeparado.size());
 					}
 	
 					if (suma == numero) {
@@ -47,8 +47,8 @@ public class Armstrong {
 		return numero;
 	}
 
-	public static int calcularCubo(int n) {
-		return n * n * n;
+	public static int calcularPotencia(int n, int exp) {
+		return (int) Math.pow(n, exp);
 	}
 
 }
