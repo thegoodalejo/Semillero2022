@@ -23,7 +23,7 @@ public class Main {
 				break;
 			case 2:
 				Paciente paciente1=new Paciente("Juan", 1069742505,29, "3194766615");
-				numeroSala1.ingresarPersona(paciente1);
+				//numeroSala1.ingresarPersona(paciente1);
 			case 3:
 				numeroSala1.listarSala();
 			case 4:
