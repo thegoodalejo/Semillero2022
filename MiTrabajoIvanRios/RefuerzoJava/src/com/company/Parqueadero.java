@@ -10,7 +10,7 @@ public class Parqueadero {
 	public Parqueadero(TipoDeUsuario tipoDeUsuario, int codigo, Estado estado) {
 		this.tipoDeUsuario = tipoDeUsuario;
 		this.codigo = codigo < 1 ? 1: codigo;
-		this.codigo = codigo > 30 ? 30: codigo;
+		this.codigo = this.codigo > 30 ? 30: this.codigo;
 		this.puesto = this.tipoDeUsuario+String.valueOf(this.codigo);
 		if (this.codigo>=1 && this.codigo<=9) this.puesto = this.tipoDeUsuario+"0"+String.valueOf(this.codigo);
 		this.estado = estado;

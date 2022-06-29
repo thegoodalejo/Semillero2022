@@ -16,14 +16,14 @@ public class Main {
 		ParqueoColaboradores puesto3 = new ParqueoColaboradores(TipoDeUsuario.COL,1,Estado.DISPONIBLE);
 		ParqueoColaboradores puesto4 = new ParqueoColaboradores(TipoDeUsuario.COL,2,Estado.OCUPADO);
 		
-		puesto1.ingresarUsuario(colaborador1);
-		puesto1.ingresarUsuario(cliente1);
 		
-		puesto2.ingresarUsuario(cliente1);
-		puesto3.ingresarUsuario(cliente2);
-		puesto3.ingresarUsuario(colaborador1);
-		
-		puesto4.ingresarUsuario(colaborador2);
+		  puesto1.ingresarUsuario(colaborador1); puesto1.ingresarUsuario(cliente1);
+		  
+		  puesto2.ingresarUsuario(cliente1); puesto3.ingresarUsuario(cliente2);
+		  puesto3.ingresarUsuario(colaborador1);
+		  
+		  puesto4.ingresarUsuario(colaborador2);
+		 
 	}
 
 }
