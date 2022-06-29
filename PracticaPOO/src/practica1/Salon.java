@@ -27,7 +27,6 @@ public class Salon {
 		} else {
 			formatoAula = String.valueOf(this.piso) + String.valueOf(this.numeroSalon);
 		}
-
 	}
 
 	public void ingresar(Persona persona) {
@@ -39,8 +38,7 @@ public class Salon {
 	public void resumen() {
 		System.out.println("Las personas en el salon:  " + formatoAula + " son:");
 		for (Persona persona : lstPersonas) {
-			System.out.println(persona.nombre);
+			System.out.println(persona.nombre+" "+persona.nacionalidad);
 		}
 	}
-
 }
