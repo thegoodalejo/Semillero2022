@@ -1,8 +1,8 @@
 package fabrica;
 
 public class InsumosEtapa1 {
-	private Fragancia fragancia;
-	private Envase envase;
+	public Fragancia fragancia;
+	public Envase envase;
 	
 	public InsumosEtapa1(Fragancia fragancia, Envase envase) {
 		this.fragancia = fragancia;
