@@ -14,11 +14,11 @@ public class Main {
 		etapa1.EtapaEnProceso();
 		etapa1.FinalizarEtapa();
 		
-		etapa2.iniciarEtapa();
+		etapa2.iniciarEtapa(deportivo);
 		etapa2.EtapaEnProceso();
 		etapa2.FinalizarEtapa();
 		
-		etapa3.iniciarEtapa();
+		etapa3.iniciarEtapa(deportivo);
 		etapa3.EtapaEnProceso();
 		etapa3.FinalizarEtapa();
 		

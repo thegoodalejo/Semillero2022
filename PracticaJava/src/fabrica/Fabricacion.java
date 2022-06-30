@@ -1,13 +1,13 @@
 package fabrica;
 
-public  class Fabricacion {
+public abstract class Fabricacion {
 	
 	
-	public  void iniciarEtapa(Object x) {}
+	public abstract void iniciarEtapa(Calzado calzado1);
 	
-	public  void EtapaEnProceso() {}
+	public abstract void EtapaEnProceso();
 	
-	public  void FinalizarEtapa() {}
+	public abstract void FinalizarEtapa();
 
 
 	

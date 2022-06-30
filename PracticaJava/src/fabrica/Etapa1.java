@@ -2,8 +2,8 @@ package fabrica;
 
 public class Etapa1 extends Fabricacion {
 
-	
-	public void iniciarEtapa(Deportivo d) {
+	@Override
+	public void iniciarEtapa(Calzado calzado) {
 		System.out.println("Iniciando Etapa 1");
 		
 	}
