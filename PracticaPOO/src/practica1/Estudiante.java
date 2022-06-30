@@ -1,6 +1,6 @@
 package practica1;
 
-public abstract class Estudiante extends Persona{
+public abstract class Estudiante extends Persona implements IEvacuable {
 	
 	String idioma;
 	

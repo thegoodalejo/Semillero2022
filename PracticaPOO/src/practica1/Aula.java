@@ -23,5 +23,24 @@ public class Aula extends Salon{
 		}
 	}
 
+	@Override
+	public void evacuarIncendio() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void evacuarTerremoto() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void mostrarMensaje(String msg) {
+		
+		
+		
+	}
+
 	
 }

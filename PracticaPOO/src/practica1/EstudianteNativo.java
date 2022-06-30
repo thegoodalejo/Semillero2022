@@ -10,8 +10,25 @@ public class EstudianteNativo extends Estudiante {
 	}
 	
 	public  void recibirClase() {
-		System.out.println("Estudiante : "+nombre+" recibe la clase sin diadema");
+		System.out.println("Estudiante: "+nombre+" recibe la clase sin diadema");
+	}
+
+	@Override
+	public void evacuarIncendio() {
+		System.out.println("Se asusta");
+		System.out.println("Espera indicaciones");
+		System.out.println("Inicia evacuacion...");
+		
+	}
+
+	@Override
+	public void evacuarTerremoto() {
+		System.out.println("Se asusta");
+		System.out.println("Espera indicaciones");
+		System.out.println("Buscar un lugar seguro");
+		System.out.println("Inicia evacuacion...");
+		
 	}
 	
-
+	
 }

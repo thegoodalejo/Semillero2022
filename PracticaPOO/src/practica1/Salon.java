@@ -2,7 +2,7 @@ package practica1;
 
 import java.util.ArrayList;
 
-public abstract class Salon {
+public abstract class Salon implements IEvacuable, IMessage {
 
 	int piso;
 	int numeroSalon;
