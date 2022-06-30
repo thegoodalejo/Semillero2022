@@ -3,7 +3,7 @@ package proyecto.modelo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import proyecto.services.Etapa1;
+import proyecto.services.IProteinas;
 
 public class Fabrica {
 	Scanner scanner = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Fabrica {
 		switch (alimento) {
 		case 1:
 			Hamburguesa hamburguesa = new Hamburguesa(25000, "Basica");
-			 
+			
 			break;
 		default:
 			
