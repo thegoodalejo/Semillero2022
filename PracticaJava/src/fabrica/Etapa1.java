@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Etapa1 extends Fabricacion {
 
-	
+	String tipo;
 	
 	@Override
 	public int iniciarEtapa(Calzado calzado1) {
@@ -16,10 +16,13 @@ public class Etapa1 extends Fabricacion {
 		System.out.println(" - Digita 2 para Calzado Deportivo");
 		System.out.println("Ingresa tu eleccion: ");
 		int tipoZapato = eleccion.nextInt();
-		return tipoZapato;
+		return tipoZapato;	
+		
 		
 	}
-
+	public void resumenEtapa1() {
+		System.out.println("El tipo de calzado es: ");
+	}
 	
 
 }

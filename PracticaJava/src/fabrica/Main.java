@@ -15,6 +15,7 @@ public class Main {
 		
 		Calzado calzado1 = new Calzado(talla);
 		Clasico clasico1 = new Clasico();
+		Calzado calzado3 = new Calzado();
 		Deportivo deportivo1 = new Deportivo();
 		
 		Etapa1 etapa1 = new Etapa1();
@@ -23,21 +24,34 @@ public class Main {
 		
 		opcion1 = etapa1.iniciarEtapa(calzado1);
 		if (opcion1 == 1) {
-			etapa2.iniciarEtapa(clasico1);
+			etapa2.iniciarEtapaClasico(clasico1);
 		} else {
-			etapa2.iniciarEtapa(deportivo1);
+			etapa2.iniciarEtapaDeportivo(deportivo1);
 		}
-		System.out.println("dfgdfhd: "+clasico1.getTalla());
+		etapa3.iniciarEtapa(calzado3);
+		
+		System.out.println("dfgdfhd: "+calzado1.getMaterial());
 		
 		
 		
-		//etapa2.iniciarEtapa(deportivo);
+		
+		
 	
-		
-		//etapa3.iniciarEtapa(deportivo);
 
 		
 
+	}
+	public void resumen() {
+		System.out.println("Resuemen labooracion Zapato");
+		System.out.println("Talla");
+		System.out.println("Etapa1");
+		System.out.println("tipo de Calzado");
+		System.out.println("Etapa 2");
+		System.out.println("material");
+		System.out.println("Etapa 3");
+		System.out.println("Talla");
+		System.out.println("Color");
+		
 	}
 
 }

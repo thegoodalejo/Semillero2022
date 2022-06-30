@@ -1,6 +1,6 @@
 package fabrica;
 
-public class Calzado {
+public class Calzado extends Main {
 	
 	private String marca;
 	private String material;
@@ -9,6 +9,7 @@ public class Calzado {
 	private String colorBase;
 	private boolean cordon;
 	private String genero;
+	private String tipoCalzado;
 	
 	
 	public Calzado() {
@@ -20,7 +21,7 @@ public class Calzado {
 	}
 
 	public Calzado(String marca, String material, int talla, String tipoSuela, String colorBase, boolean cordon,
-			String genero) {
+			String genero, String tipoCalzado) {
 		super();
 		this.marca = marca;
 		this.material = material;
@@ -29,11 +30,13 @@ public class Calzado {
 		this.colorBase = colorBase;
 		this.cordon = cordon;
 		this.genero = genero;
+		this.tipoCalzado = tipoCalzado;
 	}
 
 	public String getMarca() {
 		return marca;
 	}
+	
 
 	public void setMarca(String marca) {
 		this.marca = marca;
@@ -86,7 +89,14 @@ public class Calzado {
 	public void setGenero(String genero) {
 		this.genero = genero;
 	}
-	
+	public String gettipoCalzado() {
+		return tipoCalzado;
+	}
+	public void settipoCalzado(String tipoCalzado){
+		this.tipoCalzado = tipoCalzado;
+		
+		
+	}
 	
 
 	
