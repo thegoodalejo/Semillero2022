@@ -7,7 +7,7 @@ public class Armstrong {
 	public void calcularAmstrong(int numA, int numB) {
         int num =0;
         int total =0;
-        for( int i = numA+1; i<numB; i++) {
+        for( int i = numA; i<=numB; i++) {
         	total=0;
         	
         	String numeroValue = String.valueOf(i);
@@ -16,7 +16,12 @@ public class Armstrong {
         	for(int j = 0; j < vector.length; j++) {
         		 num = Character.getNumericValue(vector[j]);    
 
-        		 if(vector.length<4) {
+        		 
+        		 if(vector.length<2) {
+        			 total =total+( num); 
+        		 }else if(vector.length<3) {
+        			 total =total+( num*num); 
+        		 }else if(vector.length<4) {
         			 total =total+( num*num*num); 
         		 }else if(vector.length<5) {
         			 total =total+( num*num*num*num); 
@@ -33,7 +38,7 @@ public class Armstrong {
         	if(i==total) {
         		System.out.println("EL numero "+i+" SI es un numero Armstrong");
         	}else {
-        		System.out.println("EL numero "+i+" NO es un numero Armstrong");
+        		//System.out.println("EL numero "+i+" NO es un numero Armstrong");
         	}
         	 
         	
