@@ -11,21 +11,30 @@ public class Cadenas {
 
 		Scanner leer = new Scanner(System.in);
 		System.out.println("Ingrese Cadena: ");
+		//Se ingresa la cadena a evaluar
 		String cadena = leer.next();
+		//Se convierte la cadena en un vector de Strings
 		String[] arregloString = convertirAVector(cadena);
+		
 		String[] arregloOrdenado = new String[cadena.length()];
+		//Se ordena la cadena
 		arregloOrdenado = ordenarArreglo(arregloString);
+		//Se extrae el menor y el mayor
 		char menor = arregloOrdenado[0].charAt(0);
 		char mayor = arregloOrdenado[arregloOrdenado.length - 1].charAt(0);
+		
 		System.out.println("Caracter menor: " + menor);
 		System.out.println("Caracter mayor: " + mayor);
 		System.out.println("Arreglo Ordenado: ");
+		//Se imprime el vector ordenado
 		for (String s : arregloOrdenado) {
 			System.out.print(s + "\s");
 		}
 		System.out.println("");
+		//Se suman los caracteres menor y mayor
 		int suma = (int) menor + (int) mayor;
 		System.out.println("Codigo ASCII de la suma: " + suma + "--> Caracter Resultante: " + (char) suma);
+		//
 		for (String caracter : arregloOrdenado) {
 			int numeroVeces = caracterRepetido(caracter, arregloOrdenado);
 			if (numeroVeces > 1) {
@@ -36,8 +45,10 @@ public class Cadenas {
 	}
 
 	public static String[] convertirAVector(String s) {
+		//Se crea el vector del tamaño de la cadena
 		String[] arreglo = new String[s.length()];
 		for (int i = 0; i < s.length(); i++) {
+			//Se asigna cada valor del string al vector
 			arreglo[i] = String.valueOf(s.charAt(i));
 		}
 		return arreglo;
