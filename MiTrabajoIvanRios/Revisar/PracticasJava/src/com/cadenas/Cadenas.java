@@ -38,7 +38,7 @@ public class Cadenas {
 		for (String caracter : arregloOrdenado) {
 			int numeroVeces = caracterRepetido(caracter, arregloOrdenado);
 			if (numeroVeces > 1) {
-				System.out.println("Caracter " + caracter + " aparece " + numeroVeces + " veces en la cadena");
+				System.out.println("Caracter " + caracter.toLowerCase() + " aparece " + numeroVeces + " veces en la cadena");
 			}
 		}
 
@@ -70,7 +70,7 @@ public class Cadenas {
 	}
 
 	public static int caracterRepetido(String caracter, String[] arr) {
-		if (contado.contains(caracter)) {
+		if (contado.contains(caracter.toLowerCase()) || contado.contains(caracter.toUpperCase())) {
 			return 0;
 		} else {
 			int contador = 0;
