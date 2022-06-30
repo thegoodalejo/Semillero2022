@@ -12,7 +12,7 @@ public class Main {
 		
 		Suma suma = new Suma(0);
 		Multiplicacion multiplica = new Multiplicacion(1);
-		Dividir dividir = new Dividir(0);
+		Dividir dividir = new Dividir(0,0);
 		
 		int opcion=0;
 
@@ -43,7 +43,9 @@ public class Main {
 
                 case 3:
                 	System.out.println("********OPERACION A REALIZAR DIVIDIR*********");
-                	suma.sumar(suma);
+                	System.out.println("Si ingresa numeros negativos este los tomara como positivos");
+                	System.out.println("");
+                	dividir.dividir(dividir);
                 	System.out.println("");
                 break;
 

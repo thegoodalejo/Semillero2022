@@ -12,7 +12,7 @@ public class Suma extends Numeros{
 	public void sumar(Suma s) {
     	int opcion =1;
     	
-    	do {
+           do {
     		
             s.setA(s.getA()+s.leerNumero());
     	    System.out.println("TOTAL PARCIAL: "+s.getA());
