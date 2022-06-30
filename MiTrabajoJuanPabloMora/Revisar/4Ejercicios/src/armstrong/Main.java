@@ -9,6 +9,9 @@ public class Main {
 		int numA=0;
 		int numB=0;
 		int opcion =0;
+
+		Armstrong armstrong = new Armstrong();
+		
 		Scanner leer=new Scanner(System.in);
 		System.out.println("Digite los numeros A y B tenga en cuenta las siguientes restricciones  ");
 		System.out.println("· A debe ser menor que B  ");
@@ -38,11 +41,9 @@ public class Main {
         	}
         } while (opcion!=1);
         
+       
         
-        for( int i = numA+1; i<numB; i++) {
-        	System.out.println(i);
-        }
-
+        armstrong.calcularAmstrong(numA, numB);
 
 	}
 
