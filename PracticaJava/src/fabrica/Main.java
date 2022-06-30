@@ -1,27 +1,41 @@
 package fabrica;
 
+import java.util.Scanner;
+
 public class Main {
 
+	
 	public static void main(String[] args) {
+		
+		int opcion1;
+		
+		Scanner eleccion = new Scanner(System.in);
+		System.out.println("Ingrese la talla del calzado: ");
+		int talla = eleccion.nextInt();
+		
+		Calzado calzado1 = new Calzado(talla);
+		Clasico clasico1 = new Clasico();
+		Deportivo deportivo1 = new Deportivo();
 		
 		Etapa1 etapa1 = new Etapa1();
 		Etapa2 etapa2 = new Etapa2();
 		Etapa3 etapa3 = new Etapa3();
 		
-		Deportivo deportivo = new Deportivo();
+		opcion1 = etapa1.iniciarEtapa(calzado1);
+		if (opcion1 == 1) {
+			etapa2.iniciarEtapa(clasico1);
+		} else {
+			etapa2.iniciarEtapa(deportivo1);
+		}
+		System.out.println("dfgdfhd: "+clasico1.getTalla());
 		
-		etapa1.iniciarEtapa(deportivo);
-		etapa1.EtapaEnProceso();
-		etapa1.FinalizarEtapa();
 		
-		etapa2.iniciarEtapa(deportivo);
-		etapa2.EtapaEnProceso();
-		etapa2.FinalizarEtapa();
 		
-		etapa3.iniciarEtapa(deportivo);
-		etapa3.EtapaEnProceso();
-		etapa3.FinalizarEtapa();
+		//etapa2.iniciarEtapa(deportivo);
+	
 		
+		//etapa3.iniciarEtapa(deportivo);
+
 		
 
 	}

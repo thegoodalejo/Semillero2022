@@ -1,25 +1,25 @@
 package fabrica;
 
+import java.util.Scanner;
+
 public class Etapa1 extends Fabricacion {
 
-	@Override
-	public void iniciarEtapa(Calzado calzado) {
-		System.out.println("Iniciando Etapa 1");
-		
-	}
-
-	@Override
-	public void EtapaEnProceso() {
-		System.out.println("En proceso Etapa 1");
-		
-	}
-
-	@Override
-	public void FinalizarEtapa() {
-		System.out.println("Finalizando Etapa 1");
-		
-	}
 	
+	
+	@Override
+	public int iniciarEtapa(Calzado calzado1) {
+		
+		Scanner eleccion = new Scanner(System.in);
+
+		System.out.println("\nElige tu tipo de Calzado preferido:");
+		System.out.println(" - Digita 1 para Calzado Clasico");
+		System.out.println(" - Digita 2 para Calzado Deportivo");
+		System.out.println("Ingresa tu eleccion: ");
+		int tipoZapato = eleccion.nextInt();
+		return tipoZapato;
+		
+	}
+
 	
 
 }

@@ -1,19 +1,22 @@
 package fabrica;
 
-public abstract class  Calzado {
+public class Calzado {
 	
 	private String marca;
 	private String material;
-	private int talla;
+	private static int talla;
 	private String tipoSuela;
 	private String colorBase;
 	private boolean cordon;
 	private String genero;
 	
 	
-	
 	public Calzado() {
-		super();
+		
+	}
+	
+	public Calzado(int talla) {
+		this.talla = talla;
 	}
 
 	public Calzado(String marca, String material, int talla, String tipoSuela, String colorBase, boolean cordon,
