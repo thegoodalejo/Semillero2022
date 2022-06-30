@@ -14,9 +14,19 @@ public class Hamburguesa extends ComidaRapida implements IProteinas, IBase, IVeg
 		adicionarBase();
 		adicionarProteina();
 		adicionarVegetales();
+		resumenProducto();
 	}
 	
 	
+	private void resumenProducto() {
+		System.out.println("La hamburguesa de valor: "+getPrecio()+ " "
+				+ "con base de: "+getBase()+ ", "
+						+ "contiene una proteina de: "+getProteina()+ ", "
+								+ "y con vegetal: "+getVegetales()+ ", esta lista");
+		
+	}
+
+
 	/*Metodos de creacion de hamburguesa*/
 	
 	@Override
@@ -101,7 +111,7 @@ public class Hamburguesa extends ComidaRapida implements IProteinas, IBase, IVeg
 				break;
 				
 			default:
-				setBase("Carne de Res");
+				setProteina("Carne de Res");
 				break;
 		}
 		
