@@ -17,6 +17,9 @@ public class Calzado extends Main {
 		this.talla = talla;
 	}
 
+	public Calzado(String marca) {
+		this.marca = marca;
+	}
 
 	public Calzado(String marca, String material, String colorBase, String tipoCalzado) {
 		super();
@@ -68,6 +71,14 @@ public class Calzado extends Main {
 		
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Resumen elaboracion Zapato"+"\nTalla=" + talla +"\ntipoCalzado=" + tipoCalzado + ",\nMaterial=" + material + ",\nColorBase=" + colorBase + ",\nMarca="
+				+ marca;
+	}
+	
+	
 	
 	
 

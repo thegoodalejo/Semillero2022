@@ -6,7 +6,10 @@ public class Etapa3 extends Fabricacion {
 
 	public Calzado iniciarEtapaDetalles(Calzado calzado3) {
 		Scanner eleccion = new Scanner(System.in);
+		int color;
+		int opcion=0;
 
+		do {
 		System.out.println("\nElige tu color preferido:");
 		System.out.println(" - Digita 1 para Beige");
 		System.out.println(" - Digita 2 para Cafe");
@@ -15,9 +18,11 @@ public class Etapa3 extends Fabricacion {
 		System.out.println(" - Digita 5 para Blanco");
 		System.out.println(" - Digita 6 para Azul");
 		System.out.println("Ingresa tu eleccion: ");
-		int color = eleccion.nextInt();
+		color = eleccion.nextInt();
 		
-		switch(color) {
+		if(color>0 && color<7) {
+			opcion=1;
+			switch(color) {
 		    case 1:
 			     calzado3.setColorBase("Beige");
 			break;
@@ -38,16 +43,34 @@ public class Etapa3 extends Fabricacion {
 			break;
 			default:
 		}
-		return calzado3;
 
+	   }else {
+			System.out.println("Eliga una opcioin valida");
+		}
+
+	  }while(opcion!=1);
+		
+	return calzado3;
 	}
 
 	@Override
-	public int iniciarEtapa(Calzado calzado1) {
-		// TODO Auto-generated method stub
-		return 0;
+	public void iniciarEtapa() {
+//		System.out.println("Iniciando Etapa 3 ");
+//		try {
+//			System.out.println("**************************** ");
+//			Thread.sleep(500);
+//			System.out.println("******************** ");
+//			Thread.sleep(200);
+//			System.out.println("*********");
+//			Thread.sleep(200);
+//			
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
+		
 	}
-	
+
+
 	
 
 }

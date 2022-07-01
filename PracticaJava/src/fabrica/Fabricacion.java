@@ -1,10 +1,10 @@
 package fabrica;
 
 public abstract class Fabricacion {
+	public static final int MAX_TIPOS=2;
 	
-	
-	public abstract int iniciarEtapa(Calzado calzado1);
+	//Controlador de tiempo
+	public abstract void iniciarEtapa();
 
-	
 
 }
