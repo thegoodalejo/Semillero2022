@@ -30,12 +30,15 @@ public class Main {
 		switch(genero) {
 		case 1:
 			frag1.genero = Genero.MASCULINA;
+			System.out.println("Fragancia "+frag1.nombre +" de genero "+frag1.genero+" creada correctamente...");
 			break;
 		case 2:
 			frag1.genero = Genero.FEMENINA;
+			System.out.println("Fragancia "+frag1.nombre +" de genero "+frag1.genero+" creada correctamente...");
 			break;
 		case 3:
 			frag1.genero = Genero.UNISEX;
+			System.out.println("Fragancia "+frag1.nombre +" de genero "+frag1.genero+" creada correctamente...");
 			break;
 		default:
 			System.out.println("Opcion NO valida para el genero...");
@@ -43,6 +46,15 @@ public class Main {
 			
 		}
 		
+	}
+	
+	public void agregarEnvase() {
+		System.out.println("Nombre del Envase: ");
+		String nombreEnvase = leer.next();
+		System.out.println("Tamanio del Envase: ");
+		int tamanioEnvase = leer.nextInt();
+		Envase env1 = new Envase(nombreEnvase,tamanioEnvase);
+		System.out.println("Envase "+env1.nombre +" de "+env1.tamanio+" ml creado correctamente...");
 	}
 
 }
