@@ -7,7 +7,7 @@ public class Calzado extends Main {
 	private static int talla;
 	private String colorBase;
 	private String tipoCalzado;
-	
+	private String tipoTacon;
 	
 	public Calzado() {
 		
@@ -21,12 +21,13 @@ public class Calzado extends Main {
 		this.marca = marca;
 	}
 
-	public Calzado(String marca, String material, String colorBase, String tipoCalzado) {
+	public Calzado(String marca, String material, String colorBase, String tipoCalzado,String tipoTacon) {
 		super();
 		this.marca = marca;
 		this.material = material;
 		this.colorBase = colorBase;
 		this.tipoCalzado = tipoCalzado;
+		this.tipoTacon = tipoTacon;
 	}
 
 	public String getMarca() {
@@ -66,16 +67,25 @@ public class Calzado extends Main {
 	public String gettipoCalzado() {
 		return tipoCalzado;
 	}
+	
 	public void settipoCalzado(String tipoCalzado){
 		this.tipoCalzado = tipoCalzado;
 		
 		
 	}
+	public String gettipoTacon() {
+		return tipoTacon;
+	}
+	
+
+	public void settipoTacon(String tipoTacon) {
+		this.tipoTacon = tipoTacon;
+	}
 
 	@Override
 	public String toString() {
 		return "Resumen elaboracion Zapato"+"\nTalla=" + talla +"\ntipoCalzado=" + tipoCalzado + ",\nMaterial=" + material + ",\nColorBase=" + colorBase + ",\nMarca="
-				+ marca;
+				+ marca +"\ntipo Tacon=" + tipoTacon;
 	}
 	
 	

@@ -16,7 +16,7 @@ public class Main {
 		Etapa1 etapa1 = new Etapa1();
 		Etapa2 etapa2 = new Etapa2();
 		Etapa3 etapa3 = new Etapa3();
-		
+		Etapa4 etapa4 = new Etapa4();
 		do {
 		System.out.println("Ingrese la talla del calzado: ");
 		talla = eleccion.nextInt();
@@ -31,7 +31,7 @@ public class Main {
 		
 		//Objetos Calzado
 		Calzado calzado1 = new Calzado(talla);
-		Clasico clasico1 = new Clasico("Arturo Calle");
+		Clasico clasico1 = new Clasico("Zara");
 		Deportivo deportivo1 = new Deportivo("Adidas");
 		
         //Inicia etapa 1
@@ -47,8 +47,12 @@ public class Main {
 			//Inicia etapa 3
 			//etapa3.iniciarEtapa();
 			calzado1=etapa3.iniciarEtapaDetalles(calzado1);
+			
+			//Inicia etapa 4
+			calzado1=etapa4.iniciarEtapaTipo(calzado1);
 			//Resumen
 			System.out.println(calzado1.toString());
+			
 			
 		break;
 	    case 2:
@@ -59,6 +63,7 @@ public class Main {
 			//Inicia etapa 3
 			//etapa3.iniciarEtapa();
 			calzado1=etapa3.iniciarEtapaDetalles(deportivo1);
+			calzado1=etapa4.iniciarEtapaTipo(calzado1);
 			//Resumen
 			System.out.println(deportivo1.toString());
 		break;
