@@ -1,7 +1,10 @@
 package fabrica;
 
-public class Main {
+import java.util.Scanner;
 
+public class Main {
+	
+	Scanner leer = new Scanner(System.in);
 	public static void main(String[] args) {
 	   
 		Fragancia fragancia1=new Fragancia("Lacoste one", Genero.MASCULINA);
@@ -13,6 +16,33 @@ public class Main {
 		empaque1.informe();
 		
 
+	}
+	
+	public void agregarFragancia() {
+		System.out.println("Nombre de la Fragancia: ");
+		String nombreFragancia = leer.next();
+		System.out.println("Género de la Fragancia");
+		System.out.println("1. MASCULINO");
+		System.out.println("2. FEMENINO");
+		System.out.println("3. UNISEX");
+		int genero = leer.nextInt();
+		Fragancia frag1 = new Fragancia(nombreFragancia);
+		switch(genero) {
+		case 1:
+			frag1.genero = Genero.MASCULINA;
+			break;
+		case 2:
+			frag1.genero = Genero.FEMENINA;
+			break;
+		case 3:
+			frag1.genero = Genero.UNISEX;
+			break;
+		default:
+			System.out.println("Opcion NO valida para el genero...");
+			Fragancia.lstFragancias.remove(frag1);
+			
+		}
+		
 	}
 
 }

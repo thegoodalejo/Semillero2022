@@ -7,6 +7,11 @@ public class Fragancia {
 	public Genero genero;
 	public static ArrayList<Fragancia> lstFragancias = new ArrayList<Fragancia>();
 	
+	public Fragancia(String nombre) {
+		this.nombre = nombre;
+		this.genero = null;
+		lstFragancias.add(this);
+	}
 	
 	public Fragancia(String nombre,Genero genero) {
 		this.nombre = nombre;
