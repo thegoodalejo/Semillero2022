@@ -24,34 +24,28 @@ public class Main {
 		
 		opcion1 = etapa1.iniciarEtapa(calzado1);
 		if (opcion1 == 1) {
-			etapa2.iniciarEtapaClasico(clasico1);
+			clasico1.settipoCalzado("Clasico");
+			calzado1=etapa2.iniciarEtapaClasico(clasico1);
+			calzado1=etapa3.iniciarEtapaDetalles(calzado1);
+
+			System.out.println("Resumen elaboracion Zapato");
+			System.out.println("Talla: "+calzado1.getTalla());
+			System.out.println("tipo de Calzado: "+calzado1.gettipoCalzado());
+			System.out.println("material: "+calzado1.getMaterial());
+			System.out.println("Color: "+calzado1.getColorBase());
+			
 		} else {
-			etapa2.iniciarEtapaDeportivo(deportivo1);
+			deportivo1.settipoCalzado("Deportivo");
+			calzado1=etapa2.iniciarEtapaDeportivo(deportivo1);
+			calzado1=etapa3.iniciarEtapaDetalles(deportivo1);
+
+			System.out.println("Resumen elaboracion Zapato");
+			System.out.println("Talla: "+deportivo1.getTalla());
+			System.out.println("tipo de Calzado: "+deportivo1.gettipoCalzado());
+			System.out.println("material: "+deportivo1.getMaterial());
+			System.out.println("Color: "+deportivo1.getColorBase());
 		}
-		etapa3.iniciarEtapa(calzado3);
-		
-		System.out.println("dfgdfhd: "+calzado1.getMaterial());
-		
-		
-		
-		
-		
 	
-
-		
-
-	}
-	public void resumen() {
-		System.out.println("Resuemen labooracion Zapato");
-		System.out.println("Talla");
-		System.out.println("Etapa1");
-		System.out.println("tipo de Calzado");
-		System.out.println("Etapa 2");
-		System.out.println("material");
-		System.out.println("Etapa 3");
-		System.out.println("Talla");
-		System.out.println("Color");
-		
 	}
 
 }

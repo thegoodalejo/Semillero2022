@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Etapa3 extends Fabricacion {
 
-	public int iniciarEtapa(Calzado calzado3) {
+	public Calzado iniciarEtapaDetalles(Calzado calzado3) {
 		Scanner eleccion = new Scanner(System.in);
 
 		System.out.println("\nElige tu color preferido:");
@@ -14,12 +14,38 @@ public class Etapa3 extends Fabricacion {
 		System.out.println(" - Digita 4 para Gris");
 		System.out.println(" - Digita 5 para Blanco");
 		System.out.println(" - Digita 6 para Azul");
-		System.out.println(" - Digita 7 para Verde");
-		System.out.println(" - Digita 8 para Amarillo");
-		System.out.println(" - Digita 9 para Rojo");
 		System.out.println("Ingresa tu eleccion: ");
 		int color = eleccion.nextInt();
-		return color;
+		
+		switch(color) {
+		    case 1:
+			     calzado3.setColorBase("Beige");
+			break;
+		    case 2:
+			     calzado3.setColorBase("Cafe");
+			break;
+		    case 3:
+			     calzado3.setColorBase("Negro");
+			break;
+		    case 4:
+			     calzado3.setColorBase("Gris");
+			break;
+		    case 5:
+			     calzado3.setColorBase("Blanco");
+			break;
+		    case 6:
+			     calzado3.setColorBase("Azul");
+			break;
+			default:
+		}
+		return calzado3;
+
+	}
+
+	@Override
+	public int iniciarEtapa(Calzado calzado1) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	

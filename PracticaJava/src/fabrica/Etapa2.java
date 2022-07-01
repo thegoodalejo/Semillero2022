@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Etapa2 extends Fabricacion{
 	
 	//Calzado clasico
-	public void  iniciarEtapaClasico(Calzado clasico) {
+	public Calzado  iniciarEtapaClasico(Calzado clasico) {
+		Clasico clasicoAux = new Clasico();
 		System.out.println("\nIniciando Etapa 2");
 		
 		Scanner eleccion = new Scanner(System.in);
@@ -22,9 +23,12 @@ public class Etapa2 extends Fabricacion{
 			System.out.println("Opcion incorrecta");
 		}
 		System.out.println(clasico.getMaterial());
-	}
+		
+		return clasico;
+		}
+	
 	//Calzado Deportivo
-	public void  iniciarEtapaDeportivo(Calzado deportivo) {
+	public Calzado  iniciarEtapaDeportivo(Calzado deportivo) {
 		System.out.println("\nIniciando Etapa 2");
 		
 		Scanner eleccion = new Scanner(System.in);
@@ -44,6 +48,7 @@ public class Etapa2 extends Fabricacion{
 			System.out.println("Opcion incorrecta");
 		}
 		System.out.println(deportivo.getMaterial());
+		return deportivo;
 	}
 
 	
