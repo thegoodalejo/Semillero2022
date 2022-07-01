@@ -24,7 +24,7 @@ public class PerfumeEtapa2 {
 	public boolean validarPerfume(int tamanio, int cantidadFragancia, int cantidadAlcohol, int cantidadAlmizcle, int cantidadFeromonas) {
 		int totalCantidades = cantidadFragancia + cantidadAlcohol + cantidadAlmizcle + cantidadFeromonas;
 		
-		return  totalCantidades <= tamanio ? true:false;
+		return  totalCantidades <= tamanio ;
 	}
 	
 	public PerfumeEtapa2 getPerfume() {
