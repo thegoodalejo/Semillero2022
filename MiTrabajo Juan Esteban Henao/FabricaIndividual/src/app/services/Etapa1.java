@@ -14,8 +14,11 @@ public class Etapa1 extends Etapa {
 	}
 
 	@Override
-	public void realizarProceso(Consumible consumible) {
+	public Pedido realizarProceso(Consumible consumible) {
 		Nevera.sacarAlimento(consumible);
+		System.out.println("Iniciando la preparación de la entrada " + consumible.getClass().getSimpleName());
+		pedido.agregarConsumible(consumible);
+		return pedido;
 		
 	}
 
@@ -24,6 +27,7 @@ public class Etapa1 extends Etapa {
 		if(Nevera.consultarDispobilidad(consumible)) {
 			realizarProceso(consumible);
 		}else {
+			System.out.println("No se cuenta con mas productos disponibles, se procede a abastecer");
 			Nevera.abastecer(consumible);
 		}
 		

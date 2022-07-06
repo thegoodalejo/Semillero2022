@@ -19,7 +19,12 @@ public class Nevera {
 	}
 	
 	public static void abastecer(Consumible consumible) {
-		
+		for (int i = 0; i < listaConsumiblesTotales.size(); i++) {
+			if(listaConsumiblesTotales.get(i).getClass().getName().equals(consumible.getClass().getName())) {
+				listaConsumiblesTotales.get(i).aumentarCantidad();
+				System.out.println("Se abastecieron 3 productos mas de: " +consumible.getClass().getSimpleName());
+		 }
+		}
 	}
 	
 	public static Boolean consultarDispobilidad(Consumible consumible) {
@@ -28,8 +33,6 @@ public class Nevera {
 					 && listaConsumiblesTotales.get(i).getCantidad()>0) {
 				return true;
 				
-			}else {
-				return false;
 			}
 		}
 		return false;

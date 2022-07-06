@@ -12,7 +12,15 @@ public abstract class Etapa {
 	}
 	
 	public abstract void consutarDisponibilidad(Consumible consumible);
-	public abstract void  realizarProceso(Consumible consumible);
+	public abstract Pedido  realizarProceso(Consumible consumible);
+
+	public Pedido getPedido() {
+		return pedido;
+	}
+
+	public void setPedido(Pedido pedido) {
+		this.pedido = pedido;
+	}
 
 
 

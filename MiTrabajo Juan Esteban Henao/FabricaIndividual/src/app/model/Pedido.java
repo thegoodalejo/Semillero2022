@@ -16,4 +16,12 @@ public class Pedido {
 		comida.add(consumible);
 		
 	}
+
+	public ArrayList<Consumible> getComida() {
+		return comida;
+	}
+
+	public void setComida(ArrayList<Consumible> comida) {
+		this.comida = comida;
+	}
 }

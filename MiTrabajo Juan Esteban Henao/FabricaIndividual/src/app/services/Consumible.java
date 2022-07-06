@@ -13,7 +13,7 @@ public abstract class Consumible {
 	}
 	
 	public void aumentarCantidad() {
-		cantidad++;
+		cantidad=+3;
 	}
 
 	public int getPrecio() {
