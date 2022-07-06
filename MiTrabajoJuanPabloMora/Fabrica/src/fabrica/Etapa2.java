@@ -46,7 +46,7 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 				System.out.println("\nNucleos disponibles en Inventario: "+Inventarionucleos);
 				System.out.println("Ingresa tu eleccion: ");
 				opcion1 = eleccion.nextInt();
-				//Validando nuemero correcto de nuecleos
+				//Validando numero correcto de nucleos
 				if(opcion1>0 && opcion1<=8) {
 					//Validando nucleos disponlibles 
 					if (opcion1>this.Inventarionucleos) {
@@ -65,6 +65,8 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					}else {
 				    //eleccion correcta de nucleos
 					portatil.setNucleos(opcion1);
+					//Adicionar Valor en dolares
+					portatil.setValor(portatil.getValor()+(opcion1*75));
 					System.out.println("Eligio : "+portatil.getNucleos()+" nucleos ");
 					this.Inventarionucleos=this.Inventarionucleos-opcion1;
 					System.out.println("Inventario Actualizado: "+this.Inventarionucleos+" nucleos disponibles ");
@@ -86,8 +88,11 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					System.out.println("\nMeoria Ram en Inventario: "+InventariomemoriaRam);
 					System.out.println("Ingresa tu eleccion: ");
 					opcion1 = eleccion.nextInt();
+					//Validando numero correcto de memoria ram
 					if(opcion1>0 && opcion1<=8) {
+						//Validando ram disponlibles 
 						if (opcion1>this.InventariomemoriaRam) {
+							//ciclo menu abastecer
 							do {
 							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
@@ -102,10 +107,13 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 							}while(opcion2!=1);
 							
 						}else {
+						//eleccion correcta de memoria ram
 						portatil.setMemoriaRam(opcion1);
+						//Adicionar Valor en dolares
+						portatil.setValor(portatil.getValor()+(opcion1*40));
 						System.out.println("Eligio : "+portatil.getMemoriaRam()+" memorias ");
 						this.InventariomemoriaRam=this.InventariomemoriaRam-opcion1;
-						System.out.println("Inventario Actualizado: "+InventariomemoriaRam+" memorias ");
+						System.out.println("Inventario Actualizado: "+InventariomemoriaRam+" memorias Ram disponibles");
 						opcion=1;
 						control1=1;
 						}
@@ -125,8 +133,11 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					System.out.println("\nUnidades SSD en Inventario: "+InventariodiscoDuro);
 					System.out.println("Ingresa tu eleccion: ");
 					opcion1 = eleccion.nextInt();
+					//Validando numero correcto de unidad SSD
 					if(opcion1>0 && opcion1<=8) {
+						//Validando unidades ssd disponlibles 
 						if (opcion1>this.InventariodiscoDuro) {
+							//ciclo menu abastecer
 							do {
 							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
@@ -141,10 +152,13 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 							}while(opcion2!=1);
 							
 						}else {
+						//eleccion correcta de unidades SSD
 						portatil.setDiscoDuro(opcion1);
+						//Adicionar Valor en dolares
+						portatil.setValor(portatil.getValor()+(opcion1*50));
 						System.out.println("Eligio : "+portatil.getDiscoDuro()+" Unidades SSD ");
 						this.InventariodiscoDuro=this.InventariodiscoDuro-opcion1;
-						System.out.println("Inventario Actualizado: "+InventariodiscoDuro+" Undades SSD ");
+						System.out.println("Inventario Actualizado: "+InventariodiscoDuro+" Unidades SSD disponibles ");
 						opcion=1;
 						control2=1;
 						}
@@ -164,8 +178,11 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					System.out.println("\nUnidades Video en Inventario: "+InventariomemoriaVideo);
 					System.out.println("Ingresa tu eleccion: ");
 					opcion1 = eleccion.nextInt();
+					//Validando numero correcto de graficas
 					if(opcion1>0 && opcion1<=2) {
+						//Validando graficas disponlibles 
 						if (opcion1>this.InventariomemoriaVideo) {
+							//ciclo menu abastecer
 							do {
 							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
@@ -180,8 +197,11 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 							}while(opcion2!=1);
 							
 						}else {
+						//eleccion correcta de Graficas de video
 						portatil.setMemoriaVideo(opcion1);
-						System.out.println("Eligio : "+portatil.getMemoriaVideo()+" Unidades de Video ");
+						//Adicionar Valor en dolares
+						portatil.setValor(portatil.getValor()+(opcion1*150));
+						System.out.println("Eligio : "+portatil.getMemoriaVideo()+" Unidades de Video disponibles ");
 						this.InventariomemoriaVideo=this.InventariomemoriaVideo-opcion1;
 						System.out.println("Inventario Actualizado: "+InventariomemoriaVideo+" Undades de Video ");
 						opcion=1;
@@ -197,27 +217,22 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 			break;
 			
 		    case 5:
-				if(control==1 && control1==1 && control2==1) {
-					opcionmenu=1;
-				}else
-				{
-					System.out.println("Eliga La configuracin minima necesaria, nucleos, memoria, unidad ssd");
-				}
-		    	
+		    	//Validando configuracion minima requerida
+				if(control==1 && control1==1 && control2==1) { opcionmenu=1;
+				   }else
+				    { System.out.println("Eliga La configuracion MINIMA necesaria, Nucleos del procesador, Memoria Ram, Unidad SSD");}
 			break;
-		   
-		    default:
-		}
-	
-			opcion=1;
-		    }else {
-		    	System.out.println("Eliga una opcion valida");
-		    }
-		
-		}while(opcionmenu!=1);
-		System.out.println(portatil.toString());
-		return portatil;
-		}
+		    default:}
+				opcion=1;
+				//Validando que la opcion del menu principal sea valida
+			    }else {
+			    	System.out.println("Eliga una opcion valida");
+			    }
+		   }while(opcionmenu!=1);
+		   //Resuman Parcial
+		      System.out.println(portatil.resumenParcialEtapa2());
+		       return portatil;
+}
 
    public int menuAbastecer() {   
 		System.out.println("\nSin recursos Disponibles: ");

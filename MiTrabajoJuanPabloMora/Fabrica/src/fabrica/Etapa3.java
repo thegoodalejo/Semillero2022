@@ -8,7 +8,7 @@ public class Etapa3 extends Fabricacion{
 	private int InventarioMorral;
 	private int InventarioBaseRefrigerante;
 	
-	
+	Scanner eleccion = new Scanner(System.in);
 	
 	public Etapa3(int inventarioPadMouse, int inventarioMorral, int inventarioBaseRefrigerante) {
 		super();
@@ -17,14 +17,11 @@ public class Etapa3 extends Fabricacion{
 		InventarioBaseRefrigerante = inventarioBaseRefrigerante;
 	}
 
-
-
-
 	public Portatil iniciarEtapa3Portatil(Portatil portatil) {
-		Scanner eleccion = new Scanner(System.in);
+		
 		int opcioninmenu;
 		int opcion=0;
-
+		//Ciclo Menu 
 		do {
 		System.out.println("\nElige un Accesorio:");
 		System.out.println(" - Digita 1 para Agregar un Pad Mouse");
@@ -32,19 +29,17 @@ public class Etapa3 extends Fabricacion{
 		System.out.println(" - Digita 3 para Agregar una Base Refrigerante");
 		System.out.println("Ingresa tu eleccion: ");
 		opcioninmenu = eleccion.nextInt();
-		
+		//Validando opciones correctas del menu
 		if(opcioninmenu>0 && opcioninmenu<4) {
-
 			int opcion2;
+			//Switch control de opciones de menu
 			switch(opcioninmenu) {
 		    case 1:
 		    	if (this.InventarioPadMouse<=0) {
 					do {
-					System.out.println("\nSin recursos Disponibles: ");
-					System.out.println(" - Digita 1 abastecerse  ");
-					System.out.println(" - Digita 2 Volver al menu");
-					opcion2 = eleccion.nextInt();
+					opcion2 = menuAbastecer();
 					if(opcion2<0 || opcion2>2) {
+						//Validando opcion correcta
 						System.out.println("Eliga una opcion correcta");
 					    }else if (opcion2==1){
 					    	this.InventarioPadMouse = this.InventarioPadMouse +3;
@@ -57,7 +52,10 @@ public class Etapa3 extends Fabricacion{
 					}while(opcion2!=1);
 					
 				}else {
-				portatil.setPadMouse(1);;
+				//eleccion correcta 
+				portatil.setPadMouse(1);
+				//Adicionar Valor en dolares
+				portatil.setValor(portatil.getValor()+(20));
 				System.out.println("Eligio : "+portatil.getPadMouse()+" Pad Mouse ");
 				this.InventarioPadMouse=this.InventarioPadMouse-1;
 				System.out.println("Inventario Actualizado: "+this.InventarioPadMouse+" Pad Mouse ");
@@ -65,12 +63,11 @@ public class Etapa3 extends Fabricacion{
 				}
 			break;
 		    case 2:
+		    	//Validando abastecimiento de inventario
 		    	if (this.InventarioMorral<=0) {
 					do {
-					System.out.println("\nSin recursos Disponibles: ");
-					System.out.println(" - Digita 1 abastecerse  ");
-					System.out.println(" - Digita 2 Volver al menu");
-					opcion2 = eleccion.nextInt();
+					opcion2 = menuAbastecer();
+					//Validando opcion correcta
 					if(opcion2<0 || opcion2>2) {
 						System.out.println("Eliga una opcion correcta");
 					    }else if (opcion2==1){
@@ -84,7 +81,10 @@ public class Etapa3 extends Fabricacion{
 					}while(opcion2!=1);
 					
 				}else {
-				portatil.setMorral(1);;
+			    //eleccion correcta 
+				portatil.setMorral(1);
+				//Adicionar Valor en dolares
+				portatil.setValor(portatil.getValor()+(30));
 				System.out.println("Eligio : "+portatil.getMorral()+" Morral ");
 				this.InventarioMorral=this.InventarioMorral-1;
 				System.out.println("Inventario Actualizado: "+this.InventarioMorral+" Morral ");
@@ -92,12 +92,11 @@ public class Etapa3 extends Fabricacion{
 				}
 			break;
 		    case 3:
+		    	//Validando abastecimiento de inventario
 		    	if (this.InventarioBaseRefrigerante<=0) {
 					do {
-					System.out.println("\nSin recursos Disponibles: ");
-					System.out.println(" - Digita 1 abastecerse  ");
-					System.out.println(" - Digita 2 Volver al menu");
-					opcion2 = eleccion.nextInt();
+					opcion2 = menuAbastecer();
+					//Validando opcion correcta
 					if(opcion2<0 || opcion2>2) {
 						System.out.println("Eliga una opcion correcta");
 					    }else if (opcion2==1){
@@ -111,7 +110,10 @@ public class Etapa3 extends Fabricacion{
 					}while(opcion2!=1);
 					
 				}else {
-				portatil.setPadMouse(1);;
+				//eleccion correcta 	
+				portatil.setPadMouse(1);
+				//Adicionar Valor en dolares
+				portatil.setValor(portatil.getValor()+(10));
 				System.out.println("Eligio : "+portatil.getPadMouse()+" Base Refrigerante ");
 				this.InventarioBaseRefrigerante=this.InventarioBaseRefrigerante-1;
 				System.out.println("Inventario Actualizado: "+this.InventarioBaseRefrigerante+" Base Refrigerante ");
@@ -120,16 +122,19 @@ public class Etapa3 extends Fabricacion{
 			break;	    
 			default:
 		}
-
 	   }else {
 			System.out.println("Eliga una opcioin valida");
 		}
-
 	  }while(opcion!=1);
-
 	return portatil;
 	}
 	
+	public int menuAbastecer() {   
+			System.out.println("\nSin recursos Disponibles: ");
+			System.out.println(" - Digita 1 para Abastecerse  ");
+			System.out.println(" - Digita 2 Volver al menu");		
+		return (eleccion.nextInt());
+	   }
 	
 	public void resumen(Portatil portatil) {
 		

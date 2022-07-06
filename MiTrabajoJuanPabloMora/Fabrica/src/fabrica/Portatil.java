@@ -10,7 +10,6 @@ public class Portatil extends Equipo{
 	private int Morral;
 	private int BaseRefrigerante;
 	
-	
 
 	public int getPadMouse() {
 		return PadMouse;
@@ -68,6 +67,7 @@ public class Portatil extends Equipo{
 		this.memoriaVideo = memoriaVideo;
 	}
 
+	
 
 
 	public Portatil(int nucleos, int memoriaRam, int discoDuro, int memoriaVideo, int padMouse, int morral,
@@ -87,16 +87,22 @@ public class Portatil extends Equipo{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Portatil(String nombre, String modelo, int valor, int consumoEnergia) {
-		super(nombre, modelo, valor, consumoEnergia);
+	public Portatil(String nombre, String modelo) {
+		super(nombre, modelo);
 		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public String toString() {
-		return "Configuracion Portatil"+" \nNucleos del Procesador= " + nucleos + "\nMemoria Ram= " + memoriaRam + "\nDisco Duro= " + discoDuro
-				+ "\nMemoria Video=" + memoriaVideo+ "\nPad Mouse=" + PadMouse + "\nMaleta Portatil=" + Morral + "\nBase Refrigerante=" + BaseRefrigerante;
+		return "\nConfiguracion COMLETA Portatil"+"\nNombre= " + getNombre()+"\nModelo= " + getModelo()+" \nNucleos del Procesador= " + nucleos + "\nMemoria Ram= " + memoriaRam + "\nDisco Duro= " + discoDuro
+				+ "\nMemoria Gravicad de Video=" + memoriaVideo+ "\nPad Mouse=" + PadMouse + "\nMaleta Portatil=" + Morral + "\nBase Refrigerante=" + BaseRefrigerante+"\nValor (Dolares)= " + getValor()+" Dolares";
 	}
+	
+	public String resumenParcialEtapa2() {
+		return "\nConfiguracion PARCIAL Portatil"+" \nNucleos del Procesador= " + nucleos + "\nMemoria Ram= " + memoriaRam + "\nDisco Duro= " + discoDuro
+				+ "\nMemoria Video= " + memoriaVideo+"\nValor (Dolares)= " + getValor()+" Dolares";
+	}
+	
 	
 	
 

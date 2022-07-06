@@ -6,30 +6,25 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int opcion1;
+		int opcion1,nuevoProducto;
 		int opcion=0;
-		int nuevoProducto;
 		Scanner eleccion = new Scanner(System.in);
-
+		
 		//Objetos Etapas
 		Etapa1 etapa1 = new Etapa1();
 		Etapa2 etapa2 = new Etapa2(5,5,5,5);
 		Etapa3 etapa3 = new Etapa3(5,5,5);
 		
-		do {
-
-		
 		//Objetos 
         Equipo equipo = new Equipo();
-        Portatil portatil = new Portatil();
+        Portatil portatil = new Portatil("ACER Aspire","2020");
         ComputadorMesa pcMesa = new ComputadorMesa();
-		
+		do {
+
         //Inicia etapa 1
 		opcion1 = etapa1.iniciarEtapaEquipo(equipo);
-		etapa1.etapaFinalizada();
 		switch(opcion1) {
 	    case 1:
-
 			//Inicia etapa 2
 	    	portatil=etapa2.iniciarEtapa2Portatil(portatil);
 	    	etapa2.etapaFinalizada();
@@ -39,17 +34,13 @@ public class Main {
 	    	//Resumen
 	    	etapa3.resumen(portatil);
 			//Inicia etapa 4
-
 		break;
-	    case 2:
-	    	
+	    case 2:	    	
 	    	etapa2.construccion();
 	    	
 			//Inicia etapa 2
 
-			//Inicia etapa 3
-
-	
+			//Inicia etapa 3	
 		break;
 	   
 	    default:

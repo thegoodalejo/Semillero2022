@@ -4,9 +4,7 @@ public class Equipo {
 
 	private String nombre;
 	private String modelo;
-	private int valor;
-	private int consumoEnergia;
-
+	private static int valor;
 
 	public Equipo() {
 	}
@@ -16,7 +14,12 @@ public class Equipo {
 		this.nombre = nombre;
 		this.modelo = modelo;
 		this.valor = valor;
-		this.consumoEnergia = consumoEnergia;
+	}
+	
+	public Equipo(String nombre, String modelo) {
+		super();
+		this.nombre = nombre;
+		this.modelo = modelo;
 	}
 	
 	public String getNombre() {
@@ -37,21 +40,11 @@ public class Equipo {
 	public void setValor(int valor) {
 		this.valor = valor;
 	}
-	public int getConsumoEnergia() {
-		return consumoEnergia;
-	}
-	public void setConsumoEnergia(int consumoEnergia) {
-		this.consumoEnergia = consumoEnergia;
-	}
 
 	@Override
 	public String toString() {
-		return "Equipo [nombre=" + nombre + ", modelo=" + modelo + ", valor=" + valor + ", consumoEnergia="
-				+ consumoEnergia + "]";
+		return "Equipo [nombre=" + nombre + ", modelo=" + modelo + ", valor=" + valor + "]";
 	}
-	
-	
-	
 
 	
 }
