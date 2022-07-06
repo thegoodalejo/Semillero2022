@@ -36,6 +36,7 @@ public class Main {
 			//Inicia etapa 3
 	    	portatil=etapa3.iniciarEtapa3Portatil(portatil);
 	    	etapa3.etapaFinalizada();
+	    	//Resumen
 	    	etapa3.resumen(portatil);
 			//Inicia etapa 4
 

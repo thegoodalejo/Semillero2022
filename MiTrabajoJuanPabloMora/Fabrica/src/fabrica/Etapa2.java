@@ -9,7 +9,7 @@ public class Etapa2 extends Fabricacion{
 	private int InventariodiscoDuro;
 	private int InventariomemoriaVideo;
 	
-	
+	Scanner eleccion = new Scanner(System.in);
 
 public Etapa2(int nucleos, int memoriaRam, int discoDuro, int memoriaVideo) {
 		super();
@@ -21,42 +21,38 @@ public Etapa2(int nucleos, int memoriaRam, int discoDuro, int memoriaVideo) {
 
 public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 		
-		System.out.println("\nIniciando Etapa 2");
-		Scanner eleccion = new Scanner(System.in);
-		int control=0,control1=0,control2=0,control4=0;
+		System.out.println("\nIniciando ETAPA 2...");
+		int control=0,control1=0,control2=0,control4=0,opcionmenu=0;
 		
-		int opcionmenu=0;
-		
+		//Ciclo Menu 
 		do {
 		int opcion=0,opcion1=0,opcion2=0;
 		System.out.println("\nElige los materiales para tu Portatil: ");
 		System.out.println(" - Digita 1 Nucleos de Procesador");
 		System.out.println(" - Digita 2 Memoria Ram");
-		System.out.println(" - Digita 3 Unidad de estado sólido ");
-		System.out.println(" - Digita 4 Tarjeta Video (opcional)");
+		System.out.println(" - Digita 3 Unidad de estado sólido (ssd)");
+		System.out.println(" - Digita 4 Tarjeta Grafica de Video (opcional)");
 		System.out.println(" - Digita 5 Configuracion terminada");
 		System.out.println("Ingresa tu eleccion: ");
 		opcion1 = eleccion.nextInt();
-		
-		//validacion tipo de calzado
+        //Validando opciones correctas del menu
 		if(opcion1>0 && opcion1<=5) {
-			
+		//Switch control de opciones de menu
 			switch(opcion1) {
 		    case 1:
-		    	if(control==0) {
-		    	
+		    	if(control==0) {	    	
 		    	do {
-				System.out.println("\nElige el numero de nucleos 1 a 8 nucleos: ");
-				System.out.println("\nNucleos en Inventario: "+Inventarionucleos);
+				System.out.println("\nElige el numero de nucleos de procesamiento 1 a 8 nucleos: ");
+				System.out.println("\nNucleos disponibles en Inventario: "+Inventarionucleos);
 				System.out.println("Ingresa tu eleccion: ");
 				opcion1 = eleccion.nextInt();
+				//Validando nuemero correcto de nuecleos
 				if(opcion1>0 && opcion1<=8) {
+					//Validando nucleos disponlibles 
 					if (opcion1>this.Inventarionucleos) {
+						//ciclo menu abastecer
 						do {
-						System.out.println("\nSin recursos Disponibles: ");
-						System.out.println(" - Digita 1 abastecerse  ");
-						System.out.println(" - Digita 2 Volver al menu");
-						opcion2 = eleccion.nextInt();
+						opcion2 = menuAbastecer();
 						if(opcion2<0 || opcion2>2) {
 							System.out.println("Eliga una opcion correcta");
 						    }else if (opcion2==1){
@@ -65,14 +61,13 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 						    }else {
 						    	opcion2=1;
 						    }
-
 						}while(opcion2!=1);
-						
 					}else {
+				    //eleccion correcta de nucleos
 					portatil.setNucleos(opcion1);
 					System.out.println("Eligio : "+portatil.getNucleos()+" nucleos ");
 					this.Inventarionucleos=this.Inventarionucleos-opcion1;
-					System.out.println("Inventario Actualizado: "+Inventarionucleos+" nucleos ");
+					System.out.println("Inventario Actualizado: "+this.Inventarionucleos+" nucleos disponibles ");
 					control=1;
 					opcion=1;
 					}
@@ -94,10 +89,7 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					if(opcion1>0 && opcion1<=8) {
 						if (opcion1>this.InventariomemoriaRam) {
 							do {
-							System.out.println("\nSin recursos Disponibles: ");
-							System.out.println(" - Digita 1 abastecerse  ");
-							System.out.println(" - Digita 2 Volver al menu");
-							opcion2 = eleccion.nextInt();
+							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
 								System.out.println("Eliga una opcion correcta");
 							    }else if (opcion2==1){
@@ -136,10 +128,7 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					if(opcion1>0 && opcion1<=8) {
 						if (opcion1>this.InventariodiscoDuro) {
 							do {
-							System.out.println("\nSin recursos Disponibles: ");
-							System.out.println(" - Digita 1 abastecerse  ");
-							System.out.println(" - Digita 2 Volver al menu");
-							opcion2 = eleccion.nextInt();
+							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
 								System.out.println("Eliga una opcion correcta");
 							    }else if (opcion2==1){
@@ -178,10 +167,7 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 					if(opcion1>0 && opcion1<=2) {
 						if (opcion1>this.InventariomemoriaVideo) {
 							do {
-							System.out.println("\nSin recursos Disponibles: ");
-							System.out.println(" - Digita 1 abastecerse  ");
-							System.out.println(" - Digita 2 Volver al menu");
-							opcion2 = eleccion.nextInt();
+							opcion2 = menuAbastecer();
 							if(opcion2<0 || opcion2>2) {
 								System.out.println("Eliga una opcion correcta");
 							    }else if (opcion2==1){
@@ -232,6 +218,14 @@ public Portatil  iniciarEtapa2Portatil(Portatil portatil) {
 		System.out.println(portatil.toString());
 		return portatil;
 		}
+
+   public int menuAbastecer() {   
+		System.out.println("\nSin recursos Disponibles: ");
+		System.out.println(" - Digita 1 para Abastecerse  ");
+		System.out.println(" - Digita 2 Volver al menu");		
+	return (eleccion.nextInt());
+   }
+
 
 	@Override
 	public void etapaFinalizada() {

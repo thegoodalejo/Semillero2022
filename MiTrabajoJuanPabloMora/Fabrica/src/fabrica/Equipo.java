@@ -6,9 +6,7 @@ public class Equipo {
 	private String modelo;
 	private int valor;
 	private int consumoEnergia;
-	
-	
-	
+
 
 	public Equipo() {
 	}
