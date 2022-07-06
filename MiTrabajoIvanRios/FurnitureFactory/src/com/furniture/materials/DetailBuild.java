@@ -2,8 +2,8 @@ package com.furniture.materials;
 
 public class DetailBuild extends FactoryBuilder {
 
-	public DetailBuild(Material glue, Material sandpaper) {
-		super(glue, sandpaper);
+	public DetailBuild(Product product, Material glue, Material sandpaper) {
+		super(product, glue, sandpaper);
 	}
 
 	@Override

@@ -2,8 +2,8 @@ package com.furniture.materials;
 
 public class PaintBuild extends FactoryBuilder {
 
-	public PaintBuild(Material painting, Material varnish) {
-		super(painting, varnish);
+	public PaintBuild(Product product, Material painting, Material varnish) {
+		super(product, painting, varnish);
 	}
 
 	@Override

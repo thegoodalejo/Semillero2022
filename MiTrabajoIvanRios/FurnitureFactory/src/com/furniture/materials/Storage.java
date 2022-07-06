@@ -6,7 +6,6 @@ public class Storage {
 	
 	public Material material;
 	
-	@SuppressWarnings("unused")
 	private int quantity;
 	private String className;
 	
@@ -45,5 +44,10 @@ public class Storage {
 		System.out.println("Tamanio: "+this.material.size);
 		System.out.println("Cantidad: "+this.quantity);
 	}
+
+	public String getClassName() {
+		return className;
+	}
+
 	
 }

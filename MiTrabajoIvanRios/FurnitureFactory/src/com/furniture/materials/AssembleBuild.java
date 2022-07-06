@@ -2,8 +2,8 @@ package com.furniture.materials;
 
 public class AssembleBuild extends FactoryBuilder{
 
-	public AssembleBuild(Material woodPiece, Material screw) {
-		super(woodPiece, screw);
+	public AssembleBuild(Product product, Material woodPiece, Material screw) {
+		super(product, woodPiece, screw);
 	}
 	
 	@Override
