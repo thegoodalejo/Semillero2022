@@ -3,10 +3,11 @@ package fabricaFritos;
 public class Papa extends Frito  implements Tajar,Abastecer {
 
 
-	public Papa(int cantidad ) {
+	public Papa(int cantidad, String nombre ) {
 		
 		this.cantidad=cantidad;
-	
+	     this.nombre=nombre;
+		
 }
 
 	@Override

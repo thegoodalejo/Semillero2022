@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Etapa3 {
 
 	  public static Etapa2 etapa2;
-	  Empaque empaque;
+	  Empaque empaque= new Empaque("plastico", 0);
+	  
+	  
 	  public Empaque definirEmpaque() {
 		  Scanner entrada= new Scanner(System.in);
 			System.out.println("Tomaremos la cantidad de empaques ");
