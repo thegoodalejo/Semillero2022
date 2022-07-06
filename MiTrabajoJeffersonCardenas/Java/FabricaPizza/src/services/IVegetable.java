@@ -2,5 +2,5 @@ package services;
 
 public interface IVegetable {
 
-	public String selectVegetable();
+	public void selectVegetable();
 }

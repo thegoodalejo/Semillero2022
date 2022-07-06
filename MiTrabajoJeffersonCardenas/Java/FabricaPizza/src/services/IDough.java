@@ -2,6 +2,6 @@ package services;
 
 public interface IDough {
 	
-	public String selectSizeDough();
+	public void selectSizeDough();
 
 }

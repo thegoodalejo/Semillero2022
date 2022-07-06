@@ -1,125 +1,144 @@
 package entity;
+
 import java.util.*;
+
+import controller.Warehouse;
 import services.IDough;
 import services.IType;
 import services.IVegetable;
+import supplements.*;
 
-public class Pizza implements IDough, IType, IVegetable{
-
-	private String size;
+public class Pizza implements IDough, IType, IVegetable {
+	
+	private String doughSize;
 	private String type;
 	private String vegetable;
+	
 	private int opcion;
 	Scanner tc = new Scanner(System.in);
+	
+	public Pizza() {
+		
+		System.out.println("Entering phase 1...");
+		selectSizeDough();
+		
+		System.out.println("Moving to phase 2...");
+		selectTypePizza();
+		
+		System.out.println("Moving to phase 3...");
+		selectVegetable();
+		
+		Warehouse.productAmount++;
+		
+	}
 
-//	public Pizza(String size, String type, String vegetable) {
-//		this.size = size;
-//		this.type = type;
-//		this.vegetable = vegetable;
-//	}
-	
-	/*Faces de creacion*/
-	
+	/* Faces de creacion */
+
 	@Override
-	public String selectSizeDough() {
-		
-		String sizeDough = "";
-		
+	public void selectSizeDough() {
+
 		System.out.println("SIZE DOUGH");
 		System.out.println("1. Small");
-		System.out.println("2. Medium");
-		System.out.println("3. Big");		
+		System.out.println("2. Big");
 		System.out.print("Select the pizza size: ");
-		opcion = (int)tc.nextInt();
-		
-		switch(opcion) {
-			case 1:
-				sizeDough = "Small";
-				break;
-				
-			case 2:
-				sizeDough = "Medium";
-				break;
-				
-			case 3:
-				sizeDough = "Big";
-				break;
-				
-			default:
-				sizeDough = "Small";
-				break;
+		opcion = (int) tc.nextInt();
+
+		switch (opcion) {
+		case 1:
+			
+			Warehouse.reduceAmount("Small", 1);
+			this.doughSize = "Small";
+
+			break;
+
+		case 2:
+
+			Warehouse.reduceAmount("Big", 1);
+			this.doughSize = "Big";
+
+			break;
+
+		default:
+
+			Warehouse.reduceAmount("Small", 1);
+			this.doughSize = "Small";
+
+			break;
 		}
-		
-		return sizeDough;
+
 	}
-	
+
 	@Override
-	public String selectTypePizza() {
-		
-		String typePizza = "";
+	public void selectTypePizza() {
 		
 		System.out.println("TYPE PIZZA");
 		System.out.println("1. Pepperoni");
-		System.out.println("2. Pinaple");		
+		System.out.println("2. Pineapple");
 		System.out.print("Select the pizza type: ");
-		opcion = (int)tc.nextInt();
-		
-		switch(opcion) {
-			case 1:
-				typePizza = "Pepperoni";
-				break;
-				
-			case 2:
-				typePizza = "Pinaple";
-				break;
-				
-			default:
-				typePizza = "Pepperoni";
-				break;
+		opcion = (int) tc.nextInt();
+
+		switch (opcion) {
+		case 1:
+			
+			Warehouse.reduceAmount("Pepperoni", Warehouse.selectQuantity());
+			
+			type = "Pepperoni";
+			break;
+
+		case 2:
+			
+			Warehouse.reduceAmount("Pineapple", Warehouse.selectQuantity());
+			type = "Pinapple";
+			break;
+
+		default:
+			
+			Warehouse.reduceAmount("Pepperoni", Warehouse.selectQuantity());
+			type = "Pepperoni";
+			break;
 		}
-		
-		return typePizza;
-		
+
 	}
-	
+
 	@Override
-	public String selectVegetable() {
-		
-		String vegetable = "";
-		
+	public void selectVegetable() {
+
 		System.out.println("VEGETABLES");
 		System.out.println("1. Parsley");
-		System.out.println("2. Thyme");		
+		System.out.println("2. Thyme");
 		System.out.print("Select the vegetable: ");
-		opcion = (int)tc.nextInt();
-		
-		switch(opcion) {
-			case 1:
-				vegetable = "Parsley";
-				break;
-				
-			case 2:
-				vegetable = "Thyme";
-				break;
-				
-			default:
-				vegetable = "Parsley";
-				break;
+		opcion = (int) tc.nextInt();
+
+		switch (opcion) {
+		case 1:
+			Warehouse.reduceAmount("Parsley", Warehouse.selectQuantity());
+			vegetable = "Parsley";
+			break;
+
+		case 2:
+			
+			Warehouse.reduceAmount("Thyme", Warehouse.selectQuantity());;
+			vegetable = "Thyme";
+			
+			break;
+
+		default:
+			Warehouse.reduceAmount("Parsley", Warehouse.selectQuantity());
+			vegetable = "Parsley";
+			break;
 		}
-		
-		return vegetable;
-		
+
 	}
 
 	/**********************************************/
 	
 	/*GETTER & SETTER*/
-	public String getSize() {
-		return size;
+	public String getDoughSize() {
+		return doughSize;
 	}
 
-	public void setSize(String size) {
-		this.size = size;
+	public void setDoughSize(String doughSize) {
+		this.doughSize = doughSize;
 	}
 
 	public String getType() {
@@ -137,8 +156,6 @@ public class Pizza implements IDough, IType, IVegetable{
 	public void setVegetable(String vegetable) {
 		this.vegetable = vegetable;
 	}
-
-	/******************************************/
-
+		
 
 }
