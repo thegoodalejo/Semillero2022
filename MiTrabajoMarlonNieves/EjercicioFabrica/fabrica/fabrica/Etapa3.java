@@ -16,7 +16,7 @@ public class Etapa3 extends Preparacion {
 		System.out.println("Ingresa tu eleccion: ");
 		color = eleccion.nextInt();
 		
-		if(color>0 && color<7) {
+		if(color>1 && color<2) {
 			opcion=1;
 			switch(color) {
 		    case 1:
@@ -29,7 +29,7 @@ public class Etapa3 extends Preparacion {
 		}
 
 	   }else {
-			System.out.println("Eliga una opcioin valida");
+			System.out.println("Eliga una opcion valida");
 		}
 
 	  }while(opcion!=1);

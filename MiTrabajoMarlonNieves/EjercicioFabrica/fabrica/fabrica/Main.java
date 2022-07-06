@@ -28,7 +28,7 @@ public class Main {
 			if (tamano >1 && tamano <= 2) {
 				opcion = 1;
 			} else {
-				System.out.println("Eliga un tamaño entre pequeña o grande");
+				System.out.println("Eliga un tamaño entre pequeño o grande");
 			}
 		} while (opcion != 1);
 
@@ -49,7 +49,7 @@ public class Main {
 
 			break;
 		case 2:
-			especial1.settipoCalzado("Especial");
+			especial1.settipoArepa("Especial");
 			arepa1 = etapa2.iniciarEtapaEspecial(especial1);
 			arepa1 = etapa3.iniciarEtapaDetalles(especial1);
 			System.out.println(especial1.toString());
