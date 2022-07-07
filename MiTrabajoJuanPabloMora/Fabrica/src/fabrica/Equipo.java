@@ -1,11 +1,15 @@
 package fabrica;
 
 public class Equipo {
-
+	
+	//Atributos
+	//------------------------------------------------------------------------------------------------------------------------------------
 	private String nombre;
 	private String modelo;
 	private static int valor;
 
+	//Constructores
+	//------------------------------------------------------------------------------------------------------------------------------------
 	public Equipo() {
 	}
 
@@ -22,6 +26,8 @@ public class Equipo {
 		this.modelo = modelo;
 	}
 	
+	//Metodos 
+	//------------------------------------------------------------------------------------------------------------------------------------	
 	public String getNombre() {
 		return nombre;
 	}
@@ -40,7 +46,8 @@ public class Equipo {
 	public void setValor(int valor) {
 		this.valor = valor;
 	}
-
+	
+	//------------------------------------------------------------------------------------------------------------------------------------	
 	@Override
 	public String toString() {
 		return "Equipo [nombre=" + nombre + ", modelo=" + modelo + ", valor=" + valor + "]";

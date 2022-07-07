@@ -6,7 +6,7 @@ public class Etapa1 extends Fabricacion{
 	
 
 
-		//Etapa 1 elegir tipo de PC a construir 
+	//Etapa 1 elegir tipo de PC a construir 
 	public int iniciarEtapaEquipo(Equipo equipo) {
 			Scanner eleccion = new Scanner(System.in);
 			int tipoEquipo;
@@ -27,7 +27,7 @@ public class Etapa1 extends Fabricacion{
 					equipo.setValor(1000);
 					}else {
 						System.out.println("Equipo PC de Mesa a Construir");
-					equipo.setValor(500);
+					equipo.setValor(600);
 					}
 			    }else {
 			    	System.out.println("Eliga una opcioin valida");
@@ -38,7 +38,7 @@ public class Etapa1 extends Fabricacion{
 			return tipoEquipo;	
 		}
 	
-
+	//------------------------------------------------------------------------------------------------------------------------------------
 	@Override
 	public void etapaFinalizada() {
 		System.out.println("\nFinalizando Etapa 1... ");

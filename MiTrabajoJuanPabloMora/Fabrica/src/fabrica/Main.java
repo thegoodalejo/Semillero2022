@@ -12,13 +12,13 @@ public class Main {
 		
 		//Objetos Etapas
 		Etapa1 etapa1 = new Etapa1();
-		Etapa2 etapa2 = new Etapa2(5,5,5,5);
-		Etapa3 etapa3 = new Etapa3(5,5,5);
+		Etapa2 etapa2 = new Etapa2(5,5,5,5,20,15,15,15);
+		Etapa3 etapa3 = new Etapa3(5,5,5,5,5,5);
 		
 		//Objetos 
         Equipo equipo = new Equipo();
         Portatil portatil = new Portatil("ACER Aspire","2020");
-        ComputadorMesa pcMesa = new ComputadorMesa();
+        ComputadorMesa pcMesa = new ComputadorMesa("DELL ALIENWARE","2022");
 		do {
 
         //Inicia etapa 1
@@ -32,20 +32,21 @@ public class Main {
 	    	portatil=etapa3.iniciarEtapa3Portatil(portatil);
 	    	etapa3.etapaFinalizada();
 	    	//Resumen
-	    	etapa3.resumen(portatil);
-			//Inicia etapa 4
+	    	etapa3.resumenPortatil(portatil);
 		break;
 	    case 2:	    	
-	    	etapa2.construccion();
-	    	
 			//Inicia etapa 2
-
+	    	pcMesa=etapa2.iniciarEtapa2PC(pcMesa);
+	    	etapa2.etapaFinalizada();
 			//Inicia etapa 3	
+	    	pcMesa=etapa3.iniciarEtapa3PC(pcMesa);
+	    	etapa3.etapaFinalizada();
+	    	//Resumen
+	    	etapa3.resumenPC(pcMesa);
 		break;
 	   
 	    default:
-	}
-		
+	}		
 		System.out.println("\n¿Desea construir un nuevo producto?");
 		System.out.println(" - Digita 1 SI");
 		System.out.println(" - Digita 2 NO");
@@ -58,9 +59,7 @@ public class Main {
 		    	opcion=1;
 		    System.out.println("Finalizado, Que tengas un gran dia");
 		    }
-		}while(opcion!=1);
-		
-		
+		}while(opcion!=1);	
 
 	}
 

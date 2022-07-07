@@ -2,14 +2,29 @@ package fabrica;
 
 public class Portatil extends Equipo{
 	
+	//Atributos
+	//------------------------------------------------------------------------------------------------------------------------------------
 	private int nucleos;
 	private int memoriaRam;
 	private int discoDuro;
-	private int memoriaVideo;
-	private int PadMouse;
-	private int Morral;
-	private int BaseRefrigerante;
+	private int memoriaVideo=0;
+	private int PadMouse=0;
+	private int Morral=0;
+	private int BaseRefrigerante=0;
 	
+	//Constructores
+	//------------------------------------------------------------------------------------------------------------------------------------
+	
+	public Portatil() {
+		super();
+	}
+
+	public Portatil(String nombre, String modelo) {
+		super(nombre, modelo);
+	}
+
+	//Metodos 
+	//------------------------------------------------------------------------------------------------------------------------------------	
 
 	public int getPadMouse() {
 		return PadMouse;
@@ -67,40 +82,17 @@ public class Portatil extends Equipo{
 		this.memoriaVideo = memoriaVideo;
 	}
 
-	
-
-
-	public Portatil(int nucleos, int memoriaRam, int discoDuro, int memoriaVideo, int padMouse, int morral,
-			int baseRefrigerante) {
-		super();
-		this.nucleos = nucleos;
-		this.memoriaRam = memoriaRam;
-		this.discoDuro = discoDuro;
-		this.memoriaVideo = memoriaVideo;
-		this.PadMouse = padMouse;
-		this.Morral = morral;
-		this.BaseRefrigerante = baseRefrigerante;
-	}
-
-	public Portatil() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public Portatil(String nombre, String modelo) {
-		super(nombre, modelo);
-		// TODO Auto-generated constructor stub
-	}
+	//------------------------------------------------------------------------------------------------------------------------------------
 
 	@Override
 	public String toString() {
 		return "\nConfiguracion COMLETA Portatil"+"\nNombre= " + getNombre()+"\nModelo= " + getModelo()+" \nNucleos del Procesador= " + nucleos + "\nMemoria Ram= " + memoriaRam + "\nDisco Duro= " + discoDuro
-				+ "\nMemoria Gravicad de Video=" + memoriaVideo+ "\nPad Mouse=" + PadMouse + "\nMaleta Portatil=" + Morral + "\nBase Refrigerante=" + BaseRefrigerante+"\nValor (Dolares)= " + getValor()+" Dolares";
+				+ "\nMemoria Grafica de Video= " + memoriaVideo+ "\nPad Mouse= " + PadMouse + "\nMaleta Portatil= " + Morral + "\nBase Refrigerante= " + BaseRefrigerante+"\nValor= " + getValor()+" Dolares";
 	}
 	
 	public String resumenParcialEtapa2() {
 		return "\nConfiguracion PARCIAL Portatil"+" \nNucleos del Procesador= " + nucleos + "\nMemoria Ram= " + memoriaRam + "\nDisco Duro= " + discoDuro
-				+ "\nMemoria Video= " + memoriaVideo+"\nValor (Dolares)= " + getValor()+" Dolares";
+				+ "\nMemoria Video= " + memoriaVideo+"\nValor = " + getValor()+" Dolares";
 	}
 	
 	
