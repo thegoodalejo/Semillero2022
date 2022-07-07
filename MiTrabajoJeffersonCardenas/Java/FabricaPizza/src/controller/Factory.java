@@ -6,7 +6,7 @@ public class Factory {
 	
 	public static void createPizza() {
 		
-		Pizza pizza = 	new Pizza();
+		Pizza pizza = new Pizza();
 		
 		Factory.resume(pizza);
 		

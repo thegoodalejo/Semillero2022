@@ -19,14 +19,27 @@ public class Pizza implements IDough, IType, IVegetable {
 	
 	public Pizza() {
 		
+		System.out.println("");
 		System.out.println("Entering phase 1...");
+		
+		System.out.println("");
 		selectSizeDough();
+		System.out.println("***********************");
+		System.out.println("");
 		
 		System.out.println("Moving to phase 2...");
+		System.out.println("");
+		
 		selectTypePizza();
+		System.out.println("***********************");
+		System.out.println("");
 		
 		System.out.println("Moving to phase 3...");
+		System.out.println("");
+		
 		selectVegetable();
+		System.out.println("***********************");
+		System.out.println("");
 		
 		Warehouse.productAmount++;
 		

@@ -69,6 +69,7 @@ public class Warehouse {
 	}
 
 	public static void resumen() {
+		System.out.println("");
 		System.out.println("RESUMEN");
 		for (Food item : foods) {
 			System.out.println(item.getName() + " -- " + item.getStock());
