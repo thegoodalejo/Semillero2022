@@ -14,7 +14,6 @@ public class Main {
 
 	public static void loadMaterials() {
 		//
-
 		Material pine = new WoodPiece("Pine", 40);
 		Material philips = new Screw("Philips", 2);
 		Material glue = new Glue("Glue", 30);
@@ -23,6 +22,7 @@ public class Main {
 		Material mateVarnish = new Varnish("Varnish Mate Mode", 0.375);
 
 		Material oak = new WoodPiece("Oak", 85);
+		Material carob = new WoodPiece("Carob", 65);
 		Material drywall = new Screw("Drywall", 4);
 		Material gum = new Glue("Gum", 45);
 		Material oneHTwentySandpaper = new Sandpaper("One Hundred Twenty Sandpaper", 120);
@@ -67,8 +67,7 @@ public class Main {
 	public static void createProduct(String name) {
 		Product product = new Product(intId, name);
 		intId++;
-		System.out
-				.println("Product " + product.getName() + " was created successfully with the id #" + product.getId());
+		System.out.println("Product " + product.getName() + " was created successfully with the id #" + product.getId());
 		System.out.println("Let's go to the next stage");
 		assembleBuildMenu(product);
 	}

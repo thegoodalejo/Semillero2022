@@ -7,6 +7,7 @@ public class Product {
 	private int id;
 	private String name;
 	public ArrayList<FactoryBuilder> lstFactoryBuilders = new ArrayList<FactoryBuilder>();
+	
 	public static ArrayList<Product> lstProducts = new ArrayList<Product>();
 	
 	public Product(int id, String name) {
