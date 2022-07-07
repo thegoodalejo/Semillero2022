@@ -2,15 +2,15 @@ package fabrica;
 
 import java.util.Scanner;
 
-public class Etapa2 extends Preparacion {
+public class Etapa2 {
 
-	public static Arepa iniciarEtapaMixta(Arepa mixta) {
+	public static String iniciarEtapaMixta() {
 
 		System.out.println("\nIniciando Etapa 2");
 		Scanner eleccion = new Scanner(System.in);
-		Arepa arepa;
+		
 		int ingredientes = 0;
-		int opcion = 0;
+		String ingrediente = "";
 
 		do {
 			System.out.println("\nElige los ingredintes para tu Arepa: ");
@@ -20,60 +20,77 @@ public class Etapa2 extends Preparacion {
 			ingredientes = eleccion.nextInt();
 
 			// Arepa Mixta
-			if (ingredientes > 0 && ingredientes <= 2) {
-				opcion = 1;
-			} else {
-				System.out.println("Eliga una opcioin valida");
+//			if (ingredientes > 0 && ingredientes <= 2) {
+//				opcion = 1;
+//			} else {
+//				System.out.println("Eliga una opcioin valida");
+//			}
+//
+//			if (ingredientes == 1) {
+//				mixta.setIngredientes("carne");
+//			} else {
+//				mixta.setIngredientes("Pollo");
+//			}
+			
+			switch(ingredientes) {
+			case 1:
+				ingrediente = "Carne";
+				break;
+			case 2:
+				ingrediente = "Pollo";
+				break;
 			}
 
-			if (ingredientes == 1) {
-				mixta.setIngredientes("carne");
-			} else {
-				mixta.setIngredientes("Pollo");
-			}
+		} while (ingredientes < 0 && ingredientes > 2);
 
-		} while (opcion != 1);
-
-		return mixta;
+		return ingrediente;
 	}
 
 	// Arepa especial
-	public static Arepa iniciarEtapaEspecial(Arepa especial) {
+	public static String iniciarEtapaVegetariana() {
 
 		System.out.println("\nIniciando Etapa 2");
 		Scanner eleccion = new Scanner(System.in);
 		int ingredientes = 0;
-		int opcion = 0;
+		String ingrediente = "";
 
 		do {
 			System.out.println("\nElige los ingredintes para tu Arepa: ");
-			System.out.println(" - Digita 1 para Pollo");
-			System.out.println(" - Digita 2 para Carne");
-			System.out.println(" - Digita 3 para Chicharron");
+			System.out.println(" - Digita 1 para Tofu");
+			System.out.println(" - Digita 2 para Carne de arbeja");
 			System.out.println("Ingresa tu eleccion: ");
 			ingredientes = eleccion.nextInt();
 
-			if (ingredientes > 0 && ingredientes < 4) {
-				opcion = 1;
-				if (ingredientes == 1) {
-					especial.setIngredientes("Pollo");
-				} else if (ingredientes == 2) {
-					especial.setIngredientes("Carne");
-				} else {
-					especial.setIngredientes("chicharron");
-				}
-			} else {
-				System.out.println("Eliga una opcioin valida");
+//			if (ingredientes > 0 && ingredientes < 3) {
+//				opcion = 1;
+//				if (ingredientes == 1) {
+//					especial.setIngredientes("Pollo");
+//				} else if (ingredientes == 2) {
+//					especial.setIngredientes("Carne");
+//				} else {
+//					especial.setIngredientes("chicharron");
+//				}
+//			} else {
+//				System.out.println("Eliga una opcioin valida");
+//			}
+			
+			switch(ingredientes) {
+			case 1:
+				ingrediente = "Tofu";
+				break;
+			case 2:
+				ingrediente = "Carne de arbeja";
+				break;
 			}
-		} while (opcion != 1);
+		} while (ingredientes < 0 && ingredientes > 2);
 
-		return especial;
+		return ingrediente;
 	}
 
-	@Override
-	public void iniciarEtapa() {
-
-	}
+//	@Override
+//	public void iniciarEtapa() {
+//
+//	}
 	
 
 }

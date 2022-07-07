@@ -29,6 +29,7 @@ public class Arepa extends Main {
 
 	}
 
+	
 	public Arepa(String ingredientes, String tipoArepa) {
 		// TODO Auto-generated constructor stub
 	}
@@ -41,24 +42,32 @@ public class Arepa extends Main {
 		this.ingredientes = ingredientes;
 	}
 
-	public String gettipoArepa() {
+	public String getTipoArepa() {
 		return tipoArepa;
 	}
 
-	public void settipoArepa(String tipoArepa) {
+	public void setTipoArepa(String tipoArepa) {
 		this.tipoArepa = tipoArepa;
-		switch (this.tipoArepa) {
-		case "Mixta":
-			Etapa2.iniciarEtapaMixta(this);
-			break;
-		case "Especial":
-			Etapa2.iniciarEtapaEspecial(this);
-			break;
-		default:
-			break;
-			
-		}
+//		switch (this.tipoArepa) {
+//		case "Mixta":
+//			Etapa2.iniciarEtapaMixta(this);
+//			break;
+//		case "Especial":
+//			Etapa2.iniciarEtapaEspecial(this);
+//			break;
+//		default:
+//			break;
+//			
+//		}
 
+	}
+
+	public String getTamanoArepa() {
+		return tamanoArepa;
+	}
+
+	public void setTamanoArepa(String tamanoArepa) {
+		this.tamanoArepa = tamanoArepa;
 	}
 
 	public String getTemperatura() {
@@ -67,16 +76,16 @@ public class Arepa extends Main {
 
 	public void setTemperatura(String temperatura) {
 		this.temperatura = temperatura;
-		switch (this.temperatura) {
-		case "Tibio":
-			Etapa3.iniciarEtapaDetalles(this);
-			break;
-		case "Caliente":
-			Etapa3.iniciarEtapaDetalles(this);
-			break;
-		default:
-			break;
-		}
+//		switch (this.temperatura) {
+//		case "Tibio":
+//			Etapa3.iniciarEtapaDetalles(this);
+//			break;
+//		case "Caliente":
+//			Etapa3.iniciarEtapaDetalles(this);
+//			break;
+//		default:
+//			break;
+//		}
 	}
 
 	public int getTamano() {
@@ -89,8 +98,8 @@ public class Arepa extends Main {
 
 	@Override
 	public String toString() {
-		return "Resumen elaboracion Arepa" + "\nTamaño Arepa: " + tamano + "\ntipoArepa=" + tipoArepa
-				+ "\nIngredientes=" + ingredientes + "\nTemperatura: " + temperatura;
+		return "Resumen Elaboracion Arepa" + "\n+Tamano Arepa: " + tamanoArepa + "\n+tipoArepa: " + tipoArepa
+				+ "\n+Ingredientes: " + ingredientes + "\n+Temperatura: " + temperatura;
 	}
 
 }

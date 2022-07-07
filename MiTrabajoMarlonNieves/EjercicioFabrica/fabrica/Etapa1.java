@@ -9,10 +9,10 @@ public class Etapa1 extends Preparacion {
 
 	}
 
-	public static int iniciarEtapaTipo(Arepa arepa1) {
+	public static String iniciarEtapaTipo() {
 		System.out.println("\nIniciando Etapa 1");
 		Scanner tc = new Scanner(System.in);
-		Arepa mixta;
+		String tipo = "";
 		int tipoArepa;
 		boolean continuar = false;
 		do {
@@ -25,10 +25,10 @@ public class Etapa1 extends Preparacion {
 			continuar = false;
 			switch (tipoArepa) {
 			case 1:
-				arepa1.settipoArepa("Mixta");
+				tipo = "Mixta";
 				break;
 			case 2:
-				arepa1.settipoArepa("Especial");
+				tipo = "Especial";
 				break;
 			default:
 				continuar = true;
@@ -37,7 +37,7 @@ public class Etapa1 extends Preparacion {
 			}
 		} while (continuar);
 
-		return tipoArepa;
+		return tipo;
 
 	}
 }
