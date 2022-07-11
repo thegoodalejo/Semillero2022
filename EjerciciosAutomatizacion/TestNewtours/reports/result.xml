@@ -1,0 +1,73 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="47.209">
+<testsuite name="loginPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="13.641" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[chromium] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="13.641">
+</testcase>
+</testsuite>
+<testsuite name="registerPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="10.714" errors="0">
+<testcase name="
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" classname="[chromium] › registerPage.spec.ts:4:1 › 
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" time="10.714">
+</testcase>
+</testsuite>
+<testsuite name="loginPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="24.011" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[firefox] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="24.011">
+</testcase>
+</testsuite>
+<testsuite name="registerPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="44.033" errors="0">
+<testcase name="
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" classname="[firefox] › registerPage.spec.ts:4:1 › 
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" time="44.033">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\registerPage--given-i-was-register-when-I-ente-5c5f8-ta-then-I-saw-a-successful-registration-message-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\registerPage--given-i-was-register-when-I-ente-5c5f8-ta-then-I-saw-a-successful-registration-message-firefox-retry1\trace.zip]]
+]]>
+</system-out>
+<system-err>
+<![CDATA[
+Warning: attachment ..\test-results\registerPage--given-i-was-register-when-I-ente-5c5f8-ta-then-I-saw-a-successful-registration-message-firefox\test-failed-1.png is missing]]>
+</system-err>
+</testcase>
+</testsuite>
+<testsuite name="loginPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="15.507" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[webkit] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="15.507">
+</testcase>
+</testsuite>
+<testsuite name="registerPage.spec.ts" timestamp="1657559460612" hostname="" tests="1" failures="0" skipped="0" time="18.965" errors="0">
+<testcase name="
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" classname="[webkit] › registerPage.spec.ts:4:1 › 
+given i was register 
+when I enter my personal data
+then I saw a successful registration message" time="18.965">
+</testcase>
+</testsuite>
+</testsuites>
