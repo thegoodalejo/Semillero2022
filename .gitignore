@@ -1,1 +1,5 @@
 /.metadata/
+/Practicaplaywright/node_modules/
+/Practicaplaywright/test-results/
+/Practicaplaywright/playwright-report/
+/Practicaplaywright/playwright/.cache/
