@@ -1,0 +1,80 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="56.285">
+<testsuite name="test.spec.ts" timestamp="1657550392619" hostname="" tests="1" failures="0" skipped="0" time="10.119" errors="0">
+<testcase name="test" classname="[chromium] › test.spec.ts:3:1 › test" time="10.119">
+</testcase>
+</testsuite>
+<testsuite name="test.spec.ts" timestamp="1657550392619" hostname="" tests="1" failures="1" skipped="0" time="52.57" errors="0">
+<testcase name="test" classname="[firefox] › test.spec.ts:3:1 › test" time="52.57">
+<failure message="test.spec.ts:3:1 test" type="FAILURE">
+<![CDATA[  [firefox] › test.spec.ts:3:1 › test ==============================================================
+
+    Timeout of 30000ms exceeded.
+
+    locator.click: Target closed
+    =========================== logs ===========================
+    waiting for selector "input[name="userName"]"
+      selector resolved to visible <input size="10" type="text" name="userName"/>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+    ============================================================
+
+       7 |
+       8 |   // Click input[name="userName"]
+    >  9 |   await page.locator('input[name="userName"]').click();
+         |                                                ^
+      10 |
+      11 |   // Fill input[name="userName"]
+      12 |   await page.locator('input[name="userName"]').fill('pepe22');
+
+        at C:\Users\santiago.segurag\Documents\semillero\Semillero2022\MiTrabajoSantiagoSegura\playwrightPoom\tests\test.spec.ts:9:48
+
+    Pending operations:
+      - locator.click at tests\test.spec.ts:9:48
+
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\test-test-firefox\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://demo.guru99.com/test/newtours/", waiting until "load"
+    ============================================================
+
+      4 |
+      5 |   // Go to https://demo.guru99.com/test/newtours/
+    > 6 |   await page.goto('https://demo.guru99.com/test/newtours/');
+        |              ^
+      7 |
+      8 |   // Click input[name="userName"]
+      9 |   await page.locator('input[name="userName"]').click();
+
+        at C:\Users\santiago.segurag\Documents\semillero\Semillero2022\MiTrabajoSantiagoSegura\playwrightPoom\tests\test.spec.ts:6:14
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results\test-test-firefox-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\test-test-firefox-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\test-test-firefox\test-failed-1.png]]
+]]>
+</system-out>
+<system-err>
+<![CDATA[
+Warning: attachment ..\test-results\test-test-firefox-retry1\trace.zip is missing]]>
+</system-err>
+</testcase>
+</testsuite>
+<testsuite name="test.spec.ts" timestamp="1657550392619" hostname="" tests="1" failures="0" skipped="0" time="27.275" errors="0">
+<testcase name="test" classname="[webkit] › test.spec.ts:3:1 › test" time="27.275">
+</testcase>
+</testsuite>
+</testsuites>
