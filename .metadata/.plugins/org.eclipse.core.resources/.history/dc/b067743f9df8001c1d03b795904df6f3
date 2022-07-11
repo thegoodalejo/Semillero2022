@@ -1,0 +1,15 @@
+package fabrica;
+
+public class EmpaqueEtapa3 {
+ public PerfumeEtapa2 perfume;
+ public int alto,ancho,largo,dimension;
+ 
+ public EmpaqueEtapa3() {
+	 
+	 
+	 
+ }
+ 
+  
+ 
+}

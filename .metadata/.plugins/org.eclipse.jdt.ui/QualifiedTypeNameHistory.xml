@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="fabrica.Fragancia"/>
+    <fullyQualifiedTypeName name="fabrica.Envase"/>
+    <fullyQualifiedTypeName name="fabrica.InsumosEtapa1"/>
+    <fullyQualifiedTypeName name="fabrica.PerfumeEtapa2"/>
+    <fullyQualifiedTypeName name="fabrica.EmpaqueEtapa3"/>
+    <fullyQualifiedTypeName name="fabrica.TipoAtomizadorEtapa4"/>
+    <fullyQualifiedTypeName name="fabrica.TipoAtomizador"/>
+    <fullyQualifiedTypeName name="fabricaFritos.Empaque"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="fabricaFritos.Etapa1"/>
+</qualifiedTypeNameHistroy>

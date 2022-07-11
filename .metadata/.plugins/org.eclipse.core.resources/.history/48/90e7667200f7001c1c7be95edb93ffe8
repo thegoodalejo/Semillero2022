@@ -1,0 +1,47 @@
+package practica1;
+
+import java.util.ArrayList;
+
+public class Salon {
+	
+	int piso;
+	int numeroSalon;
+	int contador;
+	String formatoAula;
+	ArrayList<Persona> lstPersonas = new ArrayList<Persona>();
+	
+	public Salon(int piso, int numeroSalon) {
+		this.piso = piso;
+		this.numeroSalon = numeroSalon;
+		this.contador = 0;
+		this.formatoAula="";
+		if(numeroSalon>=0 && numeroSalon<=99) {
+			//formatoValido="Número de piso es:  "+piso+" Número de salon es: "+numeroSalon;
+			if(numeroSalon>0 && numeroSalon<10) {
+				formatoAula=piso+"0"+numeroSalon;
+			}else {
+				formatoAula=piso+numeroSalon+"";
+			}
+			
+			
+		}else if(numeroSalon<=0) {
+			this.numeroSalon=0;
+		}else {
+			this.numeroSalon=99;
+		}
+	}
+	
+	public void ingresar(Persona persona) {
+		contador++;
+		System.out.println("Ingreso:  "+persona.nombre+" --- Total Personas: "+contador);
+		lstPersonas.add(persona);
+	}
+	
+	public void resumen() {
+		System.out.println("Las personas en el salon:  "+formatoAula+" son:");		
+		for(Persona persona : lstPersonas) {
+			System.out.println(persona.nombre);
+		}
+	}
+
+}
