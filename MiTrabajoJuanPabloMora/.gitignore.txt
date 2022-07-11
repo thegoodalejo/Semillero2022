@@ -1,0 +1,4 @@
+MiTrabajoJuanPabloMora/node_modules/
+MiTrabajoJuanPabloMora/test-results/
+MiTrabajoJuanPabloMora/playwright-report/
+MiTrabajoJuanPabloMora/playwright/.cache/
