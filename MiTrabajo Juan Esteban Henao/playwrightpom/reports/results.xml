@@ -1,14 +1,26 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="14.892">
-<testsuite name="test.spec.ts" timestamp="1657554336463" hostname="" tests="1" failures="0" skipped="0" time="8.448" errors="0">
-<testcase name="test" classname="[chromium] › test.spec.ts:3:1 › test" time="8.448">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="15.327">
+<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="6.397" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[chromium] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="6.397">
 </testcase>
 </testsuite>
-<testsuite name="test.spec.ts" timestamp="1657554336463" hostname="" tests="1" failures="0" skipped="0" time="12.805" errors="0">
-<testcase name="test" classname="[firefox] › test.spec.ts:3:1 › test" time="12.805">
+<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="13.027" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[firefox] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="13.027">
 </testcase>
 </testsuite>
-<testsuite name="test.spec.ts" timestamp="1657554336463" hostname="" tests="1" failures="0" skipped="0" time="11.05" errors="0">
-<testcase name="test" classname="[webkit] › test.spec.ts:3:1 › test" time="11.05">
+<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="10.425" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[webkit] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="10.425">
 </testcase>
 </testsuite>
 </testsuites>

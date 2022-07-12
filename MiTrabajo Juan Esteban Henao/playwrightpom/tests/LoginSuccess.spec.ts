@@ -1,24 +1,16 @@
 import { test, expect } from '@playwright/test';
+import { LoginPage } from '../src/pages/LoginPage';
 
-test('test', async ({ page }) => {
+test(
+`Given I was in the login page 
+When I was login in 
+Then I saw the message login success`, 
 
-  // Go to https://demo.guru99.com/test/newtours/
-  await page.goto('https://demo.guru99.com/test/newtours/');
+async ({ page }) => {
 
-  // Click input[name="userName"]
-  await page.locator('input[name="userName"]').click();
+  const loginPage = new LoginPage (page)
 
-  // Fill input[name="userName"]
-  await page.locator('input[name="userName"]').fill('admin');
-
-  // Click input[name="password"]
-  await page.locator('input[name="password"]').click();
-
-  // Fill input[name="password"]
-  await page.locator('input[name="password"]').fill('1234');
-
-  // Click text=Submit
-  await page.locator('text=Submit').click();
-  await expect(page).toHaveURL('https://demo.guru99.com/test/newtours/login_sucess.php');
-
+  await loginPage.navigate();
+  await loginPage.logIn('admin', '1234');
+  await loginPage.isLogIn();
 });
