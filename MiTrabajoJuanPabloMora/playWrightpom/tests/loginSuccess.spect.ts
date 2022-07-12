@@ -12,6 +12,7 @@ async ({ page }) => {
   const loginPage = new LoginPage(page);
   
   await loginPage.navegate();
-  await loginPage.logIn();
+  await loginPage.logIn('admin','1234');
+  await loginPage.isLogIn();
 
 });

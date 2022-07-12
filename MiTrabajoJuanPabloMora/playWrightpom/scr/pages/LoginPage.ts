@@ -1,4 +1,4 @@
-import { Page } from "@playwright/test";
+import { expect, Page } from "@playwright/test";
 
 
 export class LoginPage{
@@ -9,12 +9,15 @@ export class LoginPage{
         this.page = page;
     }
 
-    async logIn(){
+    async logIn(userName: string, password: string){
+
+      const txtuserMame = this.page.locator('input[name="userName"]');
+      const txtPassword = 'input[name="password"]'
 
     // Fill input[name="userName"]
-    await this.page.locator('input[name="userName"]').fill('juan');
+    await txtuserMame.fill('juan');
     // Fill input[name="password"]
-    await this.page.locator('input[name="password"]').fill('1234');
+    await this.page.fill(txtPassword,password);
     // Click text=Submit
     await this.page.locator('text=Submit').click();
 
@@ -23,6 +26,11 @@ export class LoginPage{
     async navegate(){
       // Go to https://demo.guru99.com/test/newtours/
       await this.page.goto('https://demo.guru99.com/test/newtours/');
+    }
+
+    async isLogIn(){
+
+      await expect(this.page.locator('text=Login Successfully'), 'should be logged in').toBeVisible();
     }
 
     }
