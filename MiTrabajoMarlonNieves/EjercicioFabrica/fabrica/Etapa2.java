@@ -8,7 +8,7 @@ public class Etapa2 {
 
 		System.out.println("\nIniciando Etapa 2");
 		Scanner eleccion = new Scanner(System.in);
-		
+
 		int ingredientes = 0;
 		String ingrediente = "";
 
@@ -31,8 +31,8 @@ public class Etapa2 {
 //			} else {
 //				mixta.setIngredientes("Pollo");
 //			}
-			
-			switch(ingredientes) {
+
+			switch (ingredientes) {
 			case 1:
 				ingrediente = "Carne";
 				break;
@@ -61,20 +61,7 @@ public class Etapa2 {
 			System.out.println("Ingresa tu eleccion: ");
 			ingredientes = eleccion.nextInt();
 
-//			if (ingredientes > 0 && ingredientes < 3) {
-//				opcion = 1;
-//				if (ingredientes == 1) {
-//					especial.setIngredientes("Pollo");
-//				} else if (ingredientes == 2) {
-//					especial.setIngredientes("Carne");
-//				} else {
-//					especial.setIngredientes("chicharron");
-//				}
-//			} else {
-//				System.out.println("Eliga una opcioin valida");
-//			}
-			
-			switch(ingredientes) {
+			switch (ingredientes) {
 			case 1:
 				ingrediente = "Tofu";
 				break;
@@ -87,10 +74,5 @@ public class Etapa2 {
 		return ingrediente;
 	}
 
-//	@Override
-//	public void iniciarEtapa() {
-//
-//	}
-	
 
 }

@@ -3,7 +3,7 @@ package fabrica;
 import java.util.Scanner;
 
 public class Etapa1 extends Preparacion {
-	
+
 	@Override
 	public void iniciarEtapa() {
 

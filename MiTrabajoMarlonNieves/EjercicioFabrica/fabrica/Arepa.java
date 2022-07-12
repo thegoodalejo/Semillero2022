@@ -15,9 +15,9 @@ public class Arepa extends Main {
 	public Arepa(int tamano) {
 		this.tamano = tamano;
 	}
-	
-	public Arepa (String temperatura) {
-		this.temperatura =temperatura;
+
+	public Arepa(String temperatura) {
+		this.temperatura = temperatura;
 	}
 
 	public Arepa(String ingredientes, String tipoArepa, String tamanoArepa, String temperatura) {
@@ -29,7 +29,6 @@ public class Arepa extends Main {
 
 	}
 
-	
 	public Arepa(String ingredientes, String tipoArepa) {
 		// TODO Auto-generated constructor stub
 	}
