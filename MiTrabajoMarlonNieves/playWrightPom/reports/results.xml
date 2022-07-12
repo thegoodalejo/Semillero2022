@@ -1,32 +1,32 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="17.028">
-<testsuite name="loginSuccess.spec.ts" timestamp="1657658530923" hostname="" tests="1" failures="0" skipped="0" time="8.903" errors="0">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="8.184">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657668797375" hostname="" tests="1" failures="0" skipped="0" time="3.019" errors="0">
 <testcase name="
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" classname="[chromium] › loginSuccess.spec.ts:4:1 › 
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" time="8.903">
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[chromium] › addItemsToCar.spec.ts:6:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="3.019">
 </testcase>
 </testsuite>
-<testsuite name="loginSuccess.spec.ts" timestamp="1657658530923" hostname="" tests="1" failures="0" skipped="0" time="14.584" errors="0">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657668797375" hostname="" tests="1" failures="0" skipped="0" time="6.586" errors="0">
 <testcase name="
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" classname="[firefox] › loginSuccess.spec.ts:4:1 › 
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" time="14.584">
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[firefox] › addItemsToCar.spec.ts:6:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="6.586">
 </testcase>
 </testsuite>
-<testsuite name="loginSuccess.spec.ts" timestamp="1657658530923" hostname="" tests="1" failures="0" skipped="0" time="13.388" errors="0">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657668797375" hostname="" tests="1" failures="0" skipped="0" time="4.554" errors="0">
 <testcase name="
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" classname="[webkit] › loginSuccess.spec.ts:4:1 › 
-Given I was in the login Page
-When I was login in
-Then I saw the message login succesfull" time="13.388">
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[webkit] › addItemsToCar.spec.ts:6:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="4.554">
 </testcase>
 </testsuite>
 </testsuites>
