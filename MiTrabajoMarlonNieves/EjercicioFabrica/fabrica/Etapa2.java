@@ -19,19 +19,6 @@ public class Etapa2 {
 			System.out.println("Ingresa tu eleccion: ");
 			ingredientes = eleccion.nextInt();
 
-			// Arepa Mixta
-//			if (ingredientes > 0 && ingredientes <= 2) {
-//				opcion = 1;
-//			} else {
-//				System.out.println("Eliga una opcioin valida");
-//			}
-//
-//			if (ingredientes == 1) {
-//				mixta.setIngredientes("carne");
-//			} else {
-//				mixta.setIngredientes("Pollo");
-//			}
-
 			switch (ingredientes) {
 			case 1:
 				ingrediente = "Carne";
