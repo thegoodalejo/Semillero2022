@@ -1,0 +1,263 @@
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="18.447">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657646795287" hostname="" tests="1" failures="1" skipped="0" time="7.848" errors="0">
+<testcase name="
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" classname="[chromium] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" time="7.848">
+<failure message="addItemsToCar.spec.ts:6:1 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" type="FAILURE">
+<![CDATA[  [chromium] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-chromium-retry1\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657646795287" hostname="" tests="1" failures="1" skipped="0" time="14.892" errors="0">
+<testcase name="
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" classname="[firefox] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" time="14.892">
+<failure message="addItemsToCar.spec.ts:6:1 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" type="FAILURE">
+<![CDATA[  [firefox] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-firefox-retry1\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657646795287" hostname="" tests="1" failures="1" skipped="0" time="13.866" errors="0">
+<testcase name="
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" classname="[webkit] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" time="13.866">
+<failure message="addItemsToCar.spec.ts:6:1 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list" type="FAILURE">
+<![CDATA[  [webkit] › addItemsToCar.spec.ts:6:1 › 
+Given I was must have correct account in login page
+When I was add two products at the shopping car
+Then I saw two products at the car list 
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Error: expect(received).toHaveLength(expected)
+
+    Matcher error: received value must have a length property whose value must be a number
+
+    Received has type:  object
+    Received has value: {}
+
+      18 |     await loginPage.logIn();
+      19 |     await productListPage.addProductsToCar();
+    > 20 |     expect(await shoopingCarPage.howManyProducts());
+         |            ^
+      21 |
+      22 | });
+
+        at ShoppingCarPage.howManyProducts (C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\src\pagesSauceDemo\ShoppingCarPage.ts:17:57)
+        at C:\Users\carmelo.argel\Documents\SEMILLERO\Semillero2022\MiTrabajoCarmeloArgel\PlayWrightPom\tests\addItemsToCar.spec.ts:20:12
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\addItemsToCar--Given-I-was-must-have-correct-a-df994-ing-car-Then-I-saw-two-products-at-the-car-list-webkit-retry1\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

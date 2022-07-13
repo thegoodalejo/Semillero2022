@@ -1,0 +1,44 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="23.553">
+<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="13.609" errors="0">
+<testcase name="
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" classname="[chromium] › testFlight.spec.ts:7:1 › 
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" time="13.609">
+</testcase>
+</testsuite>
+<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="21.594" errors="0">
+<testcase name="
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" classname="[firefox] › testFlight.spec.ts:7:1 › 
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" time="21.594">
+</testcase>
+</testsuite>
+<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="20.95" errors="0">
+<testcase name="
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" classname="[webkit] › testFlight.spec.ts:7:1 › 
+Given the user was logged successfull
+
+When the user add item to card
+
+Then the user saw the item in the car" time="20.95">
+</testcase>
+</testsuite>
+</testsuites>
