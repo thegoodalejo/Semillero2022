@@ -1,32 +1,32 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.338">
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657645991721" hostname="" tests="1" failures="0" skipped="0" time="5.281" errors="0">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.344">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="5.172" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[chromium] › addItemsToCar.spec.ts:9:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="5.281">
+Then I saw the message login success" time="5.172">
 </testcase>
 </testsuite>
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657645991721" hostname="" tests="1" failures="0" skipped="0" time="7.197" errors="0">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="7.222" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[firefox] › addItemsToCar.spec.ts:9:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="7.197">
+Then I saw the message login success" time="7.222">
 </testcase>
 </testsuite>
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657645991721" hostname="" tests="1" failures="0" skipped="0" time="5.16" errors="0">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="4.445" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[webkit] › addItemsToCar.spec.ts:9:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="5.16">
+Then I saw the message login success" time="4.445">
 </testcase>
 </testsuite>
 </testsuites>
