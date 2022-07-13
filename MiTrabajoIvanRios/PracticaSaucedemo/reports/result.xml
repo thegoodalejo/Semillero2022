@@ -1,5 +1,5 @@
-<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="15.617">
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657668675196" hostname="" tests="1" failures="1" skipped="0" time="7.324" errors="0">
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="32.285">
+<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="30.392" errors="0">
 <testcase name="
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -8,7 +8,7 @@
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
     Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="7.324">
+        " time="30.392">
 <failure message="calculateTotalPayment.spec.ts:8:1 
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -20,83 +20,40 @@
     Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
          
 
-    Error: expect(received).toMatch(expected)
+    Timeout of 30000ms exceeded.
 
-    Expected substring: "00.00"
-    Received string:    "NaN"
+    locator.innerText: Target closed
+    =========================== logs ===========================
+    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
+    ============================================================
 
       22 |             await carPage.finishBuy();
       23 |             await stepOnePage.fillUserData();
     > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
+         |                               ^
       25 |     
       26 | });
 
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
+        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
+        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
+
+    Pending operations:
+      - locator.innerText at src\pages\StepTwoPage.ts:12:115
+
 
     attachment #1: screenshot (image/png) ----------------------------------------------------------
     test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium\test-failed-1.png
     ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Error: expect(received).toMatch(expected)
-
-    Expected substring: "00.00"
-    Received string:    "NaN"
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: trace (application/zip) ---------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #3: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
 ]]>
 </failure>
 <system-out>
-<![CDATA[NaN
-NaN
-0
-0.00
-00.00
-
+<![CDATA[
 [[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium\test-failed-1.png]]
-NaN
-NaN
-0
-0.00
-00.00
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\video.webm]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\trace.zip]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium-retry1\test-failed-1.png]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657668675196" hostname="" tests="1" failures="1" skipped="0" time="13.094" errors="0">
+<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="31.11" errors="0">
 <testcase name="
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -105,7 +62,7 @@ NaN
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
     Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="13.094">
+        " time="31.11">
 <failure message="calculateTotalPayment.spec.ts:8:1 
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -117,83 +74,40 @@ NaN
     Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
          
 
-    Error: expect(received).toMatch(expected)
+    Timeout of 30000ms exceeded.
 
-    Expected substring: "00.00"
-    Received string:    "NaN"
+    locator.innerText: Target closed
+    =========================== logs ===========================
+    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
+    ============================================================
 
       22 |             await carPage.finishBuy();
       23 |             await stepOnePage.fillUserData();
     > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
+         |                               ^
       25 |     
       26 | });
 
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
+        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
+        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
+
+    Pending operations:
+      - locator.innerText at src\pages\StepTwoPage.ts:12:115
+
 
     attachment #1: screenshot (image/png) ----------------------------------------------------------
     test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox\test-failed-1.png
     ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Error: expect(received).toMatch(expected)
-
-    Expected substring: "00.00"
-    Received string:    "NaN"
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: trace (application/zip) ---------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #3: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
 ]]>
 </failure>
 <system-out>
-<![CDATA[NaN
-NaN
-0
-0.00
-00.00
-
+<![CDATA[
 [[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox\test-failed-1.png]]
-NaN
-NaN
-0
-0.00
-00.00
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\video.webm]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\trace.zip]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox-retry1\test-failed-1.png]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657668675196" hostname="" tests="1" failures="1" skipped="0" time="13" errors="0">
+<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="30.364" errors="0">
 <testcase name="
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -202,7 +116,7 @@ NaN
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
     Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="13">
+        " time="30.364">
 <failure message="calculateTotalPayment.spec.ts:8:1 
     Give I was logged in SauceDemo
     When I was added products to my Shopping Car
@@ -214,78 +128,35 @@ NaN
     Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
          
 
-    Error: expect(received).toMatch(expected)
+    Timeout of 30000ms exceeded.
 
-    Expected substring: "00.00"
-    Received string:    "NaN"
+    locator.innerText: Target closed
+    =========================== logs ===========================
+    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
+    ============================================================
 
       22 |             await carPage.finishBuy();
       23 |             await stepOnePage.fillUserData();
     > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
+         |                               ^
       25 |     
       26 | });
 
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
+        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
+        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
+
+    Pending operations:
+      - locator.innerText at src\pages\StepTwoPage.ts:12:115
+
 
     attachment #1: screenshot (image/png) ----------------------------------------------------------
     test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit\test-failed-1.png
     ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Error: expect(received).toMatch(expected)
-
-    Expected substring: "00.00"
-    Received string:    "NaN"
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |             ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:23:45)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:13
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: trace (application/zip) ---------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #3: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
 ]]>
 </failure>
 <system-out>
-<![CDATA[NaN
-NaN
-0
-0.00
-00.00
-
+<![CDATA[
 [[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit\test-failed-1.png]]
-NaN
-NaN
-0
-0.00
-00.00
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\video.webm]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\trace.zip]]
-
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit-retry1\test-failed-1.png]]
 ]]>
 </system-out>
 </testcase>
