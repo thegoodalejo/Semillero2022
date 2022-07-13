@@ -1,0 +1,32 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.814">
+<testsuite name="addItemsToCart.spec.ts" timestamp="1657719882730" hostname="" tests="1" failures="0" skipped="0" time="4.141" errors="0">
+<testcase name="test" classname="[chromium] › addItemsToCart.spec.ts:6:1 › test" time="4.141">
+<system-out>
+<![CDATA[Promise { <pending> }
+Promise { <pending> }
+undefined
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addItemsToCart.spec.ts" timestamp="1657719882730" hostname="" tests="1" failures="0" skipped="0" time="7.834" errors="0">
+<testcase name="test" classname="[firefox] › addItemsToCart.spec.ts:6:1 › test" time="7.834">
+<system-out>
+<![CDATA[Promise { <pending> }
+Promise { <pending> }
+undefined
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="addItemsToCart.spec.ts" timestamp="1657719882730" hostname="" tests="1" failures="0" skipped="0" time="6.022" errors="0">
+<testcase name="test" classname="[webkit] › addItemsToCart.spec.ts:6:1 › test" time="6.022">
+<system-out>
+<![CDATA[Promise { <pending> }
+Promise { <pending> }
+undefined
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
