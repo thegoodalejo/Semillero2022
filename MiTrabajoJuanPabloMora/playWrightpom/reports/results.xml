@@ -1,32 +1,256 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="9.344">
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="5.172" errors="0">
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="65.029">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="62.751" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" classname="[chromium] › addItemsToCar.spec.ts:9:1 › 
+Then I saw the message login success" classname="[chromium] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="5.172">
+Then I saw the message login success" time="62.751">
+<failure message="searchFlighs.spec.ts:6:1 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success" type="FAILURE">
+<![CDATA[  [chromium] › searchFlighs.spec.ts:6:1 › 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success 
+
+    Timeout of 30000ms exceeded.
+
+    locator.press: Target closed
+    =========================== logs ===========================
+    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
+    ============================================================
+
+      13 |   
+      14 |   await searchPage.navegate();
+    > 15 |   await searchPage.flights();
+         |   ^
+      16 |
+      17 |
+      18 | });
+
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
+
+    Pending operations:
+      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Timeout of 30000ms exceeded.
+
+    locator.press: Target closed
+    =========================== logs ===========================
+    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
+    ============================================================
+
+      13 |   
+      14 |   await searchPage.navegate();
+    > 15 |   await searchPage.flights();
+         |   ^
+      16 |
+      17 |
+      18 | });
+
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
+
+    Pending operations:
+      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[Dialog message: Please fill out destination
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\test-failed-1.png]]
+Dialog message: Please fill out destination
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\test-failed-1.png]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="7.222" errors="0">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="8.755" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" classname="[firefox] › addItemsToCar.spec.ts:9:1 › 
+Then I saw the message login success" classname="[firefox] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="7.222">
+Then I saw the message login success" time="8.755">
+<failure message="searchFlighs.spec.ts:6:1 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success" type="FAILURE">
+<![CDATA[  [firefox] › searchFlighs.spec.ts:6:1 › 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success 
+
+    browserContext.newPage: Page closed
+
+
+
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    browserContext.newPage: Page closed
+
+
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-err>
+<![CDATA[
+Warning: attachment ..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\trace.zip is missing]]>
+</system-err>
 </testcase>
 </testsuite>
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657720377218" hostname="" tests="1" failures="0" skipped="0" time="4.445" errors="0">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="61.972" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" classname="[webkit] › addItemsToCar.spec.ts:9:1 › 
+Then I saw the message login success" classname="[webkit] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="4.445">
+Then I saw the message login success" time="61.972">
+<failure message="searchFlighs.spec.ts:6:1 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success" type="FAILURE">
+<![CDATA[  [webkit] › searchFlighs.spec.ts:6:1 › 
+Given I was in the login page
+When I was login in   
+Then I saw the message login success 
+
+    Timeout of 30000ms exceeded.
+
+    locator.press: Target closed
+    =========================== logs ===========================
+    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
+    ============================================================
+
+      13 |   
+      14 |   await searchPage.navegate();
+    > 15 |   await searchPage.flights();
+         |   ^
+      16 |
+      17 |
+      18 | });
+
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
+
+    Pending operations:
+      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Timeout of 30000ms exceeded.
+
+    locator.press: Target closed
+    =========================== logs ===========================
+    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
+    ============================================================
+
+      13 |   
+      14 |   await searchPage.navegate();
+    > 15 |   await searchPage.flights();
+         |   ^
+      16 |
+      17 |
+      18 | });
+
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
+
+    Pending operations:
+      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #3: screenshot (image/png) ----------------------------------------------------------
+    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[Dialog message: Please fill out destination
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\test-failed-1.png]]
+Dialog message: Please fill out destination
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\trace.zip]]
+
+[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\test-failed-1.png]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
