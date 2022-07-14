@@ -7,7 +7,7 @@ Feature: Title of your feature
   Scenario: Login
     Given El usuario se encuentra en la pagina principal
 
-    When Ingresa usuario y contraseña
+    When Ingresa usuario y contrasena
 
     Then visualiza el mensaje de "Login exitoso"
 

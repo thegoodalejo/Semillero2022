@@ -5,10 +5,16 @@
  * For more details take a look at the 'Building Java & JVM projects' chapter in the Gradle
  * User Manual available at https://docs.gradle.org/7.4.2/userguide/building_java_projects.html
  */
-
-plugins {
-    // Apply the java-library plugin for API and implementation separation.
-    id 'java-library'
+     
+    apply plugin: 'java'
+	apply plugin: 'idea'
+	apply plugin: 'eclipse'
+	apply plugin: 'net.serenity-bdd.aggregator'
+	
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
+	tasks.withType(JavaCompile) {
+	    options.encoding = 'UTF-8'
 }
 
 repositories {
@@ -28,6 +34,8 @@ dependencies {
 
     implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
     implementation group: 'junit', name: 'junit', version: '4.13'
+    
+    classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.34")
 }
 
 tasks.named('test') {

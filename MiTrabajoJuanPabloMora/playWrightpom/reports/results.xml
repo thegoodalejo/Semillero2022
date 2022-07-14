@@ -1,12 +1,12 @@
-<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="65.029">
-<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="62.751" errors="0">
+<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="65.104">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657811436855" hostname="" tests="1" failures="1" skipped="0" time="55.72" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[chromium] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="62.751">
+Then I saw the message login success" time="55.72">
 <failure message="searchFlighs.spec.ts:6:1 
 Given I was in the login page
 When I was login in   
@@ -16,12 +16,28 @@ Given I was in the login page
 When I was login in   
 Then I saw the message login success 
 
-    Timeout of 30000ms exceeded.
+    Error: expect(received).toHaveURL(expected)
 
-    locator.press: Target closed
-    =========================== logs ===========================
-    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
-    ============================================================
+    Expected string: "https://www.phptravels.net/flights/en/usd/medellin/cun/oneway/economy/17-07-2022/4/2/1"
+    Received string: "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+    Call log:
+      - expect.toHaveURL with timeout 5000ms
+      - waiting for selector ":root"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+
 
       13 |   
       14 |   await searchPage.navegate();
@@ -31,12 +47,8 @@ Then I saw the message login success
       17 |
       18 | });
 
-        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:43:27)
         at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
-
-    Pending operations:
-      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
-
 
     attachment #1: video (video/webm) --------------------------------------------------------------
     test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\video.webm
@@ -48,12 +60,28 @@ Then I saw the message login success
 
     Retry #1 ---------------------------------------------------------------------------------------
 
-    Timeout of 30000ms exceeded.
+    Error: expect(received).toHaveURL(expected)
 
-    locator.press: Target closed
-    =========================== logs ===========================
-    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
-    ============================================================
+    Expected string: "https://www.phptravels.net/flights/en/usd/medellin/cun/oneway/economy/17-07-2022/4/2/1"
+    Received string: "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+    Call log:
+      - expect.toHaveURL with timeout 5000ms
+      - waiting for selector ":root"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+      -   selector resolved to <html lang="en">…</html>
+      -   unexpected value "https://www.phptravels.net/flights/en/usd/medellin/cancun/oneway/economy/17-07-2022/3/2/1"
+
 
       13 |   
       14 |   await searchPage.navegate();
@@ -63,55 +91,27 @@ Then I saw the message login success
       17 |
       18 | });
 
-        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:43:27)
         at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
-
-    Pending operations:
-      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
-
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: trace (application/zip) ---------------------------------------------------------
-    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #3: screenshot (image/png) ----------------------------------------------------------
-    test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
 ]]>
 </failure>
 <system-out>
-<![CDATA[Dialog message: Please fill out destination
-
+<![CDATA[
 [[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\video.webm]]
 
 [[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium\test-failed-1.png]]
-Dialog message: Please fill out destination
-
-[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\video.webm]]
-
-[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\trace.zip]]
-
-[[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-chromium-retry1\test-failed-1.png]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="8.755" errors="0">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657811436855" hostname="" tests="1" failures="1" skipped="0" time="16.661" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[firefox] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="8.755">
+Then I saw the message login success" time="16.661">
 <failure message="searchFlighs.spec.ts:6:1 
 Given I was in the login page
 When I was login in   
@@ -121,10 +121,21 @@ Given I was in the login page
 When I was login in   
 Then I saw the message login success 
 
-    browserContext.newPage: Page closed
+    page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://www.phptravels.net/", waiting until "load"
+    ============================================================
 
+      12 |   const searchPage = new SearchPage(page);
+      13 |   
+    > 14 |   await searchPage.navegate();
+         |                    ^
+      15 |   await searchPage.flights();
+      16 |
+      17 |
 
-
+        at SearchPage.navegate (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:49:25)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:14:20
 
     Retry #1 ---------------------------------------------------------------------------------------
 
@@ -148,14 +159,14 @@ Warning: attachment ..\test-results\searchFlighs--Given-I-was-in-the-login-page-
 </system-err>
 </testcase>
 </testsuite>
-<testsuite name="searchFlighs.spec.ts" timestamp="1657771204401" hostname="" tests="1" failures="1" skipped="0" time="61.972" errors="0">
+<testsuite name="searchFlighs.spec.ts" timestamp="1657811436855" hostname="" tests="1" failures="1" skipped="0" time="62.128" errors="0">
 <testcase name="
 Given I was in the login page
 When I was login in   
 Then I saw the message login success" classname="[webkit] › searchFlighs.spec.ts:6:1 › 
 Given I was in the login page
 When I was login in   
-Then I saw the message login success" time="61.972">
+Then I saw the message login success" time="62.128">
 <failure message="searchFlighs.spec.ts:6:1 
 Given I was in the login page
 When I was login in   
@@ -167,9 +178,13 @@ Then I saw the message login success
 
     Timeout of 30000ms exceeded.
 
-    locator.press: Target closed
+    locator.click: Target closed
     =========================== logs ===========================
-    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
+    waiting for selector "#flights-search"
+      selector resolved to visible <button type="button" id="flights-search" data-style="zo…>…</button>
+    attempting click action
+      waiting for element to be visible, enabled and stable
+        element is not stable - waiting...
     ============================================================
 
       13 |   
@@ -180,11 +195,11 @@ Then I saw the message login success
       17 |
       18 | });
 
-        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:42:46)
         at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
 
     Pending operations:
-      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+      - locator.click at scr\pagePhptravels\SearchPage.ts:42:46
 
 
     attachment #1: video (video/webm) --------------------------------------------------------------
@@ -199,10 +214,14 @@ Then I saw the message login success
 
     Timeout of 30000ms exceeded.
 
-    locator.press: Target closed
-    =========================== logs ===========================
-    waiting for selector "text=Flying From To Destination Departure Date Return Date Passengers 1 Adults +12 Ch >> [placeholder="To Destination"]"
-    ============================================================
+    Error: expect(received).toHaveURL(expected)
+
+    Expected string: "https://www.phptravels.net/flights/en/usd/medellin/cun/oneway/economy/17-07-2022/4/2/1"
+    Received string: ""
+    Call log:
+      - expect.toHaveURL with timeout 5000ms
+      - waiting for selector ":root"
+
 
       13 |   
       14 |   await searchPage.navegate();
@@ -212,11 +231,11 @@ Then I saw the message login success
       17 |
       18 | });
 
-        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:35:150)
+        at SearchPage.flights (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagePhptravels\SearchPage.ts:43:27)
         at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchFlighs.spec.ts:15:3
 
     Pending operations:
-      - locator.press at scr\pagePhptravels\SearchPage.ts:35:150
+      - locator.click at scr\pagePhptravels\SearchPage.ts:42:46
 
 
     attachment #1: video (video/webm) --------------------------------------------------------------
@@ -237,12 +256,10 @@ Then I saw the message login success
 ]]>
 </failure>
 <system-out>
-<![CDATA[Dialog message: Please fill out destination
-
+<![CDATA[
 [[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\video.webm]]
 
 [[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit\test-failed-1.png]]
-Dialog message: Please fill out destination
 
 [[ATTACHMENT|..\test-results\searchFlighs--Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-webkit-retry1\video.webm]]
 
