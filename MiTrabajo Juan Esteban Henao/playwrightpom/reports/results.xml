@@ -1,26 +1,18 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="15.327">
-<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="6.397" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[chromium] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="6.397">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="16.499">
+<testsuite name="TravelLowCost.spec.ts" timestamp="1657838953393" hostname="" tests="1" failures="0" skipped="0" time="8.015" errors="0">
+<testcase name="Given the user was in the travel page 
+When the user completes the trip data 
+Then the user saw the cheapest flight" classname="[chromium] › TravelLowCost.spec.ts:6:1 › Given the user was in the travel page 
+When the user completes the trip data 
+Then the user saw the cheapest flight" time="8.015">
 </testcase>
 </testsuite>
-<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="13.027" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[firefox] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="13.027">
-</testcase>
-</testsuite>
-<testsuite name="LoginSuccess.spec.ts" timestamp="1657640592400" hostname="" tests="1" failures="0" skipped="0" time="10.425" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[webkit] › LoginSuccess.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="10.425">
+<testsuite name="TravelLowCost.spec.ts" timestamp="1657838953393" hostname="" tests="1" failures="0" skipped="0" time="15.552" errors="0">
+<testcase name="Given the user was in the travel page 
+When the user completes the trip data 
+Then the user saw the cheapest flight" classname="[webkit] › TravelLowCost.spec.ts:6:1 › Given the user was in the travel page 
+When the user completes the trip data 
+Then the user saw the cheapest flight" time="15.552">
 </testcase>
 </testsuite>
 </testsuites>
