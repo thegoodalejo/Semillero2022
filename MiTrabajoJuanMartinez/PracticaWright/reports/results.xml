@@ -1,62 +1,65 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="23.694">
-<testsuite name="LoginSucces.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="10.26" errors="0">
-<testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[chromium] › LoginSucces.spec.ts:5:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="10.26">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="56.706">
+<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="12.572" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[chromium] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="12.572">
 </testcase>
 </testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="10.327" errors="0">
+<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="15.208" errors="0">
 <testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[chromium] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="10.327">
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" classname="[chromium] › RegisterSuccess.spec.ts:4:1 › 
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" time="15.208">
 </testcase>
 </testsuite>
-<testsuite name="LoginSucces.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="11.587" errors="0">
-<testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[firefox] › LoginSucces.spec.ts:5:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="11.587">
+<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="52.661" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[firefox] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="52.661">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="15.668" errors="0">
+<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="27.431" errors="0">
 <testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[firefox] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="15.668">
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" classname="[firefox] › RegisterSuccess.spec.ts:4:1 › 
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" time="27.431">
 </testcase>
 </testsuite>
-<testsuite name="LoginSucces.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="8.306" errors="0">
-<testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[webkit] › LoginSucces.spec.ts:5:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="8.306">
+<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="17.512" errors="0">
+<testcase name="Given I was in the login page 
+When I was login in 
+Then I saw the message login success" classname="[webkit] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
+When I was login in 
+Then I saw the message login success" time="17.512">
 </testcase>
 </testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657560613846" hostname="" tests="1" failures="0" skipped="0" time="9.713" errors="0">
+<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="18.101" errors="0">
 <testcase name="
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" classname="[webkit] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the login page
-When I was login in   
-Then I saw the message login success" time="9.713">
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" classname="[webkit] › RegisterSuccess.spec.ts:4:1 › 
+Given I was in the register page
+When I was register in   
+Then I saw the message register success" time="18.101">
 </testcase>
 </testsuite>
 </testsuites>
