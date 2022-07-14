@@ -1,65 +1,70 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="56.706">
-<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="12.572" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[chromium] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="12.572">
-</testcase>
-</testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="15.208" errors="0">
-<testcase name="
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" classname="[chromium] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" time="15.208">
-</testcase>
-</testsuite>
-<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="52.661" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[firefox] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="52.661">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="20.701">
+<testsuite name="VerificarVueloBarato.spec.ts" timestamp="1657812526266" hostname="" tests="1" failures="1" skipped="0" time="18.996" errors="0">
+<testcase name="test" classname="[chromium] › VerificarVueloBarato.spec.ts:3:1 › test" time="18.996">
+<failure message="VerificarVueloBarato.spec.ts:3:1 test" type="FAILURE">
+<![CDATA[  [chromium] › VerificarVueloBarato.spec.ts:3:1 › test =============================================
+
+    page.$$: DOMException: Failed to execute 'evaluate' on 'Document': The string ' "//button[@class="btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect"]/strong"' is not a valid XPath expression.
+
+      49 |
+      50 |   //test.setTimeout(120000)
+    > 51 |   var listViajes2 = await page.$$('xpath= "//button[@class="btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect"]/strong"');
+         |                                ^
+      52 |
+      53 |     console.log("Viajes by $$ ===> " + listViajes2.length);
+      54 |   
+
+        at Object.queryAll (<anonymous>:1016:26)
+        at InjectedScript._queryEngineAll (<anonymous>:3907:49)
+        at InjectedScript.querySelectorAll (<anonymous>:3894:30)
+        at eval (eval at evaluate (:178:30), <anonymous>:5:23)
+        at UtilityScript.evaluate (<anonymous>:180:17)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at C:\Users\juan.martinezs\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero Automatización\GitHub\Semillero2022\MiTrabajoJuanMartinez\PracticaWright\tests\VerificarVueloBarato.spec.ts:51:32
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\VerificarVueloBarato-test-chromium\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    page.goto: Navigation failed because page was closed!
+    =========================== logs ===========================
+    navigating to "https://www.phptravels.net/", waiting until "load"
+    ============================================================
+
+       9 |
+      10 |   // Go to https://www.phptravels.net/
+    > 11 |   await page.goto('https://www.phptravels.net/');
+         |              ^
+      12 |
+      13 |   // Click button[role="tab"]:has-text("flights")
+      14 |   await page.locator('button[role="tab"]:has-text("flights")').click();
+
+        at C:\Users\juan.martinezs\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero Automatización\GitHub\Semillero2022\MiTrabajoJuanMartinez\PracticaWright\tests\VerificarVueloBarato.spec.ts:11:14
+
+    attachment #1: video (video/webm) --------------------------------------------------------------
+    test-results\VerificarVueloBarato-test-chromium-retry1\video.webm
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: trace (application/zip) ---------------------------------------------------------
+    test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip
+
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox\test-failed-1.png]]
+[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium\test-failed-1.png]]
 
-[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\video.webm]]
+[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium-retry1\video.webm]]
 
-[[ATTACHMENT|..\test-results\LoginSucces-Given-I-was-in-the-login-page-When-I-was-login-in-Then-I-saw-the-message-login-success-firefox-retry1\trace.zip]]
+[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip]]
 ]]>
 </system-out>
-</testcase>
-</testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="27.431" errors="0">
-<testcase name="
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" classname="[firefox] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" time="27.431">
-</testcase>
-</testsuite>
-<testsuite name="LoginSucces.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="17.512" errors="0">
-<testcase name="Given I was in the login page 
-When I was login in 
-Then I saw the message login success" classname="[webkit] › LoginSucces.spec.ts:4:1 › Given I was in the login page 
-When I was login in 
-Then I saw the message login success" time="17.512">
-</testcase>
-</testsuite>
-<testsuite name="RegisterSuccess.spec.ts" timestamp="1657642601847" hostname="" tests="1" failures="0" skipped="0" time="18.101" errors="0">
-<testcase name="
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" classname="[webkit] › RegisterSuccess.spec.ts:4:1 › 
-Given I was in the register page
-When I was register in   
-Then I saw the message register success" time="18.101">
 </testcase>
 </testsuite>
 </testsuites>

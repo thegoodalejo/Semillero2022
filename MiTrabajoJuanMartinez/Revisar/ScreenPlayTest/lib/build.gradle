@@ -6,10 +6,10 @@
  * User Manual available at https://docs.gradle.org/7.4.2/userguide/building_java_projects.html
  */
 
-plugins {
-    // Apply the java-library plugin for API and implementation separation.
-    id 'java-library'
-}
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'net.serenity-bdd.aggregator'
 
 repositories {
     // Use Maven Central for resolving dependencies.
