@@ -1,0 +1,62 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="33.298">
+<testsuite name="ListProducts.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="20.378" errors="0">
+<testcase name="
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " classname="[chromium] › ListProducts.spec.ts:5:1 › 
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " time="20.378">
+</testcase>
+</testsuite>
+<testsuite name="loginPage.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="19.85" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[chromium] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="19.85">
+</testcase>
+</testsuite>
+<testsuite name="ListProducts.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="21.572" errors="0">
+<testcase name="
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " classname="[firefox] › ListProducts.spec.ts:5:1 › 
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " time="21.572">
+</testcase>
+</testsuite>
+<testsuite name="loginPage.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="19.239" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[firefox] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="19.239">
+</testcase>
+</testsuite>
+<testsuite name="ListProducts.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="8.893" errors="0">
+<testcase name="
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " classname="[webkit] › ListProducts.spec.ts:5:1 › 
+given el usuario esta en la lista de productos
+when selecciona dos productos
+then los productos se agregan al carro de compras " time="8.893">
+</testcase>
+</testsuite>
+<testsuite name="loginPage.spec.ts" timestamp="1657916373599" hostname="" tests="1" failures="0" skipped="0" time="5.145" errors="0">
+<testcase name="
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" classname="[webkit] › loginPage.spec.ts:4:1 › 
+given i was login
+when i was enter my username and password
+then i saw a succesfully loggin message" time="5.145">
+</testcase>
+</testsuite>
+</testsuites>
