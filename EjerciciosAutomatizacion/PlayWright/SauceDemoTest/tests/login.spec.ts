@@ -13,7 +13,11 @@ test.beforeEach(async ({page})=>{
     await page.goto('https://www.saucedemo.com/');
 });
 
-test('test', async({page})=>{
+test(`
+Given the user is on the login page 
+when he/she enters the credentials
+then he/she login to the inventory page
+`, async({page})=>{
 
     const loginPage = new LoginPage(page);
 

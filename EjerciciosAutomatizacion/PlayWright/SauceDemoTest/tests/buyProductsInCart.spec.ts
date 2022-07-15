@@ -40,7 +40,11 @@ test.beforeEach(async ({page})=>{
 
 });
 
-test('test', async({page})=>{
+test(`
+Given the user has products in the cart
+when he purchased the products
+then he saw that the purchase was successful.
+`, async({page})=>{
 
     const inventoryPage = new InventoryPage(page);
     const cartPage = new CartPage(page);

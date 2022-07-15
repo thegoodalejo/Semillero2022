@@ -30,7 +30,11 @@ test.beforeEach(async ({page})=>{
 
 });
 
-test('test', async({page})=>{
+test(`
+Given the user added n products to the cart
+when entering the cart
+then he saw n products added to the cart
+`, async({page})=>{
 
     const inventoryPage = new InventoryPage(page);
     const cartPage = new CartPage(page);

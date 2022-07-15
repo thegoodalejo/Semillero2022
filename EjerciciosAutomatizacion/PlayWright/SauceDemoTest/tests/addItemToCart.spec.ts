@@ -22,7 +22,11 @@ test.beforeEach(async ({page})=>{
 
 });
 
-test('test', async({page})=>{
+test(`
+Given the user was on the inventory page
+when adding products to the cart
+then he saw that the products were added to the cart.
+`, async({page})=>{
 
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);
