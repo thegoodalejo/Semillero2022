@@ -1,0 +1,12 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.513">
+<testsuite name="testSauceDemo.spec.ts" timestamp="1657920419003" hostname="" tests="1" failures="0" skipped="0" time="4.058" errors="0">
+<testcase name="
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[chromium] › testSauceDemo.spec.ts:6:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="4.058">
+</testcase>
+</testsuite>
+</testsuites>

@@ -1,5 +1,5 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="23.553">
-<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="13.609" errors="0">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="27.627">
+<testsuite name="testFlight.spec.ts" timestamp="1657845961774" hostname="" tests="1" failures="0" skipped="0" time="15.412" errors="0">
 <testcase name="
 Given the user was logged successfull
 
@@ -10,10 +10,14 @@ Given the user was logged successfull
 
 When the user add item to card
 
-Then the user saw the item in the car" time="13.609">
+Then the user saw the item in the car" time="15.412">
+<system-out>
+<![CDATA[- El vuelo de menor precio es: USD 1036.2
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="21.594" errors="0">
+<testsuite name="testFlight.spec.ts" timestamp="1657845961774" hostname="" tests="1" failures="0" skipped="0" time="19.055" errors="0">
 <testcase name="
 Given the user was logged successfull
 
@@ -24,10 +28,14 @@ Given the user was logged successfull
 
 When the user add item to card
 
-Then the user saw the item in the car" time="21.594">
+Then the user saw the item in the car" time="19.055">
+<system-out>
+<![CDATA[- El vuelo de menor precio es: USD 1036.2
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="testFlight.spec.ts" timestamp="1657751371002" hostname="" tests="1" failures="0" skipped="0" time="20.95" errors="0">
+<testsuite name="testFlight.spec.ts" timestamp="1657845961774" hostname="" tests="1" failures="0" skipped="0" time="26.465" errors="0">
 <testcase name="
 Given the user was logged successfull
 
@@ -38,7 +46,11 @@ Given the user was logged successfull
 
 When the user add item to card
 
-Then the user saw the item in the car" time="20.95">
+Then the user saw the item in the car" time="26.465">
+<system-out>
+<![CDATA[- El vuelo de menor precio es: USD 1036.2
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

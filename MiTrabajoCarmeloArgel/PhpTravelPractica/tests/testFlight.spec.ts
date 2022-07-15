@@ -20,5 +20,6 @@ Then the user saw the item in the car`,
     await homePhpTravel.homePhpTravel();
     await flightMedCan.flight();
     await flightList.list();
+    await flightList.lowerPriceList();
 
   });
