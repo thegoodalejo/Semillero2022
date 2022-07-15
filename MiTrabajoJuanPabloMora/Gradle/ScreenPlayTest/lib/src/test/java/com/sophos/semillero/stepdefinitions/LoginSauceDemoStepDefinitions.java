@@ -1,6 +1,8 @@
 package com.sophos.semillero.stepdefinitions;
 
+import com.sophos.semillero.tasks.NewLoginSauceDemo;
 import com.sophos.semillero.tasks.NewToursLogin;
+import com.sophos.semillero.userinterfaces.NewLoginSauceDemoPage;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -11,8 +13,8 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
-public class LoginStepDefinitions {
-	/*
+public class LoginSauceDemoStepDefinitions {
+	
 	@Before
 	public void setup(){
 		OnStage.setTheStage(new OnlineCast());
@@ -20,7 +22,7 @@ public class LoginStepDefinitions {
 	
 	@Given("{string} se encuentra en la pagina principal")
 	public void elUsuarioSeEncuentraEnLaPaginaPrincipal(String actorName, DataTable datatable ) {
-		OnStage.theActorCalled(actorName).wasAbleTo((NewToursLogin.login(datatable)));
+		OnStage.theActorCalled(actorName).wasAbleTo((NewLoginSauceDemo.login(datatable)));
 		
 	}
 	
@@ -35,5 +37,5 @@ public class LoginStepDefinitions {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 	}
-*/
+
 }

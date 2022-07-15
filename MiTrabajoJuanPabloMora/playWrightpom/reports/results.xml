@@ -1,12 +1,12 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.501">
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657917849817" hostname="" tests="1" failures="0" skipped="0" time="4.359" errors="0">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.736">
+<testsuite name="addItemsToCar.spec.ts" timestamp="1657918137049" hostname="" tests="1" failures="0" skipped="0" time="4.377" errors="0">
 <testcase name="
 Given el usuario lista los productos
 When Selecciono los dos productos  
 Then los productos se agrega al carrito " classname="[chromium] › addItemsToCar.spec.ts:7:1 › 
 Given el usuario lista los productos
 When Selecciono los dos productos  
-Then los productos se agrega al carrito " time="4.359">
+Then los productos se agrega al carrito " time="4.377">
 </testcase>
 </testsuite>
 </testsuites>

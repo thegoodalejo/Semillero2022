@@ -7,7 +7,9 @@ import { ShoppingCarPage } from '../scr/pagesSauceDemo/ShoppingCarPage';
 test(`
 Given el usuario lista los productos
 When Selecciono los dos productos  
-Then los productos se agrega al carrito `, 
+Then los productos se agrega al carrito 
+And Se finaliza la compra`, 
+
 async ({ page }) => {
 
   //Objetos
@@ -34,5 +36,7 @@ async ({ page }) => {
   await shoppingCarPage.howManyProducts();
   //LLenar datos de usuario para facturar 
   await shoppingCarPage.InformationUser(firstName,lastName,postalCode);
+  //Finalizar compra
+  await shoppingCarPage.finalizeBuy();
 
 });
