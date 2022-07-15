@@ -67,19 +67,6 @@ export class HomePage {
     await this.page.locator('#finfant').fill(infants);
   }
 
-  async selectCheapestFlight() {
-    // obtiene todos los vuelos resultantes y selecciona el primero
-    // await this.page.locator('.theme-search-results-item-mask-link').first().click();
-
-    // forma 2
-    const vuelos = await this.page.locator('xpath=//div[@class="theme-search-results-item-mask-link"]');
-
-    /*vuelos.forEach(element => {
-      console.log(element);
-    });*/
-
-  }
-
   async validateFLight() {
 
     // Click button:has-text("Search")

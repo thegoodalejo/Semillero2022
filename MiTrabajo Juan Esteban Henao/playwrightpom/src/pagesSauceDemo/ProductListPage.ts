@@ -10,6 +10,7 @@ export class ProductListPage{
         this.page=page;
     }
 
+    //este metodo me añade dos items al carrito, da click en el carrito y valida la url generada
     async addProductsToCar(){
         
     // Click [data-test="add-to-cart-sauce-labs-backpack"]

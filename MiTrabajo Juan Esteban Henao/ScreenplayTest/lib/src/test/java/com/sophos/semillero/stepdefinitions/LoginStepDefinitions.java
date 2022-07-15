@@ -1,10 +1,12 @@
 package com.sophos.semillero.stepdefinitions;
 
+import com.sophos.semillero.task.NewToursLogIn;
+
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -15,9 +17,9 @@ public class LoginStepDefinitions {
 		OnStage.setTheStage(new OnlineCast());
 	}
 	
-	@Given("El usuario se encuentra en la pagina principal")
-	public void elUsuarioSeEncuentraEnLaPaginaPrincipal() {
-		OnStage.theActorCalled("Juan").wasAbleTo(Open.url("https://www.google.com"));
+	@Given("El {string} se encuentra en la pagina principal")
+	public void elUsuarioSeEncuentraEnLaPaginaPrincipal(String actorName, DataTable dataTable) {
+		OnStage.theActorCalled(actorName).wasAbleTo(NewToursLogIn.login(dataTable));
 	}
 
 	@When("Ingresa usuario y contrasenia")

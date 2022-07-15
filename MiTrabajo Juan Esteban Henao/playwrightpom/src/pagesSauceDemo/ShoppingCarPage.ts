@@ -8,13 +8,22 @@ export class ShoppingCarPage{
     constructor(page: Page){
         this.page=page;
     }
-
+    //Este metodo valida que hayan dos articulos en la lista de productos agregados
     async howManyProducts(){
       
         const items = await this.page.locator("xpath=//div[@class = 'cart_item']");
 
-       //await expect(cards).toHaveCount(2);
-        return await expect(this.page.$$('.cart_item')).toHaveLength(2);
+       await expect(items).toHaveCount(2);
+       
+    }
+    //este metodo me simula la entrada de datos para generar la factura 
+    async factura(firstName: string, lastName: string, postalCode:string){
+        await this.page.locator('[data-test="checkout"]').click();
+        await this.page.locator('[data-test="firstName"]').fill(firstName);
+        await this.page.locator('[data-test="lastName"]').fill(lastName);
+        await this.page.locator('[data-test="postalCode"]').fill(postalCode);
+        await this.page.locator('[data-test="continue"]').click();
+      
     }
 
 }

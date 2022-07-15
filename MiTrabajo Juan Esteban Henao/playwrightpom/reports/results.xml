@@ -1,18 +1,22 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="16.499">
-<testsuite name="TravelLowCost.spec.ts" timestamp="1657838953393" hostname="" tests="1" failures="0" skipped="0" time="8.015" errors="0">
-<testcase name="Given the user was in the travel page 
-When the user completes the trip data 
-Then the user saw the cheapest flight" classname="[chromium] › TravelLowCost.spec.ts:6:1 › Given the user was in the travel page 
-When the user completes the trip data 
-Then the user saw the cheapest flight" time="8.015">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="5.921">
+<testsuite name="BuyItems.spec.ts" timestamp="1657915862420" hostname="" tests="1" failures="0" skipped="0" time="2.748" errors="0">
+<testcase name="
+Given the user was must have correct account in login page
+When the user was add two products at the shopping car
+Then was the user can get an invoice" classname="[chromium] › BuyItems.spec.ts:6:1 › 
+Given the user was must have correct account in login page
+When the user was add two products at the shopping car
+Then was the user can get an invoice" time="2.748">
 </testcase>
 </testsuite>
-<testsuite name="TravelLowCost.spec.ts" timestamp="1657838953393" hostname="" tests="1" failures="0" skipped="0" time="15.552" errors="0">
-<testcase name="Given the user was in the travel page 
-When the user completes the trip data 
-Then the user saw the cheapest flight" classname="[webkit] › TravelLowCost.spec.ts:6:1 › Given the user was in the travel page 
-When the user completes the trip data 
-Then the user saw the cheapest flight" time="15.552">
+<testsuite name="BuyItems.spec.ts" timestamp="1657915862420" hostname="" tests="1" failures="0" skipped="0" time="4.91" errors="0">
+<testcase name="
+Given the user was must have correct account in login page
+When the user was add two products at the shopping car
+Then was the user can get an invoice" classname="[webkit] › BuyItems.spec.ts:6:1 › 
+Given the user was must have correct account in login page
+When the user was add two products at the shopping car
+Then was the user can get an invoice" time="4.91">
 </testcase>
 </testsuite>
 </testsuites>
