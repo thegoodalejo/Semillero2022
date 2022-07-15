@@ -13,8 +13,8 @@ export class ShoppingCarPage{
 
         const items = await this.page.locator('xpath=//div[@class = "cart_item"]')
 
-        //await expect(cards).toHaveCount(2);
-        return await expect(this.page.$$('.cart_item')).toHaveLength(2);
+        await expect(items).toHaveCount(2);
+       // return await expect(this.page.$$('.cart_item')).toHaveLength(2);
 
     }
 

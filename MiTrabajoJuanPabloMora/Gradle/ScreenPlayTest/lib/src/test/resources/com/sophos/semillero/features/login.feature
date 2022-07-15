@@ -5,7 +5,10 @@ Feature: Title of your feature
 
   @tag1
   Scenario: Login
-    Given El usuario se encuentra en la pagina principal
+    Given "Juan" se encuentra en la pagina principal
+    |url|https://demo.guru99.com/test/newtours/|
+    |username|juan|
+    |password|1234|
 
     When Ingresa usuario y contrasena
 
