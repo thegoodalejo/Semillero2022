@@ -5,10 +5,12 @@ import { CarPage } from '../src/pages/CarPage';
 import { StepOnePage } from "../src/pages/StepOnePage"
 import { StepTwoPage } from "../src/pages/StepTwoPage"
 
+const userName = "standard_user";
+const password = "secret_sauce";
 test(`
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
+    Give I was added products to my Shopping Car
+    When I was clicked on finish
+    Then I saw the messase Thank You For Your Order
         `, async ({ page }) => {
             const loginPage = new LoginPage(page);
             const inventoryPage = new InventoryPage(page);
@@ -17,10 +19,10 @@ test(`
             const stepTwoPage = new StepTwoPage(page);
 
             await loginPage.navigate();
-            await loginPage.login();
+            await loginPage.login(userName,password);
             await inventoryPage.addItemsToShoppingCar();
             await carPage.finishBuy();
             await stepOnePage.fillUserData();
-            await stepTwoPage.calculateTotalPaymentAndTaxes();
+            await stepTwoPage.generateBill();
     
 });

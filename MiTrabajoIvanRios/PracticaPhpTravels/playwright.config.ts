@@ -13,13 +13,13 @@ import { devices } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   testDir: './tests',
   /* Maximum time one test can run for. */
-  timeout: 35 * 1000,
+  timeout: 30 * 1000,
   expect: {
     /**
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 6000
+    timeout: 5000
   },
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -47,13 +47,15 @@ const config: PlaywrightTestConfig = {
 
   /* Configure projects for major browsers */
   projects: [
+    
+    
     {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
       },
     },
-
+/*
     {
       name: 'firefox',
       use: {
@@ -67,7 +69,7 @@ const config: PlaywrightTestConfig = {
         ...devices['Desktop Safari'],
       },
     },
-
+*/
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

@@ -1,162 +1,51 @@
-<testsuites id="" name="" tests="3" failures="3" skipped="0" errors="0" time="32.285">
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="30.392" errors="0">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="7.592">
+<testsuite name="generateBill.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="6.566" errors="0">
 <testcase name="
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " classname="[chromium] › calculateTotalPayment.spec.ts:8:1 › 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="30.392">
-<failure message="calculateTotalPayment.spec.ts:8:1 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " type="FAILURE">
-<![CDATA[  [chromium] › calculateTotalPayment.spec.ts:8:1 › 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
-         
-
-    Timeout of 30000ms exceeded.
-
-    locator.innerText: Target closed
-    =========================== logs ===========================
-    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
-    ============================================================
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |                               ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
-
-    Pending operations:
-      - locator.innerText at src\pages\StepTwoPage.ts:12:115
-
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
+    Give I was added products to my Shopping Car
+    When I was clicked on finish
+    Then I saw the messase Thank You For Your Order
+        " classname="[chromium] › generateBill.spec.ts:10:1 › 
+    Give I was added products to my Shopping Car
+    When I was clicked on finish
+    Then I saw the messase Thank You For Your Order
+        " time="6.566">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--chromium\test-failed-1.png]]
+[[ATTACHMENT|..\test-results\generateBill--Give-I-was-added-products-to-my--f2609-hen-I-saw-the-messase-Thank-You-For-Your-Order--chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="31.11" errors="0">
+<testsuite name="loginSuccess.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="5.49" errors="0">
 <testcase name="
     Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " classname="[firefox] › calculateTotalPayment.spec.ts:8:1 › 
+    When I fill the fields
+    Then I saw the inventory
+        " classname="[chromium] › loginSuccess.spec.ts:7:1 › 
     Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="31.11">
-<failure message="calculateTotalPayment.spec.ts:8:1 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " type="FAILURE">
-<![CDATA[  [firefox] › calculateTotalPayment.spec.ts:8:1 › 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
-         
-
-    Timeout of 30000ms exceeded.
-
-    locator.innerText: Target closed
-    =========================== logs ===========================
-    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
-    ============================================================
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |                               ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
-
-    Pending operations:
-      - locator.innerText at src\pages\StepTwoPage.ts:12:115
-
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
+    When I fill the fields
+    Then I saw the inventory
+        " time="5.49">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--firefox\test-failed-1.png]]
+[[ATTACHMENT|..\test-results\loginSuccess--Give-I-was-logged-in-SauceDemo-When-I-fill-the-fields-Then-I-saw-the-inventory--chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="calculateTotalPayment.spec.ts" timestamp="1657720482616" hostname="" tests="1" failures="1" skipped="0" time="30.364" errors="0">
+<testsuite name="verifyProductsQuantity.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="6.162" errors="0">
 <testcase name="
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " classname="[webkit] › calculateTotalPayment.spec.ts:8:1 › 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " time="30.364">
-<failure message="calculateTotalPayment.spec.ts:8:1 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products&apos; price + 8% from taxes.
-        " type="FAILURE">
-<![CDATA[  [webkit] › calculateTotalPayment.spec.ts:8:1 › 
-    Give I was logged in SauceDemo
-    When I was added products to my Shopping Car
-    Then I saw that the total payment matches with the sum of the products' price + 8% from taxes.
-         
-
-    Timeout of 30000ms exceeded.
-
-    locator.innerText: Target closed
-    =========================== logs ===========================
-    waiting for selector "xpath=(//div[@class='inventory_item_price']/text()[2])[1]"
-    ============================================================
-
-      22 |             await carPage.finishBuy();
-      23 |             await stepOnePage.fillUserData();
-    > 24 |             await stepTwoPage.calculateTotalPaymentAndTaxes();
-         |                               ^
-      25 |     
-      26 | });
-
-        at StepTwoPage.calculateTotalPaymentAndTaxes (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\src\pages\StepTwoPage.ts:12:115)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaSaucedemo\tests\calculateTotalPayment.spec.ts:24:31
-
-    Pending operations:
-      - locator.innerText at src\pages\StepTwoPage.ts:12:115
-
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
+    Give I was added products to my Shopping Car
+    When I was opened the Shopping Car
+    Then I saw that products quantity and products list elements match
+        " classname="[chromium] › verifyProductsQuantity.spec.ts:8:1 › 
+    Give I was added products to my Shopping Car
+    When I was opened the Shopping Car
+    Then I saw that products quantity and products list elements match
+        " time="6.162">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\calculateTotalPayment--Give-I-was-logged-in-Sa-e32e7-ith-the-sum-of-the-products-price-8-from-taxes--webkit\test-failed-1.png]]
+[[ATTACHMENT|..\test-results\verifyProductsQuantity--Give-I-was-added-produ-fa3e7-ucts-quantity-and-products-list-elements-match--chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>

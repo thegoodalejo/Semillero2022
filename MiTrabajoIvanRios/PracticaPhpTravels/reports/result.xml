@@ -1,66 +1,34 @@
-<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="36.694">
-<testsuite name="testGeneral.spec.ts" timestamp="1657756957547" hostname="" tests="1" failures="0" skipped="0" time="19.542" errors="0">
-<testcase name="test" classname="[chromium] › testGeneral.spec.ts:4:1 › test" time="19.542">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="26.264">
+<testsuite name="testGeneral.spec.ts" timestamp="1657902042107" hostname="" tests="1" failures="0" skipped="0" time="25.302" errors="0">
+<testcase name="test" classname="[chromium] › testGeneral.spec.ts:5:1 › test" time="25.302">
 <system-out>
-<![CDATA[
+<![CDATA[1034
+1223
+1315
+1424
+1438
+1443
+1496
+1526
+1570
+1663
+1795
+1878
+1922
+2896
+2898
+2986
+4038
+4615
+4659
+4901
+5324
+6270
+6516
+Precio De la Pagina: 1034
+Cheapest Flight: 1034
+
 [[ATTACHMENT|..\test-results\testGeneral-test-chromium\video.webm]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="testGeneral.spec.ts" timestamp="1657756957547" hostname="" tests="1" failures="1" skipped="0" time="35.753" errors="0">
-<testcase name="test" classname="[firefox] › testGeneral.spec.ts:4:1 › test" time="35.753">
-<failure message="testGeneral.spec.ts:4:1 test" type="FAILURE">
-<![CDATA[  [firefox] › testGeneral.spec.ts:4:1 › test =======================================================
-
-    Timeout of 35000ms exceeded.
-
-    locator.click: Target closed
-    =========================== logs ===========================
-    waiting for selector ".col-lg-1 > .input-box > .form-group > .dropdown > .dropdown-menu > div > .qty-box > .qtyBtn > .qtyInc > .la >> nth=0"
-      selector resolved to hidden <i class="la la-plus"></i>
-    attempting click action
-      waiting for element to be visible, enabled and stable
-        element is not visible - waiting...
-    ============================================================
-
-       6 |
-       7 |     await mainPage.navigate();
-    >  8 |     await mainPage.searchFlights();
-         |     ^
-       9 |
-      10 | });
-
-        at MainPage.searchFlights (C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaPhpTravels\src\pages\MainPage.ts:32:153)
-        at C:\Users\Ivan.riosa\semillero\Semillero2022\MiTrabajoIvanRios\PracticaPhpTravels\tests\testGeneral.spec.ts:8:5
-
-    Pending operations:
-      - locator.click at src\pages\MainPage.ts:32:153
-
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\testGeneral-test-firefox\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results\testGeneral-test-firefox\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\testGeneral-test-firefox\video.webm]]
-
-[[ATTACHMENT|..\test-results\testGeneral-test-firefox\test-failed-1.png]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="testGeneral.spec.ts" timestamp="1657756957547" hostname="" tests="1" failures="0" skipped="0" time="30.368" errors="0">
-<testcase name="test" classname="[webkit] › testGeneral.spec.ts:4:1 › test" time="30.368">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\testGeneral-test-webkit\video.webm]]
 ]]>
 </system-out>
 </testcase>
