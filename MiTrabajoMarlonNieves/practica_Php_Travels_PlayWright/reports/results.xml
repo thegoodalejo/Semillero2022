@@ -1,0 +1,56 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="102.035">
+<testsuite name="searchFlights.spec.ts" timestamp="1657849187529" hostname="" tests="1" failures="0" skipped="0" time="14.752" errors="0">
+<testcase name="
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[chromium] › searchFlights.spec.ts:8:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="14.752">
+<system-out>
+<![CDATA[Viaje: USD 1082.4
+
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="searchFlights.spec.ts" timestamp="1657849187529" hostname="" tests="1" failures="0" skipped="0" time="99.293" errors="0">
+<testcase name="
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[firefox] › searchFlights.spec.ts:8:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="99.293">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-firefox\test-failed-1.png]]
+Viaje: USD 1082.4
+
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-firefox-retry1\video.webm]]
+
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-firefox-retry1\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="searchFlights.spec.ts" timestamp="1657849187529" hostname="" tests="1" failures="0" skipped="0" time="28.688" errors="0">
+<testcase name="
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" classname="[webkit] › searchFlights.spec.ts:8:1 › 
+Given the user was logged successfull
+When the user add item to card
+Then the user saw the item in the car" time="28.688">
+<system-out>
+<![CDATA[Viaje: USD 1082.4
+
+[[ATTACHMENT|..\test-results\searchFlights--Given-the-user-was-logged-succe-dfcee-m-to-card-Then-the-user-saw-the-item-in-the-car-webkit\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
