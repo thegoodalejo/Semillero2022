@@ -9,18 +9,14 @@ export class LoginPage{
         this.page = page;
     }
 
-    async logIn(){
-
-    // Fill [data-test="username"]
-    await this.page.locator('[data-test="username"]').fill('standard_user');
-
-    // Fill [data-test="password"]
-    await this.page.locator('[data-test="password"]').fill('secret_sauce');
-
-    // Press Enter
+    async logIn(user: string ,  password:string){
+    // Ingresar Usuario
+    await this.page.locator('[data-test="username"]').fill(user);
+    // Ingresar Password
+    await this.page.locator('[data-test="password"]').fill(password);
+    // Precionar Enter
     await this.page.locator('[data-test="password"]').press('Enter');
     await expect(this.page).toHaveURL('https://www.saucedemo.com/inventory.html');
-  
 
     }
 
