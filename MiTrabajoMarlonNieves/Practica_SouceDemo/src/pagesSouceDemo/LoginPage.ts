@@ -8,22 +8,18 @@ export class LoginPage {
     constructor(page: Page) {
         this.page = page;
     }
-    async LogIn() {
+    async LogIn(info) {
+        //ingresando usuario y contraseña
         // Fill [data-test="username"]
-        await this.page.locator('[data-test="username"]').fill('standard_user');
+        await this.page.locator('[data-test="username"]').fill(info.user);
 
         // Fill [data-test="password"]
-        await this.page.locator('[data-test="password"]').fill('secret_sauce');
+        await this.page.locator('[data-test="password"]').fill(info.password);
 
         // Click [data-test="login-button"]
         await this.page.locator('[data-test="login-button"]').click();
-        await expect(this.page).toHaveURL('https://www.saucedemo.com/inventory.html');
+
+        await this.page.goto("https://www.saucedemo.com/inventory.html");
+    
     }
-
-    async navigate() {
-        // Go to https://www.saucedemo.com/
-        await this.page.goto('https://www.saucedemo.com/');
-
-    }
-
 }

@@ -1,32 +1,17 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="8.877">
-<testsuite name="login.spec.ts" timestamp="1657672255152" hostname="" tests="1" failures="0" skipped="0" time="2.954" errors="0">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="3.543">
+<testsuite name="login.spec.ts" timestamp="1657925913534" hostname="" tests="1" failures="0" skipped="0" time="2.545" errors="0">
 <testcase name="
 Given the user was logged successfull
 When the user add item to card
-Then the user saw the item in the car" classname="[chromium] › login.spec.ts:5:1 › 
+Then the user saw the item in the car" classname="[chromium] › login.spec.ts:27:1 › 
 Given the user was logged successfull
 When the user add item to card
-Then the user saw the item in the car" time="2.954">
-</testcase>
-</testsuite>
-<testsuite name="login.spec.ts" timestamp="1657672255152" hostname="" tests="1" failures="0" skipped="0" time="6.782" errors="0">
-<testcase name="
-Given the user was logged successfull
-When the user add item to card
-Then the user saw the item in the car" classname="[firefox] › login.spec.ts:5:1 › 
-Given the user was logged successfull
-When the user add item to card
-Then the user saw the item in the car" time="6.782">
-</testcase>
-</testsuite>
-<testsuite name="login.spec.ts" timestamp="1657672255152" hostname="" tests="1" failures="0" skipped="0" time="3.655" errors="0">
-<testcase name="
-Given the user was logged successfull
-When the user add item to card
-Then the user saw the item in the car" classname="[webkit] › login.spec.ts:5:1 › 
-Given the user was logged successfull
-When the user add item to card
-Then the user saw the item in the car" time="3.655">
+Then the user saw the item in the car" time="2.545">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\login--Given-the-user-was-logged-successfull-W-6128c-m-to-card-Then-the-user-saw-the-item-in-the-car-chromium\video.webm]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>
