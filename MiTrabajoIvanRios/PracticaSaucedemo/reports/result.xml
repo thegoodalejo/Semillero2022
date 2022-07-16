@@ -1,5 +1,5 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="7.592">
-<testsuite name="generateBill.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="6.566" errors="0">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="5.945">
+<testsuite name="generateBill.spec.ts" timestamp="1657930039440" hostname="" tests="1" failures="0" skipped="0" time="4.976" errors="0">
 <testcase name="
     Give I was added products to my Shopping Car
     When I was clicked on finish
@@ -8,7 +8,7 @@
     Give I was added products to my Shopping Car
     When I was clicked on finish
     Then I saw the messase Thank You For Your Order
-        " time="6.566">
+        " time="4.976">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\generateBill--Give-I-was-added-products-to-my--f2609-hen-I-saw-the-messase-Thank-You-For-Your-Order--chromium\video.webm]]
@@ -16,7 +16,7 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="loginSuccess.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="5.49" errors="0">
+<testsuite name="loginSuccess.spec.ts" timestamp="1657930039440" hostname="" tests="1" failures="0" skipped="0" time="3.962" errors="0">
 <testcase name="
     Give I was logged in SauceDemo
     When I fill the fields
@@ -25,7 +25,7 @@
     Give I was logged in SauceDemo
     When I fill the fields
     Then I saw the inventory
-        " time="5.49">
+        " time="3.962">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\loginSuccess--Give-I-was-logged-in-SauceDemo-When-I-fill-the-fields-Then-I-saw-the-inventory--chromium\video.webm]]
@@ -33,7 +33,7 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="verifyProductsQuantity.spec.ts" timestamp="1657923075589" hostname="" tests="1" failures="0" skipped="0" time="6.162" errors="0">
+<testsuite name="verifyProductsQuantity.spec.ts" timestamp="1657930039440" hostname="" tests="1" failures="0" skipped="0" time="4.641" errors="0">
 <testcase name="
     Give I was added products to my Shopping Car
     When I was opened the Shopping Car
@@ -42,7 +42,7 @@
     Give I was added products to my Shopping Car
     When I was opened the Shopping Car
     Then I saw that products quantity and products list elements match
-        " time="6.162">
+        " time="4.641">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|..\test-results\verifyProductsQuantity--Give-I-was-added-produ-fa3e7-ucts-quantity-and-products-list-elements-match--chromium\video.webm]]

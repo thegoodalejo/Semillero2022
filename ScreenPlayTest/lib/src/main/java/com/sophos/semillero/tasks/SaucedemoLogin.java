@@ -17,7 +17,6 @@ public class SaucedemoLogin implements Task {
 	
 	public SaucedemoLogin(DataTable datatable) {
 		this.saucedemoSessionTable = datatable.asMap(String.class, String.class);
-		
 	}
 	
 	 

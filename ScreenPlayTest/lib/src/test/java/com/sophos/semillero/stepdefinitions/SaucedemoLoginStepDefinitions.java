@@ -1,5 +1,4 @@
 package com.sophos.semillero.stepdefinitions;
-import com.sophos.semillero.tasks.NewToursLogin;
 import com.sophos.semillero.tasks.SaucedemoLogin;
 
 import io.cucumber.datatable.DataTable;
@@ -19,9 +18,7 @@ public class SaucedemoLoginStepDefinitions {
 	public void seEncuentraEnLaPaginaDelLogin(String actorName, DataTable dataTable) {
 		OnStage.theActorCalled(actorName).wasAbleTo(SaucedemoLogin.login(dataTable));	
 	}
-	    
 	
-
 	@When("llena los campos")
 	public void llenaLosCampos() {
 	}
