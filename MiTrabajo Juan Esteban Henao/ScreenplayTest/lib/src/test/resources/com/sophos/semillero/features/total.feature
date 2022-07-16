@@ -10,4 +10,11 @@
     And "user" saw the message login success
     When the "user" is authenticated
     And add products to cart
-    Then saw the products in the cart
+    And saw the products in the cart
+    Then the "user" has added products to the cart
+    And finalizes the purchase of the products
+      | firsName   | Juan   |
+      | lastName   | Henao  |
+      | postalCode | 630001 |
+    And view the purchase confirmation
+    And view the purchase invoice
