@@ -5,7 +5,7 @@ Feature: Login Exitoso
   I want to use this template for my feature file
 
   @tag1
-  Scenario: Title of your scenario
+  Scenario: Inicio de Sesion
     Given "Ivan" se encuentra en la pagina del login
     | url      | https://www.saucedemo.com/ |
     | userName | standard_user              |

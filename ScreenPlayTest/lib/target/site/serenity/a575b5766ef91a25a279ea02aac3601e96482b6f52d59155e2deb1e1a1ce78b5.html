@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2022 18:34</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-07-2022 16:27</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -187,9 +187,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon fa-2x' title='PENDING'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="pending-color">
+                                <span class="error-color">
                                     Agregar dos productos al carrito
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -228,34 +228,72 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-PENDING">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='far fa-stop-circle pending-icon ' title='PENDING'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="top-level-step">
-                                                Given "Ivan" se encuentre logueado<br><table class='embedded'><thead><th>url</th><th>https://www.saucedemo.com/inventory.html</th></thead><tbody><tr><td>product1</td><td>Sauce Labs Backpack</td></tr><tr><td>product2</td><td>Sauce Labs Bolt T-Shirt</td></tr></tbody></table>
+                                                Given "Ivan" se encuentre logueado<br><table class='embedded'><thead><th>url</th><th>https://www.saucedemo.com/inventory.html/</th></thead><tbody><tr><td>product1</td><td>Sauce Labs Backpack</td></tr><tr><td>product2</td><td>Sauce Labs Bolt T-Shirt</td></tr></tbody></table>
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">PENDING</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">0.02s</span></td>
                     </tr>
-                    <tr class="test-IGNORED">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">io.cucumber.core.exception.CucumberException: Step [{string} se encuentre logueado] is defined with 1 parameters at &#39;com.sophos.semillero.stepdefinitions.SaucedemoAddProductosStepDefinitions.seEncuentreLogueado(java.lang.String)&#39;.<br>However, the gherkin step has 2 arguments:<br> * &quot;Ivan&quot;<br> * Table:<br>      | url      | https://www.saucedemo.com/inventory.html/ |<br>      | product1 | Sauce Labs Backpack                       |<br>      | product2 | Sauce Labs Bolt T-Shirt                   |<br><br>Step text: &quot;Ivan&quot; se encuentre logueado</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-1""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-1">
+            <div class="card">
+                <div class="card-header">
+                    <h4>io.cucumber.core.exception.CucumberException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -269,15 +307,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">IGNORED</span></td>
-                        <td width="100"><span class="top-level-step">0s</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                        <td width="100"><span class="top-level-step">0.01s</span></td>
                     </tr>
-                    <tr class="test-IGNORED">
+                    <tr class="test-SKIPPED">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -291,13 +329,13 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">IGNORED</span></td>
+                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
                         <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                <tr class="test-PENDING">
+                <tr class="test-ERROR">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>PENDING</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.17s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.04s</em></span></td>
                 </tr>
 
             </table>

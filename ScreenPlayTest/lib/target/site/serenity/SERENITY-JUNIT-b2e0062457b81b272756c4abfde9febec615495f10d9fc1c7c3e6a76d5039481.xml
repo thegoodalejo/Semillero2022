@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Agregar productos al carrito" skipped="0" tests="2" time="7.93" timestamp="2022-07-18 04:27:19"><testcase name="Inicio de Seison"/><testcase name="Agregar dos productos al carrito"><error message="Step [{string} se encuentre logueado] is defined with 1 parameters at 'com.sophos.semillero.stepdefinitions.SaucedemoAddProductosStepDefinitions.seEncuentreLogueado(java.lang.String)'.&#10;However, the gherkin step has 2 arguments:&#10; * &quot;Ivan&quot;&#10; * Table:&#10;      | url      | https://www.saucedemo.com/inventory.html/ |&#10;      | product1 | Sauce Labs Backpack                       |&#10;      | product2 | Sauce Labs Bolt T-Shirt                   |&#10;&#10;Step text: &quot;Ivan&quot; se encuentre logueado" type="io.cucumber.core.exception.CucumberException">Step [{string} se encuentre logueado] is defined with 1 parameters at 'com.sophos.semillero.stepdefinitions.SaucedemoAddProductosStepDefinitions.seEncuentreLogueado(java.lang.String)'.
+However, the gherkin step has 2 arguments:
+ * "Ivan"
+ * Table:
+      | url      | https://www.saucedemo.com/inventory.html/ |
+      | product1 | Sauce Labs Backpack                       |
+      | product2 | Sauce Labs Bolt T-Shirt                   |
+
+Step text: "Ivan" se encuentre logueado</error><system-err>Step [{string} se encuentre logueado] is defined with 1 parameters at 'com.sophos.semillero.stepdefinitions.SaucedemoAddProductosStepDefinitions.seEncuentreLogueado(java.lang.String)'.
+However, the gherkin step has 2 arguments:
+ * "Ivan"
+ * Table:
+      | url      | https://www.saucedemo.com/inventory.html/ |
+      | product1 | Sauce Labs Backpack                       |
+      | product2 | Sauce Labs Bolt T-Shirt                   |
+
+Step text: "Ivan" se encuentre logueado&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

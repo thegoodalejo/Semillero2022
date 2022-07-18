@@ -1,7 +1,12 @@
 package com.sophos.semillero.tasks;
 
+import static com.sophos.semillero.userinterfaces.SaucedemoLoginPage.BTN_SUBMIT;
+import static com.sophos.semillero.userinterfaces.SaucedemoLoginPage.TXT_PASSWORD;
+import static com.sophos.semillero.userinterfaces.SaucedemoLoginPage.TXT_USER_NAME;
+
 import java.util.Map;
 
+import com.sophos.semillero.interactions.InteractionTest;
 import com.sophos.semillero.userinterfaces.SaucedemoLoginPage;
 
 import io.cucumber.datatable.DataTable;
@@ -25,12 +30,12 @@ public class SaucedemoLogin implements Task {
 		// TODO Auto-generated method stub
 		actor.attemptsTo(
 				Open.url(saucedemoSessionTable.get("url")),
-				Enter.theValue(saucedemoSessionTable.get("userName")).into(SaucedemoLoginPage.TXT_USER_NAME),
-				Enter.theValue(saucedemoSessionTable.get("password")).into(SaucedemoLoginPage.TXT_PASSWORD),
-				Click.on(SaucedemoLoginPage.BTN_SUBMIT)
+				Enter.theValue(saucedemoSessionTable.get("userName")).into(TXT_USER_NAME),
+				Enter.theValue(saucedemoSessionTable.get("password")).into(TXT_PASSWORD.of("password")),
+				Click.on(BTN_SUBMIT)
 				);		
 	}
-	public static SaucedemoLogin login(DataTable datatable) {
+	public static SaucedemoLogin inSaucedemo(DataTable datatable) {
 		return Tasks.instrumented(SaucedemoLogin.class,datatable);
 	}
 	
