@@ -1,0 +1,19 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.262">
+<testsuite name="buyProductsInCart.spec.ts" timestamp="1658150485144" hostname="" tests="1" failures="0" skipped="0" time="13.223" errors="0">
+<testcase name="
+Given the user has products in the cart
+when he purchased the products
+then he saw that the purchase was successful.
+" classname="[chromium] › buyProductsInCart.spec.ts:43:1 › 
+Given the user has products in the cart
+when he purchased the products
+then he saw that the purchase was successful.
+" time="13.223">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\buyProductsInCart--Given-the-user-has-products-6ac77-s-then-he-saw-that-the-purchase-was-successful--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

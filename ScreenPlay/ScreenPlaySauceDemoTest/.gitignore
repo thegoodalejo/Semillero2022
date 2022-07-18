@@ -1,0 +1,14 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+#Ignore los reportes
+lib/target/
+
+#Ignore los webDrivers
+drivers/
+
+#Ignore las clases compiladas
+bin/
