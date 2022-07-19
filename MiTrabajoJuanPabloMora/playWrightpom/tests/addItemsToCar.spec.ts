@@ -7,8 +7,7 @@ import { ShoppingCarPage } from '../scr/pagesSauceDemo/ShoppingCarPage';
 test(`
 Given el usuario lista los productos
 When Selecciono los dos productos  
-Then los productos se agrega al carrito 
-And Se finaliza la compra`, 
+Then los productos se agrega al carrito`, 
 
 async ({ page }) => {
 

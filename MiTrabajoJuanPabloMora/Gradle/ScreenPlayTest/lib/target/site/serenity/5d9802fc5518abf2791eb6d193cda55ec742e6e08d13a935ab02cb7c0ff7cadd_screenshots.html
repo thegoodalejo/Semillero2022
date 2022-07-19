@@ -132,7 +132,7 @@
                 > <span class="truncate-40"><a
                     href="311c4df8d597d7afc63d01e6da75ff571a09cef3d1af5d111024bc89f107bc30.html">Title Of Your Feature</a></span>
                 > <span class="truncate-60"><a
-                    href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437.html">Login </a></span>
+                    href="5d9802fc5518abf2791eb6d193cda55ec742e6e08d13a935ab02cb7c0ff7cadd.html">Inventario </a></span>
                 > Screenshots
             </span>
         </div>
@@ -151,7 +151,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-07-2022 08:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-07-2022 20:47</span>
     <br style="clear:left"/>
 </div>
 
@@ -180,7 +180,7 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="57d1b69a7dc50823c8091e16642089ef4789d62ed24634065ab9b7a27653fe5b.html">Tag2
                                     (tag)</a>
                                 </span>
                             </p>
@@ -192,9 +192,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Login
+                                <span class="failing-color">Inventario
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -211,27 +211,60 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //button[@id='add-to-cart-sauce-labs-backpack'] to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'SSMED5CG1100JRZ', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sophos.semillero.tasks.NewProductListSauceDemo.performAs(NewProductListSauceDemo.java:28)<br />com.sophos.semillero.stepdefinitions.ProducListSauceDemoStepDefinitions.elUsuarioSeEncuentraEnLaPaginaInventarios(ProducListSauceDemoStepDefinitions.java:23)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: //button[@id='add-to-cart-sauce-labs-backpack'] to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'SSMED5CG1100JRZ', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'<br>Driver info: driver.version: unknown</pre>
+                        <pre>com.sophos.semillero.tasks.NewProductListSauceDemo.performAs(NewProductListSauceDemo.java :28)<br />com.sophos.semillero.stepdefinitions.ProducListSauceDemoStepDefinitions.elUsuarioSeEncuentraEnLaPaginaInventarios(ProducListSauceDemoStepDefinitions.java :23)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java :93)<br />org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java :40)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :529)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java :756)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java :452)<br />org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java :210)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1952995118025629355.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png" title=" Given &quot;standard_user&quot; se encuentra en la pagina principal
-| url | https://www.saucedemo.com/ |
-| username | standard_user |
-| password | secret_sauce |" width="1034"/>
-                <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png" title=" Standard_user new login sauce demo" width="1034"/>
-                <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png" title=" standard_user opens the https://www.saucedemo.com/" width="1034"/>
-                <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png" title=" standard_user enters 'standard_user' into Nombre Usuario" width="1034"/>
-                <img src="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png" title=" standard_user enters 'standard_user' into Nombre Usuario (completed)" width="1034"/>
-                <img src="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png" title=" standard_user enters 'secret_sauce' into Password" width="1034"/>
-                <img src="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png" title=" standard_user enters 'secret_sauce' into Password (completed)" width="1034"/>
-                <img src="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png" title=" standard_user clicks on Enviar" width="1034"/>
-                <img src="610129b4f1eff3be656a90a59473e3fb2e5b08f0a1334bca8a7dbfca8a5a2081.png" title=" standard_user clicks on Enviar (completed)" width="1034"/>
-                <img src="610129b4f1eff3be656a90a59473e3fb2e5b08f0a1334bca8a7dbfca8a5a2081.png" title=" Standard_user new login sauce demo (completed)" width="1034"/>
-                <img src="610129b4f1eff3be656a90a59473e3fb2e5b08f0a1334bca8a7dbfca8a5a2081.png" title=" Given &quot;standard_user&quot; se encuentra en la pagina principal
-| url | https://www.saucedemo.com/ |
-| username | standard_user |
-| password | secret_sauce | (completed)" width="1034"/>
-                <img src="610129b4f1eff3be656a90a59473e3fb2e5b08f0a1334bca8a7dbfca8a5a2081.png" title=" When Ingresa usuario y contrasena" width="1034"/>
-                <img src="610129b4f1eff3be656a90a59473e3fb2e5b08f0a1334bca8a7dbfca8a5a2081.png" title=" Then visualiza el mensaje de &quot;Login exitoso&quot;: <span class='success-color'>SUCCESS</span>" width="1034"/>
+                <img src="38dfe1dd0d4aecd118ee9dc61d049699f6b838f674c3eba94557294d44f19512.png" title=" Given &quot;standard_user&quot; se encuentra en la pagina inventarios
+| url | https://www.saucedemo.com/inventory.html |" width="1034"/>
+                <img src="38dfe1dd0d4aecd118ee9dc61d049699f6b838f674c3eba94557294d44f19512.png" title=" Standard_user new product list sauce demo" width="1034"/>
+                <img src="38dfe1dd0d4aecd118ee9dc61d049699f6b838f674c3eba94557294d44f19512.png" title=" standard_user opens the https://www.saucedemo.com/inventory.html" width="1034"/>
+                <img src="38dfe1dd0d4aecd118ee9dc61d049699f6b838f674c3eba94557294d44f19512.png" title=" standard_user clicks on agregar1" width="1034"/>
+                <img src="38dfe1dd0d4aecd118ee9dc61d049699f6b838f674c3eba94557294d44f19512.png" title=" standard_user clicks on agregar1 (completed): <span class='failing-color'>FAILURE</span>" width="1034"/>
             </div>
         </div>
 

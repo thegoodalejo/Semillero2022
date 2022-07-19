@@ -4,7 +4,7 @@ Feature: Title of your feature
   I want to use this template for my feature file
 
   @tag1
-  Scenario: Login
+  Scenario: login
     Given "standard_user" se encuentra en la pagina principal
     |url|https://www.saucedemo.com/|
     |username|standard_user|
