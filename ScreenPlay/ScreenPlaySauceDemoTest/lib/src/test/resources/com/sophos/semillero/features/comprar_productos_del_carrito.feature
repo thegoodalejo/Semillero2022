@@ -8,8 +8,13 @@ Feature: Comprar productos del carrito
       | pass | secret_sauce  |
     Then le redirecciono a la pagina de inventario
 
-
-  Scenario: Comprar productos del carrito
+  Scenario: Comprar productos del carrito 
     Given "Jeffer" tiene productos agregados al carrito
+      | Sauce Labs Backpack      |
+      | Sauce Labs Fleece Jacket |
     When hizo un checkout de los productos
+      | firstName | lastName | zipCode |
+      | John      | Doe      |  133434 |
+      | NotJohn   | NotDoe   | 1334366 |
+    And vio la factura generada
     Then vio un mensaje de compra exitosa

@@ -11,9 +11,9 @@ import java.util.logging.Logger;
 
 import com.sophos.semillero.questions.ItemsInCart;
 import com.sophos.semillero.questions.TitleInventory;
-import com.sophos.semillero.tasks.AddItemToCartTask;
+import com.sophos.semillero.tasks.AddItemsToCart;
 import com.sophos.semillero.tasks.GoToCart;
-import com.sophos.semillero.tasks.LoginTask;
+import com.sophos.semillero.tasks.DoLogin;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -26,10 +26,6 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 
 public class AddItemToCartStepDefinition {
 	
-	private String actorName;
-	
-	static Logger log = Logger.getLogger("My Logger");
-	
 	@Before
 	public void setup() {
 		/*Funciono sin poner esta parte*/
@@ -37,15 +33,7 @@ public class AddItemToCartStepDefinition {
 	}
 
 	@Given("{string} se ha autenticado")
-	public void seHaAutenticado(String actorName, DataTable data) {
-		
-	   this.actorName = actorName;
-	   
-	   /*Primero entramos a la pagina*/
-	   theActorCalled(actorName).wasAbleTo(Open.url("https://www.saucedemo.com/"));
-	   
-	   /*Luego nos autenticamos*/
-	   theActorCalled(actorName).wasAbleTo(LoginTask.login(data));
+	public void seHaAutenticado(String actorName) {
 	   
 	   /*Verificamos que si se autentico*/
 	   theActorInTheSpotlight().should(
@@ -59,7 +47,7 @@ public class AddItemToCartStepDefinition {
 	public void agregoProductosAlCarrito(DataTable data) {
 		
 		/*Agregamos 2 productos al carrito*/
-		theActorCalled(actorName).wasAbleTo(AddItemToCartTask.addItemToCart(data));
+		theActorInTheSpotlight().wasAbleTo(AddItemsToCart.items(data));
 
 	}
 
@@ -67,7 +55,7 @@ public class AddItemToCartStepDefinition {
 	public void vioLosProductosAgregadosEnElCarrito() {
 
 		/*Ingresamos al carrito*/
-		theActorCalled(actorName).wasAbleTo(GoToCart.gotToCart());
+		theActorInTheSpotlight().wasAbleTo(GoToCart.navigate());
 		
 		theActorInTheSpotlight().should(
 				

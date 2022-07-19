@@ -1,7 +1,7 @@
 package com.sophos.semillero.stepdefinitions;
 
 import com.sophos.semillero.questions.TitleInventory;
-import com.sophos.semillero.tasks.LoginTask;
+import com.sophos.semillero.tasks.DoLogin;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -32,9 +32,9 @@ public class LoginStepDefinition {
 	}
 
 	@When("diligencio el formulario de login")
-	public void diligencioElFormularioDeLogin(DataTable dataTable) {
+	public void diligencioElFormularioDeLogin(DataTable credentials) {
 		
-		OnStage.theActor(actorName).attemptsTo(LoginTask.login(dataTable));
+		OnStage.theActor(actorName).attemptsTo(DoLogin.withParameters(credentials));
 		
 	}
 

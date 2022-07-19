@@ -16,6 +16,7 @@ public class ItemsInCart implements Question<Integer>{
 	
 	@Override
 	public Integer answeredBy(Actor actor) {
+		
 		return BrowseTheWeb.as(actor).findAll(CartPage.ITEMS).size();
 	}
 	

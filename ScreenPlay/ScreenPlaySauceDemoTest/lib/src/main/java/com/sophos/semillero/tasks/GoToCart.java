@@ -20,7 +20,7 @@ public class GoToCart implements Task{
 		
 	}
 	
-	public static GoToCart gotToCart() {
+	public static GoToCart navigate() {
 		return Tasks.instrumented(GoToCart.class);
 	}
 
