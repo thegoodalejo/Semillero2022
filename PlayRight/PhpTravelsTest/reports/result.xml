@@ -1,0 +1,19 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="20.417">
+<testsuite name="hotelsTest\search.spec.ts" timestamp="1658361269648" hostname="" tests="1" failures="0" skipped="0" time="19.108" errors="0">
+<testcase name="
+Given the user was on the inventory page
+when adding products to the cart
+then he saw that the products were added to the cart.
+" classname="[chromium] › hotelsTest\search.spec.ts:22:1 › 
+Given the user was on the inventory page
+when adding products to the cart
+then he saw that the products were added to the cart.
+" time="19.108">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\hotelsTest-search--Given-the-user-was-on-the-i-4e9e6-e-saw-that-the-products-were-added-to-the-cart--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

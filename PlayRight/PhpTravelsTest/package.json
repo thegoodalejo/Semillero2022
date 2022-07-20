@@ -1,0 +1,19 @@
+{
+  "name": "phptravelstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test" : "npx playwright test",
+    "test-flight" : "npx playwright test tests/FlightsTest/",
+    "test-hotel" : "npx playwright test tests/hotelsTest/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.23.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.23.3"
+  }
+}
