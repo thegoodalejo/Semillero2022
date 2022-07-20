@@ -6,5 +6,5 @@ Feature: Title of your feature
   Scenario: Comprar productos
     Given El usuario ha agregado productos al carrito
     When Finaliza la compra de los productos
-    Then Visualiza la confirmacion de la compra
-    And Visualiza la factura de compra
+    Then Visualiza la factura de compra
+    And Visualiza la confirmacion de la compra

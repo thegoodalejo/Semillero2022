@@ -1,5 +1,7 @@
 package com.sophos.semillero.stepdefinitions;
 
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
+
 import com.sophos.semillero.tasks.SauceDemoLogin;
 
 import io.cucumber.datatable.DataTable;
@@ -20,7 +22,7 @@ public class LoginSauceDemoStepDefinitions {
 	
 	@Given("{string} se encuentra en la pagina principal de SauceDemo")
 	public void elUsuarioSeEncuentraEnLaPaginaPrincipalDeSauceDemo(String actorName, DataTable dataTable) {
-		OnStage.theActorCalled(actorName).wasAbleTo(SauceDemoLogin.login(dataTable));
+		theActorCalled(actorName).wasAbleTo(SauceDemoLogin.inSauceDemo(dataTable));
 	    
 	}
 
