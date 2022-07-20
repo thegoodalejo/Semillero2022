@@ -1,17 +1,17 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.262">
-<testsuite name="buyProductsInCart.spec.ts" timestamp="1658150485144" hostname="" tests="1" failures="0" skipped="0" time="13.223" errors="0">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.966">
+<testsuite name="hotels\search.spec.ts" timestamp="1658350305220" hostname="" tests="1" failures="0" skipped="0" time="12.021" errors="0">
 <testcase name="
-Given the user has products in the cart
-when he purchased the products
-then he saw that the purchase was successful.
-" classname="[chromium] › buyProductsInCart.spec.ts:43:1 › 
-Given the user has products in the cart
-when he purchased the products
-then he saw that the purchase was successful.
-" time="13.223">
+Given the user was on the inventory page
+when adding products to the cart
+then he saw that the products were added to the cart.
+" classname="[chromium] › hotels\search.spec.ts:22:1 › 
+Given the user was on the inventory page
+when adding products to the cart
+then he saw that the products were added to the cart.
+" time="12.021">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|..\test-results\buyProductsInCart--Given-the-user-has-products-6ac77-s-then-he-saw-that-the-purchase-was-successful--chromium\video.webm]]
+[[ATTACHMENT|..\test-results\hotels-search--Given-the-user-was-on-the-inven-9ce1a-e-saw-that-the-products-were-added-to-the-cart--chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>
