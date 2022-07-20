@@ -21,13 +21,15 @@ export class ProductListPage{
         
         /* Click en el boton del producto BackPack */
         await btnProductBackPack.click();
+
        /* Click en el boton del producto Bolt-T-Shirt */
         await btnProductBoltTShirt.click();
+
         /* Click en el boton del carrito */
         await btnCart.click();
     }
-    async isOnCartPage(){
-        /*Valido que el usuario se encuentra en la pagina del carrito */
+    async isOnCart(){
+        /* Valido que el usuario se encuentra en la pagina del carrito */
         await expect(this.page).toHaveURL('https://www.saucedemo.com/cart.html');
     }
     
