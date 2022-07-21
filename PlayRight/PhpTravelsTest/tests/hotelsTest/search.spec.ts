@@ -1,18 +1,20 @@
 import {test} from '@playwright/test';
-import {SearchPage } from '../../src/pages/Hotels/SearchPage';
+import {SearchPage } from '../../src/pages/Hotels/SectionHotelsPage';
 import { ResultHotelsPage } from '../../src/pages/Hotels/ResultHotelsPage';
 
 /**Datos buscar la ciudad*/
 const info = {
     cityName : 'paris',
-    nacionality: 'AL'
+    nacionality: 'AL',
+    date:{
+        checkInDay: "24",
+        checkOutDay: "20",
+        checkInMonthYear : "December 2022",
+        checkOutMonthYear : "February 2023"
+    }
     
 }
  
-const date = {
-    checkIn : '19-07-2022',
-    ckeckOut: '22-07-2022'
-}
 
 test.beforeEach(async ({page})=>{
     await page.goto('https://phptravels.net/');
@@ -29,7 +31,7 @@ then he saw that the products were added to the cart.
     const resultHotelsPage = new ResultHotelsPage(page);
 
 
-    await searchPage.Search(info);
+    await searchPage.search(info);
     await resultHotelsPage.isInResultHotelsPage();
     
 

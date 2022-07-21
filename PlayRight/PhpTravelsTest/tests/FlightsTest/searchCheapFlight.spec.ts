@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-import { FlightsPage } from '../../src/pages/Flights/FlightsPage';
+import { FlightsPage } from '../../src/pages/Flights/ResultFlightsPage';
 import { HomePage } from '../../src/pages/Flights/SectionFlightsPage';
 
 test.beforeEach(async ({page})=>{
