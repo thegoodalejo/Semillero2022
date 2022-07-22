@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import{HomePhpTravelsPage} from '../src/pagesPhpTravels/HomePhpTravelsPage';
-import{FormSearchToursPage} from '../src/pagesPhpTravels/FormSearchToursPage';
+import{HomePhpTravelsPage} from '../scr/pagesPhptravels/HomePhpTravelsPage';
+import{FormSearchToursPage} from '../scr/pagesPhptravels/FormSearchToursPage';
 
 test.beforeEach(async({page})=>{
     /* Se crea una instancia de la clase LoginSauceDemo */
@@ -14,7 +14,7 @@ test('test', async ({ page }) => {
     const formSearchToursPage = new FormSearchToursPage(page);
     let cityName = 'Medellin';
     let date = '20-07-2022';
-    let day = '20';
+    let day = '25';
     let cantAdult = '5';
     let cantChild = '4';
 

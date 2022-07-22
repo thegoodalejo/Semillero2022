@@ -1,12 +1,45 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.736">
-<testsuite name="addItemsToCar.spec.ts" timestamp="1657918137049" hostname="" tests="1" failures="0" skipped="0" time="4.377" errors="0">
-<testcase name="
-Given el usuario lista los productos
-When Selecciono los dos productos  
-Then los productos se agrega al carrito " classname="[chromium] › addItemsToCar.spec.ts:7:1 › 
-Given el usuario lista los productos
-When Selecciono los dos productos  
-Then los productos se agrega al carrito " time="4.377">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="19.898">
+<testsuite name="searchTours.spec.ts" timestamp="1658413290174" hostname="" tests="1" failures="1" skipped="0" time="18.646" errors="0">
+<testcase name="test" classname="[chromium] › searchTours.spec.ts:12:1 › test" time="18.646">
+<failure message="searchTours.spec.ts:12:1 test" type="FAILURE">
+<![CDATA[  [chromium] › searchTours.spec.ts:12:1 › test =====================================================
+
+    Error: expect(received).toContainText(expected)
+
+    Expected string: "20-07-2022"
+    Received string: "Date ( 24-07-2022 )"
+    Call log:
+      - expect.toContainText with timeout 5000ms
+      - waiting for selector "xpath=//div[@class='left-side-info rtl-align-right']//p[1]"
+      -   selector resolved to <p>…</p>
+      -   unexpected value "Date ( 24-07-2022 )"
+      -   selector resolved to <p>…</p>
+      -   unexpected value "Date ( 24-07-2022 )"
+      -   selector resolved to <p>…</p>
+      -   unexpected value "Date ( 24-07-2022 )"
+      -   selector resolved to <p>…</p>
+      -   unexpected value "Date ( 24-07-2022 )"
+
+
+      20 |
+      21 |    await formSearchToursPage.searchTours(cityName, day,cantAdult,cantChild);
+    > 22 |    await formSearchToursPage.isOnTours(date);
+         |                              ^
+      23 | });
+
+        at FormSearchToursPage.isOnTours (C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\scr\pagesPhptravels\FormSearchToursPage.ts:66:103)
+        at C:\Users\juan.morap\Desktop\Semillero_git\Semillero2022\MiTrabajoJuanPabloMora\playWrightpom\tests\searchTours.spec.ts:22:30
+
+    attachment #1: screenshot (image/png) ----------------------------------------------------------
+    test-results\searchTours-test-chromium\test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\searchTours-test-chromium\test-failed-1.png]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
 </testsuites>

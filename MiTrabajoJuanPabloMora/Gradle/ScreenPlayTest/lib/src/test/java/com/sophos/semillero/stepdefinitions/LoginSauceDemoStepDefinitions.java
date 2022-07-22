@@ -20,18 +20,18 @@ public class LoginSauceDemoStepDefinitions {
 		OnStage.setTheStage(new OnlineCast());
 	}
 	
-	@Given("{string} se encuentra en la pagina principal")
+	@Given("{string} se encuentra en la pagina principa")
 	public void elUsuarioSeEncuentraEnLaPaginaPrincipal(String actorName, DataTable datatable ) {
 		OnStage.theActorCalled(actorName).wasAbleTo((NewLoginSauceDemo.login(datatable)));
 	}
 	
-	@When("Ingresa usuario y contrasena")
+	@When("Ingresa usuario ")
 	public void ingresaUsuarioYContrasena() {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 	}
 	
-	@Then("visualiza el mensaje de {string}")
+	@Then("visualiza el mensaje d {string}")
 	public void visualizaElMensajeDe(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
