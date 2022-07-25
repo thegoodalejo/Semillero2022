@@ -1,4 +1,4 @@
-#Author: your.email@your.domain.com
+#Author: juan.morap@´sophossolutions.com
 
 Feature: Get user by id
 
