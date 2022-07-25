@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Get post all" skipped="0" tests="1" time="5.09" timestamp="2022-07-24 09:30:52"><testcase name="consultar un post a traves de una peticion GET"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Get post all" skipped="0" tests="2" time="5.69" timestamp="2022-07-25 11:12:23"><testcase name="consultar un post a traves de una peticion GET"/></testsuite>
