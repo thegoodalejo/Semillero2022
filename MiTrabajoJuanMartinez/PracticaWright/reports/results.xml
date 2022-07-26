@@ -1,68 +1,58 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="20.701">
-<testsuite name="VerificarVueloBarato.spec.ts" timestamp="1657812526266" hostname="" tests="1" failures="1" skipped="0" time="18.996" errors="0">
-<testcase name="test" classname="[chromium] › VerificarVueloBarato.spec.ts:3:1 › test" time="18.996">
-<failure message="VerificarVueloBarato.spec.ts:3:1 test" type="FAILURE">
-<![CDATA[  [chromium] › VerificarVueloBarato.spec.ts:3:1 › test =============================================
-
-    page.$$: DOMException: Failed to execute 'evaluate' on 'Document': The string ' "//button[@class="btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect"]/strong"' is not a valid XPath expression.
-
-      49 |
-      50 |   //test.setTimeout(120000)
-    > 51 |   var listViajes2 = await page.$$('xpath= "//button[@class="btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect"]/strong"');
-         |                                ^
-      52 |
-      53 |     console.log("Viajes by $$ ===> " + listViajes2.length);
-      54 |   
-
-        at Object.queryAll (<anonymous>:1016:26)
-        at InjectedScript._queryEngineAll (<anonymous>:3907:49)
-        at InjectedScript.querySelectorAll (<anonymous>:3894:30)
-        at eval (eval at evaluate (:178:30), <anonymous>:5:23)
-        at UtilityScript.evaluate (<anonymous>:180:17)
-        at UtilityScript.<anonymous> (<anonymous>:1:44)
-        at C:\Users\juan.martinezs\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero Automatización\GitHub\Semillero2022\MiTrabajoJuanMartinez\PracticaWright\tests\VerificarVueloBarato.spec.ts:51:32
-
-    attachment #1: screenshot (image/png) ----------------------------------------------------------
-    test-results\VerificarVueloBarato-test-chromium\test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    page.goto: Navigation failed because page was closed!
-    =========================== logs ===========================
-    navigating to "https://www.phptravels.net/", waiting until "load"
-    ============================================================
-
-       9 |
-      10 |   // Go to https://www.phptravels.net/
-    > 11 |   await page.goto('https://www.phptravels.net/');
-         |              ^
-      12 |
-      13 |   // Click button[role="tab"]:has-text("flights")
-      14 |   await page.locator('button[role="tab"]:has-text("flights")').click();
-
-        at C:\Users\juan.martinezs\OneDrive - SOPHOS SOLUTIONS SAS\Documentos\Semillero Automatización\GitHub\Semillero2022\MiTrabajoJuanMartinez\PracticaWright\tests\VerificarVueloBarato.spec.ts:11:14
-
-    attachment #1: video (video/webm) --------------------------------------------------------------
-    test-results\VerificarVueloBarato-test-chromium-retry1\video.webm
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: trace (application/zip) ---------------------------------------------------------
-    test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip
-    Usage:
-
-        npx playwright show-trace test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip
-
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="22.198">
+<testsuite name="BuscarVuelos.spec.ts" timestamp="1658169383691" hostname="" tests="1" failures="0" skipped="0" time="21.352" errors="0">
+<testcase name="test" classname="[chromium] › BuscarVuelos.spec.ts:5:1 › test" time="21.352">
 <system-out>
-<![CDATA[
-[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium\test-failed-1.png]]
-
-[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium-retry1\video.webm]]
-
-[[ATTACHMENT|..\test-results\VerificarVueloBarato-test-chromium-retry1\trace.zip]]
+<![CDATA[Viajes by $$ ===> 50
+-USD 1666.5
+-USD 1706.1
+-USD 1716
+-USD 1755.6
+-USD 1798.5
+-USD 1805.1
+-USD 1844.7
+-USD 1851.3
+-USD 1864.5
+-USD 1884.3
+-USD 1890.9
+-USD 1890.9
+-USD 1900.8
+-USD 1904.1
+-USD 1914
+-USD 1933.8
+-USD 1944.8
+-USD 1973.4
+-USD 1983.3
+-USD 1984.4
+-USD 1989.9
+-USD 2029.5
+-USD 2052.6
+-USD 2088.9
+-USD 2093.3
+-USD 2096.6
+-USD 2104.3
+-USD 2128.5
+-USD 2131.8
+-USD 2135.1
+-USD 2136.2
+-USD 2161.5
+-USD 2174.7
+-USD 2196.7
+-USD 2197.8
+-USD 2200
+-USD 2212.1
+-USD 2237.4
+-USD 2240.7
+-USD 2253.9
+-USD 2267.1
+-USD 2281.4
+-USD 2280.3
+-USD 2303.4
+-USD 2306.7
+-USD 2310
+-USD 2324.3
+-USD 2346.3
+-USD 2349.6
+-USD 2359.5
 ]]>
 </system-out>
 </testcase>
