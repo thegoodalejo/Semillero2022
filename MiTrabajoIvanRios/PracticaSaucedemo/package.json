@@ -8,6 +8,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.23.2"
+    "@playwright/test": "^1.24.0"
   }
 }

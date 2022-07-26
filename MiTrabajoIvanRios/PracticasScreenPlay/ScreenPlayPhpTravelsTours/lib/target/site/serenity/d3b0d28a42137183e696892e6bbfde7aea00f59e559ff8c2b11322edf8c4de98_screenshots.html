@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="d16edbc0ee9c6d5e39e950da6e555a5c0ff334c535f67ed39b0acc7fc62d3e35.html">Search A Tour</a></span>
+                > <span class="truncate-60"><a
+                    href="d3b0d28a42137183e696892e6bbfde7aea00f59e559ff8c2b11322edf8c4de98.html">Search the available tours </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-07-2022 08:28</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Search A Tour</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Search the available tours
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="8a278d31f1882fbc5e8edd09bc5f2420fbdeb55948cd1ba1f434451f3c9b106c.png" title=" Given &quot;User&quot; clicks on tour tab" width="1034"/>
+                <img src="8a278d31f1882fbc5e8edd09bc5f2420fbdeb55948cd1ba1f434451f3c9b106c.png" title=" User opens the https://www.phptravels.net/" width="1034"/>
+                <img src="8a278d31f1882fbc5e8edd09bc5f2420fbdeb55948cd1ba1f434451f3c9b106c.png" title=" User clicks on Pesta&ntilde;a Tours" width="1034"/>
+                <img src="ee08bf90896d79410b0baf6ab8814eb238ed290b7de9df854fa2cc0982a3fb80.png" title=" User clicks on Pesta&ntilde;a Tours (completed)" width="1034"/>
+                <img src="8b1404c4c4666272f9cdcdfab0fec05985aa86188462ee4bda0d6fdad898144e.png" title=" Given &quot;User&quot; clicks on tour tab (completed)" width="1366"/>
+                <img src="34d6895c9a85ec84f39253387183c817e2438f9ef8f072ca477c264f8f993ed8.png" title=" When fills the information
+| destination | date | adults | child |
+| disney | 25-07-2022 | 2 | 1 |
+| yellowstone | 28-07-2022 | 1 | 3 |" width="1366"/>
+                <img src="34d6895c9a85ec84f39253387183c817e2438f9ef8f072ca477c264f8f993ed8.png" title=" User fill data tours task" width="1366"/>
+                <img src="34d6895c9a85ec84f39253387183c817e2438f9ef8f072ca477c264f8f993ed8.png" title=" User fill tour data interaction" width="1366"/>
+                <img src="34d6895c9a85ec84f39253387183c817e2438f9ef8f072ca477c264f8f993ed8.png" title=" User clicks on Destino" width="1366"/>
+                <img src="e10601a12554ad779e07f33a60f8a96a64acd4868699663b233093b23f76c140.png" title=" User clicks on Destino (completed)" width="1366"/>
+                <img src="e10601a12554ad779e07f33a60f8a96a64acd4868699663b233093b23f76c140.png" title=" User enters 'disney' into Destino" width="1366"/>
+                <img src="901fb70031a399c273a02900b7bdfe294833a69c3381e45380f1dde0f22e2a2a.png" title=" User enters 'disney' into Destino (completed)" width="1366"/>
+                <img src="6ddfed2fe7e4cc8d120a0742395c0a517a1f1ea823404b8428e7323656547b9b.png" title=" User element of search list interaction" width="1366"/>
+                <img src="6ddfed2fe7e4cc8d120a0742395c0a517a1f1ea823404b8428e7323656547b9b.png" title=" User clicks on By.xpath: //li[@class='select2-results__option select2-results__option--highlighted']" width="1366"/>
+                <img src="3dca82b6558bc5dfc1551e3a8d9a462541854ad961b9c5807eed0ee0b727c87f.png" title=" User clicks on By.xpath: //li[@class='select2-results__option select2-results__option--highlighted'] (completed)" width="1366"/>
+                <img src="3dca82b6558bc5dfc1551e3a8d9a462541854ad961b9c5807eed0ee0b727c87f.png" title=" User element of search list interaction (completed)" width="1366"/>
+                <img src="3dca82b6558bc5dfc1551e3a8d9a462541854ad961b9c5807eed0ee0b727c87f.png" title=" User clicks on Fecha de Ingreso" width="1366"/>
+                <img src="431df2969c5295853e203f9d8a9b579185043e06e0687f9db7e9c7382ec41d5a.png" title=" User clicks on Fecha de Ingreso (completed)" width="1366"/>
+                <img src="431df2969c5295853e203f9d8a9b579185043e06e0687f9db7e9c7382ec41d5a.png" title=" User set date interaction" width="1366"/>
+                <img src="431df2969c5295853e203f9d8a9b579185043e06e0687f9db7e9c7382ec41d5a.png" title=" User clicks on By.xpath: //div[@class='datepicker dropdown-menu' and contains(@style,'display: block;')]//td[@class='day ' and text()='25']" width="1366"/>
+                <img src="d27e978023603c01a7fa5cef7f130a6ed4d42f43a72054214436993751f5cef8.png" title=" User clicks on By.xpath: //div[@class='datepicker dropdown-menu' and contains(@style,'display: block;')]//td[@class='day ' and text()='25'] (completed)" width="1366"/>
+                <img src="d27e978023603c01a7fa5cef7f130a6ed4d42f43a72054214436993751f5cef8.png" title=" User set date interaction (completed)" width="1366"/>
+                <img src="d27e978023603c01a7fa5cef7f130a6ed4d42f43a72054214436993751f5cef8.png" title=" User clicks on Pasajeros" width="1366"/>
+                <img src="62a36dd66726c5482865782c8be9986d4fe3d8f86a62253d09b7ff81a339f2bd.png" title=" User clicks on Pasajeros (completed)" width="1366"/>
+                <img src="62a36dd66726c5482865782c8be9986d4fe3d8f86a62253d09b7ff81a339f2bd.png" title=" User enters '2' into Adults Quantity" width="1366"/>
+                <img src="2a4774f346494147678b0a7bfa5bfb6c78e353645eff8f2974c46a207107551d.png" title=" User enters '2' into Adults Quantity (completed)" width="1366"/>
+                <img src="2a4774f346494147678b0a7bfa5bfb6c78e353645eff8f2974c46a207107551d.png" title=" User enters '1' into Children Quantity" width="1366"/>
+                <img src="8be6c95e8b5cc396802c4360eea0b4505be2ef06aa4d90b79afc1a260096be55.png" title=" User enters '1' into Children Quantity (completed)" width="1366"/>
+                <img src="8be6c95e8b5cc396802c4360eea0b4505be2ef06aa4d90b79afc1a260096be55.png" title=" User clicks on Search Button" width="1366"/>
+                <img src="4043aa85b526c39ad42ab7d9192a855d24a603196c0a25dde11a15fe68bfda9b.png" title=" User clicks on Search Button (completed)" width="1366"/>
+                <img src="4043aa85b526c39ad42ab7d9192a855d24a603196c0a25dde11a15fe68bfda9b.png" title=" User fill tour data interaction (completed)" width="1366"/>
+                <img src="4043aa85b526c39ad42ab7d9192a855d24a603196c0a25dde11a15fe68bfda9b.png" title=" User fill data tours task (completed)" width="1366"/>
+                <img src="4043aa85b526c39ad42ab7d9192a855d24a603196c0a25dde11a15fe68bfda9b.png" title=" When fills the information
+| destination | date | adults | child |
+| disney | 25-07-2022 | 2 | 1 |
+| yellowstone | 28-07-2022 | 1 | 3 | (completed)" width="1366"/>
+                <img src="4043aa85b526c39ad42ab7d9192a855d24a603196c0a25dde11a15fe68bfda9b.png" title=" Then should see the available list tours: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.4.34</span>
+</div>
+</body>
+</html>
