@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Get user by id" skipped="0" tests="1" time="4.67" timestamp="2022-07-22 02:24:25"><testcase name="Consultar un usuario a traves de una peticion Get"><failure message="expected:&lt;juan[s]&gt; but was:&lt;juan[]&gt;" type="java.lang.AssertionError">expected:&lt;juan[s]&gt; but was:&lt;juan[]&gt;</failure><system-err>expected:&lt;juan[s]&gt; but was:&lt;juan[]&gt;&#13;
+com.sophos.semillero.restinteractions.RestInteracion.validateDateResponse(RestInteracion.java:42)&#13;
+com.sophos.semillero.api.GoRestApi.validateResponse(GoRestApi.java:28)&#13;
+com.sophos.semillero.stepdefinitions.GoRestGetUserByIdStepDefinition.validaremosEstusCodeYQueContengaElNombre(GoRestGetUserByIdStepDefinition.java:18)&#13;
+✽.validaremos estatus code 200 y que contenga el nombre "juans"(file:///C:/Users/juan.martinezs/OneDrive%20-%20SOPHOS%20SOLUTIONS%20SAS/Documentos/EclipseProjetcs/ScreenPlayTest/lib/src/test/resources/com/sophos/semillero/features/go_rest_get_user_by_id.feature:7)&#13;
+</system-err></testcase></testsuite>
