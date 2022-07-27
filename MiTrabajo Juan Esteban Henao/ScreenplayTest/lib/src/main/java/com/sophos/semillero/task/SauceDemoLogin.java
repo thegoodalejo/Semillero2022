@@ -29,7 +29,7 @@ public class SauceDemoLogin implements Task  {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		actor.attemptsTo(Open.url(dataTable.get("url")),
-				WaitUntil.the(TXT_USER_NAME, isVisible()).forNoMoreThan(10).seconds(),
+				/*WaitUntil.the(TXT_USER_NAME, isVisible()).forNoMoreThan(10).seconds(),*/
 				Enter.theValue(dataTable.get("userName")).into(TXT_USER_NAME),
 				Enter.theValue(dataTable.get("password")).into(SauceDemoLogInpage.TXT_PASSWORD.of("password")),
 				Click.on(SauceDemoLogInpage.BUTTON_SUBMIT)/*,

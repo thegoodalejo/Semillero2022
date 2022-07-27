@@ -1,6 +1,6 @@
 #Author: juan.henaor@sophossolutions.com
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Login in Newtours
+
 
   Scenario: Login del usuario
     Given El "User" se encuentra en la pagina principal

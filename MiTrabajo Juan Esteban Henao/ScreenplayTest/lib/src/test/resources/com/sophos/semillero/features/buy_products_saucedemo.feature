@@ -1,5 +1,5 @@
 #Author: juan.henaor@sophossolutions.com
-Feature: Title of your feature
+Feature: Buy products
   I want to use this template for my feature file
 
  	 Background: 
@@ -13,7 +13,7 @@ Feature: Title of your feature
     When add products to cart
     Then saw the products in the cart
 
-  Scenario: Title of your scenario
+  Scenario: Buy products
     Given the "user" has added products to the cart
     When finalizes the purchase of the products
       | firsName   | Juan   |

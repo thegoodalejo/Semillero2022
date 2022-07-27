@@ -21,7 +21,7 @@ public class InteractionTest implements Interaction{
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		
-		//Forma 1
+		/*//Forma 1
 		SauceDemoBuyPage.CONTAINER_ITEMS.resolveFor(actor).findBy("");
 		//Forma 2
 		actor.attemptsTo(Click.on(SauceDemoBuyPage.CONTAINER_ITEMS.of("El 1 de los 8")));
@@ -37,11 +37,12 @@ public class InteractionTest implements Interaction{
 		}
 		for (int i = 0; i < 11; i++) {
 			System.out.println(i);
-		}
+		}*/
 		
 	}
 	
-	public static InteractionTest number () {
+	public static InteractionTest completeInfo () {
+		
 		return Tasks.instrumented(InteractionTest.class);
 
 	}

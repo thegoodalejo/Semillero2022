@@ -1,0 +1,10 @@
+Serenity report generated 21-07-2022 17:42:49
+
+Test Cases:         6 
+Passed:             4
+Failed:             1
+Failed with errors: 0
+Compromised:        0
+Pending:            1
+Ignored:            0
+Skipped:            0
