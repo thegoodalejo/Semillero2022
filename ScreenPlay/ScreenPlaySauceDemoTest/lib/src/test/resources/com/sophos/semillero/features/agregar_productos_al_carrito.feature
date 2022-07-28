@@ -1,5 +1,5 @@
 #Author: jefferson.cardenas@sophossolutions.com
-Feature: Title of your feature
+Feature: Agregar productos al carrito
   I want to use this template for my feature file
 
   Background: 
@@ -9,9 +9,10 @@ Feature: Title of your feature
       | pass | secret_sauce  |
     Then le redirecciono a la pagina de inventario
 
-  Scenario: Agregar productos al carrito
+  Scenario: Agregar productos al carrito de manera exitosa
     Given "Jeffer" se ha autenticado
     When agrego productos al carrito
       | Sauce Labs Backpack      |
       | Sauce Labs Fleece Jacket |
+      | Sauce Labs Bolt T-Shirt  |
     Then vio los productos agregados en el carrito

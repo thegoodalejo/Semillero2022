@@ -6,6 +6,3 @@ build
 
 #ignorar los reportes
 /lib/target/
-
-#ignorar las clases compiladas
-/lib/bin/

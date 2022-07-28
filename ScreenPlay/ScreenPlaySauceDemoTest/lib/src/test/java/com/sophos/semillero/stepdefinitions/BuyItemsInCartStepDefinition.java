@@ -7,6 +7,8 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 import org.hamcrest.core.IsEqual;
 
+import com.sophos.semillero.exceptions.FailedPurchase;
+import com.sophos.semillero.exceptions.NoProductsInCart;
 import com.sophos.semillero.questions.ItemsInCart;
 import com.sophos.semillero.questions.ItemsInSummary;
 import com.sophos.semillero.questions.MessageThank;
@@ -29,6 +31,8 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
 
 public class BuyItemsInCartStepDefinition {
 	
+	private Integer amountItems;
+	
 	@Before
 	public void setup() {
 		OnStage.setTheStage(new OnlineCast());
@@ -37,12 +41,15 @@ public class BuyItemsInCartStepDefinition {
 	@Given("{string} tiene productos agregados al carrito")
 	public void tieneProductosAgregadosAlCarrito(String actorName, DataTable items) {
 	    
+		this.amountItems = items.asList(String.class).size();
+		
 	    theActorCalled(actorName).wasAbleTo(AddItemsToCart.items(items));
 	    
 	    theActorInTheSpotlight().wasAbleTo(GoToCart.navigate());
 	    
 	    theActorInTheSpotlight().should(
-	    		seeThat(ItemsInCart.value(), equalTo(2))
+	    		seeThat(ItemsInCart.value(), equalTo(amountItems))
+	    		.orComplainWith(FailedPurchase.class, "No products added to cart")
 	    		);
 	    
 	}
@@ -63,7 +70,8 @@ public class BuyItemsInCartStepDefinition {
 	public void vioLaFacturaGenerada() {
 		
 		theActorInTheSpotlight().should(
-				seeThat(ItemsInSummary.value(), equalTo(2))
+				seeThat(ItemsInSummary.value(), equalTo(amountItems))
+				.orComplainWith(NoProductsInCart.class, "No Products added to cart")
 				);
 		
 		theActorInTheSpotlight().attemptsTo(
@@ -76,6 +84,7 @@ public class BuyItemsInCartStepDefinition {
 	    
 		theActorInTheSpotlight().should(
 				seeThat(MessageThank.value(), equalTo("THANK YOU FOR YOUR ORDER"))
+				.orComplainWith(FailedPurchase.class, "Failed to complete purchase")
 				);
 		
 	}

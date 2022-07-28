@@ -1,18 +1,21 @@
 package com.sophos.semillero.stepdefinitions;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
+import static org.hamcrest.core.IsEqual.equalTo;
+
+import com.sophos.semillero.exceptions.InvalidCredentials;
 import com.sophos.semillero.questions.TitleInventory;
 import com.sophos.semillero.tasks.DoLogin;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
-import io.cucumber.java.en.*;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-
-import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static org.hamcrest.core.IsEqual.equalTo;
 
 public class LoginStepDefinition {
 	
@@ -43,6 +46,8 @@ public class LoginStepDefinition {
 	
 		theActorInTheSpotlight().should(
 				seeThat("The displayed title", TitleInventory.value(), equalTo("PRODUCTS"))
+				.orComplainWith(InvalidCredentials.class, "Credentials Invalid...!")
+				
 		);
 		
 	}

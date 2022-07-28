@@ -8,7 +8,7 @@ Feature: Comprar productos del carrito
       | pass | secret_sauce  |
     Then le redirecciono a la pagina de inventario
 
-  Scenario: Comprar productos del carrito 
+  Scenario: Comprar productos del carrito de manera exitosa
     Given "Jeffer" tiene productos agregados al carrito
       | Sauce Labs Backpack      |
       | Sauce Labs Fleece Jacket |

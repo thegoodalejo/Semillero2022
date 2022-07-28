@@ -8,6 +8,6 @@ public class CheckoutOnePage {
 	public static final Target TXT_LAST_NAME = Target.the("Campo de texto del apellido").locatedBy("//input[@name = 'lastName']");
 	public static final Target TXT_ZIP_CODE = Target.the("Campo de texto del apellido").locatedBy("//input[@name = 'postalCode']");
 	
-	public static final Target BTN_CONTINUE = Target.the("Campo de texto del apellido").locatedBy("//input[@name = 'continue']");
+	public static final Target BTN_CONTINUE = Target.the("Boton de Continue").locatedBy("//input[@name = 'continue']");
 	
 }

@@ -7,6 +7,7 @@ import com.sophos.semillero.userinterfaces.CartPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.questions.Text;
 
 public class ItemsInCart implements Question<Integer>{
 	

@@ -2,7 +2,7 @@ package com.sophos.semillero.tasks;
 
 import java.util.List;
 
-import com.sophos.semillero.interactions.AddItemToCartInteraction;
+import com.sophos.semillero.interactions.AddItem;
 
 import io.cucumber.datatable.DataTable;
 import net.serenitybdd.screenplay.Actor;
@@ -23,7 +23,7 @@ public class AddItemsToCart implements Task{
 		
 		actor.attemptsTo(
 				
-			AddItemToCartInteraction.addItemsToCart(items)
+			AddItem.toCart(items)
 				
 		);
 		
