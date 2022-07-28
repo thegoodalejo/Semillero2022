@@ -13,11 +13,11 @@ test('test', async ({ page }) => {
     /* Se crea una instancia de la clase FormSearchToursPage */
     const formSearchToursPage = new FormSearchToursPage(page);
     let cityName = 'Medellin';
-    let date = '20-07-2022';
-    let day = '20';
+    let date = '28-07-2022';
+    let day = '28';
     let cantAdult = '5';
     let cantChild = '4';
 
-   await formSearchToursPage.searchTours(cityName, day,cantAdult,cantChild);
+   await formSearchToursPage.searchTours(cityName, day,cantAdult, cantChild);
    await formSearchToursPage.isOnTours(date);
 });

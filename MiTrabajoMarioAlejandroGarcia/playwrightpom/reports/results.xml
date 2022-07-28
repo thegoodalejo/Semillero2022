@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="17.085">
-<testsuite name="searchTours.spec.ts" timestamp="1658291405275" hostname="" tests="1" failures="0" skipped="0" time="14.734" errors="0">
-<testcase name="test" classname="[chromium] › searchTours.spec.ts:12:1 › test" time="14.734">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="13.298">
+<testsuite name="searchTours.spec.ts" timestamp="1658969275162" hostname="" tests="1" failures="0" skipped="0" time="11.621" errors="0">
+<testcase name="test" classname="[chromium] › searchTours.spec.ts:12:1 › test" time="11.621">
 </testcase>
 </testsuite>
 </testsuites>

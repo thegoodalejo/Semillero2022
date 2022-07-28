@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Login</title>
+    <title>Consultar un post a partir de una peticion GET</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -126,7 +126,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > Login
+        > Consultar un post a partir de una peticion GET
         </span>
         </div>
         <div class="rightbg"></div>
@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-07-2022 22:56</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-07-2022 17:07</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -159,7 +159,7 @@
                                 <div>
                                     <h3 class="discreet-story-header">
                                         <i class="fa fa-2x fa-comments-o"></i>
-                                        <span class="story-header-title">Title Of Your Feature</span>
+                                        <span class="story-header-title">Service Jsonplaceholder</span>
                                     </h3>
                                 </div>
 
@@ -176,7 +176,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Login
+                                    Consultar un post a partir de una peticion GET
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -187,56 +187,74 @@
             </div>
 
 
-                <!-- CAST MEMBERS -->
-                <div>&nbsp;</div>
-                <div class="story-title">
-                    <table class="outcome-header">
-                        <tr>
-                            <td>
-                                <div>
-                                    <h3 class="discreet-story-header">
-                                        <i class="fa fa-2x fa-users"></i>
-                                        <span class="story-header-title">
-                                            <a class="btn btn-primary" data-toggle="collapse" href="#castDetails"
-                                               role="button" aria-expanded="true" aria-controls="castDetails">Cast</a>
-                                        </span>
-                                    </h3>
-
-                                    <div class="cast-member collapse" id="castDetails">
-                                        <table class="cast">
-                                            <tr>
-                                                    <td width="100%">
-                                                        <h4>
-                                                            <i class="fa fa-2x fa-user-o"></i>&nbsp;<span>Mario</span>
-                                                            <h4>
-                                                                <p></p>
-                                                                <ul>
-                                                                        <li><strong>Mario can:</strong>
-                                                                            <ul>
-                                                                                    <li>browse the web</li>
-                                                                            </ul>
-                                                                        </li>
-                                                                </ul>
-                                                    </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <!-- END CAST MEMBERS -->
-
 
         </div>
     </div>
 
     <div class="clr"></div>
 
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">Given quiero establecer la base URL de jsonplaceholder '&lt;url&gt;'<br>When enviamos la informacion del post al endpoint '&lt;endpoint&gt;' por id '&lt;id&gt;'<br>Then vemos que el status code del post consultado es &lt;code&gt;</div>
+
+        </div>
 
     <div id="beforetable"></div>
 
+
+            <h3 class="story-header">Examples:&nbsp;</h3>
+                <div class="requirementNarrative"></div>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Id</th>
+                            <th>Code</th>
+                            <th>Url</th>
+                            <th>Endpoint</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">21</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">200</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">https://jsonplaceholder.typicode.com</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">/posts/</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#1">2</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">110</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">404</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">https://jsonplaceholder.typicode.com</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">/posts/</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
     <div id="tablecontents">
         <div>
@@ -248,7 +266,6 @@
                         Steps
                     </th>
 
-                        <th width="150" class="greentext">Screenshots</th>
                     <th width="130" class="greentext">Outcome</th>
                     <th width="100" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
                 </tr>
@@ -272,7 +289,7 @@
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block;">
                                     <span class="top-level-step">
-                                                Given "Mario" se encuentra en la pagina principal de SauceDemo<br><table class='embedded'><thead><th>url</th><th>https://www.saucedemo.com/</th></thead><tbody><tr><td>username</td><td>standard_user</td></tr><tr><td>password</td><td>secret_sauce</td></tr></tbody></table>
+                                                1: Consultar un post a partir de una peticion GET ({id=21, code=200, url=https://jsonplaceholder.typicode.com, endpoint=/posts/})
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -280,24 +297,8 @@
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=0">
-                                        <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             href="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                                    <i class="fas fa-arrow-right"></i>
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=12">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">16.04s</span></td>
+                        <td width="100"><span class="top-level-step">4.15s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -307,19 +308,41 @@
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Given quiero establecer la base URL de jsonplaceholder 'https://jsonplaceholder.typicode.com'
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0-0 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0-1 success-icon"
                                        style="margin-left: 40px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-0')"
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0-1')"
                                    style="display:block;">
                                     <span class="nested-step">
-                                                Mario sauce demo login
+                                                When enviamos la informacion del post al endpoint '/posts/' por id '21'
                                         </span>
                                 </a>
                                 <span class="evidence">
@@ -327,33 +350,17 @@
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=1">
-                                        <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             href="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                                    <i class="fas fa-arrow-right"></i>
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=11">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
                         <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">15.28s</span></td>
+                        <td width="100"><span class="nested-step">4.04s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
-                                <table id="stepSection0-0" class="step-table-nested" style="display:none;">
+                                <table id="stepSection0-1" class="step-table-nested" style="display:none;">
 
                     <tr class="test-SUCCESS">
 
                         <td width="90" class="step-icon">
-                            <a name="0-0-0"></a>
+                            <a name="0-1-0"></a>
                                 <span style="margin-left: 60px;"
                                       class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
@@ -362,174 +369,73 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                Mario opens the https://www.saucedemo.com/
+                                                GET https://jsonplaceholder.typicode.com/posts/21
                                         </span>
                                 <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-4">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>URL: https://jsonplaceholder.typicode.com/posts/21</p>
+                                        <p>Status code: 200</p>
+                                        <p>Content Type: null</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Accept=*/*</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>Date: Mon, 25 Jul 2022 22:07:55 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 999<br>X-Ratelimit-Reset: 1658786882<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;117-mvqE9pMkp/BxthnOAO6lQoihz2M&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: MISS<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=YLb2xvRMsXhc9YMgd%2FsBDe0lbpa9UDfkUPaQGpriHtnV9VSpU35P3MzZhjQ6RCBZHv0tcLVU1kc071va6vrUKo2Kz%2FjoA3hz6xIU8x4lVZo0sDsnJqghZsvuP0i%2B%2FI%2F9BQkTKFwRxYZgjAgTl10T&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 730836150fa48dde-MIA<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    &quot;userId&quot;: 3,<br>    &quot;id&quot;: 21,<br>    &quot;title&quot;: &quot;asperiores ea ipsam voluptatibus modi minima quia sint&quot;,<br>    &quot;body&quot;: &quot;repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt&quot;<br>}</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
                                 </span>
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=2">
-                                        <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             href="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
                         <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">12.17s</span></td>
-                    </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="0-0-1"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Mario enters 'standard_user' into Nombre Usuario
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=3">
-                                        <img src="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             href="edccdca3becd4c29eb228ca7ecf314d1a54fc9e8b745296723223e84de89a3e2.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                                    <i class="fas fa-arrow-right"></i>
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=4">
-                                        <img src="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png"
-                                             href="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.89s</span></td>
-                    </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="0-0-2"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Mario enters 'secret_sauce' into Contrasena Usuario
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=5">
-                                        <img src="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png"
-                                             href="eb56806fba467c90f528a89f0ac795dfe7acdb93b0c52492bfef3f2ee9681944.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                                    <i class="fas fa-arrow-right"></i>
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=6">
-                                        <img src="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png"
-                                             href="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.69s</span></td>
-                    </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="0-0-3"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Mario clicks on Boton Submit
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=7">
-                                        <img src="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png"
-                                             href="29df302854fc50755991c4a9771f78c64c42301d6ef4d710aed338fed1f6a4c8.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                                    <i class="fas fa-arrow-right"></i>
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=8">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1.36s</span></td>
-                    </tr>
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="0-0-4"></a>
-                                <span style="margin-left: 60px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                Mario interaction test
-                                        </span>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=10">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0.01s</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="0-2"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Then vemos que el status code del post consultado es 200
+                                        </span>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0.01s</span></td>
+                    </tr>
 
                                 </table>
                             </td>
@@ -538,68 +444,173 @@
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                                   style="display:block;">
+                                    <span class="top-level-step">
+                                                2: Consultar un post a partir de una peticion GET ({id=110, code=404, url=https://jsonplaceholder.typicode.com, endpoint=/posts/})
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.28s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-0"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                When Ingresa sus credenciales
+                                    <span class="nested-group-step">
+                                                Given quiero establecer la base URL de jsonplaceholder 'https://jsonplaceholder.typicode.com'
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=13">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.54s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
-                        <td width="50" class="step-icon">
-                            <a name="2"></a>
-                                <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                        <td width="70" class="step-icon">
+                            <a name="1-1"></a>
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
+                                   style="display:block">
+                                    <i class="fa fa-plus-square-o imgstepSection1-1 success-icon"
+                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
+                                </a>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-1')"
+                                   style="display:block;">
+                                    <span class="nested-step">
+                                                When enviamos la informacion del post al endpoint '/posts/' por id '110'
+                                        </span>
+                                </a>
+                                <span class="evidence">
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-step">0.26s</span></td>
+                    </tr>
+                        <tr>
+                            <td colspan="5">
+                                <table id="stepSection1-1" class="step-table-nested" style="display:none;">
+
+                    <tr class="test-SUCCESS">
+
+                        <td width="90" class="step-icon">
+                            <a name="1-1-0"></a>
+                                <span style="margin-left: 60px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                    <span class="top-level-step">
-                                                Then Se redirige a la pagina de Inventario de productos
+                                    <span class="nested-group-step">
+                                                GET https://jsonplaceholder.typicode.com/posts/110
+                                        </span>
+                                <span class="evidence">
+                                        <span class="piece-of-evidence">
+                    <span>
+                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
+                                data-target="#restModal-REST-9">
+                            REST Query
+                        </button>
+                    </span>
+                    <!-- Modal -->
+                    <div class="rest-query-details">
+                        <div class="collapse multi-collapse" id="restModal-REST-9">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Response</h4>
+                                        <p>URL: https://jsonplaceholder.typicode.com/posts/110</p>
+                                        <p>Status code: 404</p>
+                                        <p>Content Type: null</p>
+                                        <h4>Request Headers</h4>
+                                        <pre>Accept=*/*</pre>
+                                        <h4>Content Body</h4>
+                                        <pre></pre>
+                                        <h4>Request Cookies</h4>
+                                        <pre></pre>
+                                        <h4>Response Headers</h4>
+                                        <pre>Date: Mon, 25 Jul 2022 22:07:56 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 998<br>X-Ratelimit-Reset: 1658781722<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: max-age=43200<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: HIT<br>Age: 5212<br>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=JxhsGqYeiOtR30nFqieynDYS3xWCKmFy1d%2F%2BpdckRDXf5tBtcQqpnkIJ3d%2BmpTORSIwt2mMCPhCDUmPYhGBcE7jbKZiLOALVpDPsh2YuR265vttPJQVNw8cX6J6sljLqvhjjixOl9knVbFcB9qUW&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 730836187c7767cf-MIA<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                    <h4>Response Body</h4>
+                                        <pre>{<br>    <br>}</pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        </span>
+                                </span>
+                            </div>
+                        </td>
+
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
+                    </tr>
+
+                                </table>
+                            </td>
+                        </tr>
+                    <tr class="test-SUCCESS">
+
+                        <td width="70" class="step-icon">
+                            <a name="1-2"></a>
+                                <span style="margin-left: 40px;"
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                </span>
+                        </td>
+
+                        <td class="step-description-column">
+                            <div class="step-description">
+                                    <span class="nested-group-step">
+                                                Then vemos que el status code del post consultado es 404
                                         </span>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                            <td width="160" class="SUCCESS-text">
-
-                                    <a href="20a587e4a21fbfa2384316304d60d96ee7f91feffecfdc0d68150923af0af437_screenshots.html#screenshots?screenshot=14">
-                                        <img src="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             href="70c9e539429b9a8962d2d259996106106cab4ecd94f4a8edfaa30ab83e1fb3b1.png"
-                                             class="screenshot"
-                                             width="48" height="48"/>
-                                    </a>
-                            </td>
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
+                        <td width="100"><span class="nested-group-step">0s</span></td>
                     </tr>
+
+                                </table>
+                            </td>
+                        </tr>
                 <tr class="test-SUCCESS">
-                        <td colspan="3"></td>
+                        <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>16.93s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>4.57s</em></span></td>
                 </tr>
 
             </table>

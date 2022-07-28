@@ -8,7 +8,7 @@ export class FormSearchToursPage {
         this.page = page;
     }
 
-    async searchTours(cityName:string, day:string, cantAdult:string, cantChild:string){
+    async searchTours(cityName:string, day:string,cantAdult:string,cantChild:string ){
 
         /*Definimos tres constantes en las cuales almacenamos los localizadores de los elementos
                                         btnTours
@@ -21,11 +21,12 @@ export class FormSearchToursPage {
                                         btnSearchTours
         */
         const btnTours = this.page.locator("xpath=//button[@id='tours-tab']");
-        const txtSearchCity = this.page.locator('text=Destination Search by City Search by City >> span[role="textbox"]');
+        const txtSearchCity = this.page.locator("xpath=//span[@id='select2-tours_city-container']");
         const txtCity = this.page.locator("xpath=//input[@class='select2-search__field']");
-        const txtDate = this.page.locator("xpath=(//input[@id='date'])[1]");
-        const dayDate = this.page.locator(`xpath=//div[@class='datepicker dropdown-menu' and @style]//td[text()=${day}]`);
-        const btnTravellers = this.page.locator('a[role="button"]:has-text("Travellers 1")');
+        const resultSearchCity = this.page.locator("xpath=//li[@class='select2-results__option select2-results__option--highlighted']");
+        const btnDate = this.page.locator("xpath=(//input[@id='date'])[1]");
+        const dayDate = this.page.locator(`xpath=//div[@class = 'datepicker dropdown-menu' and contains( @style, 'display: block;' )]//td[@class = 'day ' and text()='${day}']`);
+        const btnTravellers = this.page.locator("xpath=//p[text() = 'Travellers ']//span[@class='guest_tours']");
         const inputqtyAdult = this.page.locator("xpath=//input[@id='tours_adults']");
         const inputqtyChild = this.page.locator("xpath=//input[@id='tours_child']");
         const btnSearchTours = this.page.locator("xpath=(//button[@id='submit'])[2]");
@@ -41,10 +42,10 @@ export class FormSearchToursPage {
         await txtCity.fill(cityName);
 
         /* Click text=Medellin,Colombia*/
-        await this.page.locator('text=Medellin,Colombia').click();
+        await resultSearchCity.click();
         
-        /* Click en el campo txtDate*/
-        await txtDate.click();
+        /* Click en el campo btnDate*/
+        await btnDate.click();
        
         /* Seleccionar el dia */
         await dayDate.click();
