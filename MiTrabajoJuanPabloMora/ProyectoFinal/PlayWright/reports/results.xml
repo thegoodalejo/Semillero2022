@@ -1,0 +1,27 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="21.231">
+<testsuite name="findAccommodation.spec.ts" timestamp="1659127382716" hostname="" tests="1" failures="0" skipped="0" time="19.775" errors="0">
+<testcase name="
+Given El usuario debe estar en la pagina booking.com 
+When Quiero buscar un alojamiento en la página booking.com
+Then  Para encontrar un alojamiento acorde a mi necesidad" classname="[chromium] › findAccommodation.spec.ts:7:1 › 
+Given El usuario debe estar en la pagina booking.com 
+When Quiero buscar un alojamiento en la página booking.com
+Then  Para encontrar un alojamiento acorde a mi necesidad" time="19.775">
+<system-out>
+<![CDATA[ 
+ 
+ 
+*********************************************
+Your best found place
+*********************************************
+Name Dreamer Beach Club
+Distance A 150 m de Spratt Bight Beach • Playa fabulosa (8,8)
+Valor COP 700.000
+*********************************************
+
+[[ATTACHMENT|..\test-results\findAccommodation--Given-El-usuario-debe-estar-03780--encontrar-un-alojamiento-acorde-a-mi-necesidad-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
