@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="30.175552000001073">
+<testsuite name="BookHotel.spec.ts" timestamp="1659468681633" hostname="" tests="1" failures="0" skipped="0" time="28.557" errors="0">
+<testcase name="test" classname="[chromium] › BookHotel.spec.ts:5:1 › test" time="28.557">
+<system-out>
+<![CDATA[El valor del Hotel mas economico con 9 o más de calificación y a menos de 500 metros de la playa es :COP 440.000
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
