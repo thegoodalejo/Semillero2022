@@ -1,0 +1,50 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="31.72169999998808">
+<testsuite name="CheapPriceBooking.spec.ts" timestamp="1659997768386" hostname="" tests="1" failures="0" skipped="0" time="28.131" errors="0">
+<testcase name="
+Given I was in the https://www.booking.com 
+When I want to search for an accommodation on the Booking hotels page
+Then To find an accommodation according to my need" classname="[chromium] › CheapPriceBooking.spec.ts:9:1 › 
+Given I was in the https://www.booking.com 
+When I want to search for an accommodation on the Booking hotels page
+Then To find an accommodation according to my need" time="28.131">
+<system-out>
+<![CDATA[[
+  [32m'COP 576.000'[39m,   [32m'COP 875.000'[39m,
+  [32m'COP 568.520'[39m,   [32m'COP 880.000'[39m,
+  [32m'COP 2.160.000'[39m, [32m'COP 800.000'[39m,
+  [32m'COP 1.652.400'[39m, [32m'COP 2.600.000'[39m,
+  [32m'COP 380.000'[39m,   [32m'COP 2.400.000'[39m,
+  [32m'COP 1.943.100'[39m, [32m'COP 860.000'[39m,
+  [32m'COP 1.260.000'[39m, [32m'COP 842.400'[39m,
+  [32m'COP 960.000'[39m,   [32m'COP 696.000'[39m,
+  [32m'COP 629.600'[39m,   [32m'COP 1.080.000'[39m,
+  [32m'COP 1.440.000'[39m, [32m'COP 675.000'[39m,
+  [32m'COP 2.720.020'[39m, [32m'COP 900.000'[39m,
+  [32m'COP 1.760.000'[39m, [32m'COP 560.000'[39m,
+  [32m'COP 2.100.000'[39m
+]
+Price cheap: 
+[33m380000[39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="TestSauceDemo.spec.ts" timestamp="1659997768386" hostname="" tests="2" failures="0" skipped="0" time="10.308" errors="0">
+<testcase name="
+Given I was in the saucedemo.com
+when I want to filter products from lowest to highest  
+Then To add to the cart the product of lower and higher value" classname="[chromium] › TestSauceDemo.spec.ts:17:1 › 
+Given I was in the saucedemo.com
+when I want to filter products from lowest to highest  
+Then To add to the cart the product of lower and higher value" time="5.062">
+</testcase>
+<testcase name="
+Given I was in the saucedemo.com
+when I want to check-in with 3 products added to the cart
+Then To finalize the purchase and see the message THANK YOU FOR YOUR ORDER" classname="[chromium] › TestSauceDemo.spec.ts:37:1 › 
+Given I was in the saucedemo.com
+when I want to check-in with 3 products added to the cart
+Then To finalize the purchase and see the message THANK YOU FOR YOUR ORDER" time="5.246">
+</testcase>
+</testsuite>
+</testsuites>

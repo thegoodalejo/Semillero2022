@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Search flight" skipped="0" tests="2" time="14.06" timestamp="2022-08-04 04:45:22"><testcase name="Search flight in Omio"><error message="Could not find a matching constructor for class class com.sophos.semillero.task.OmioCompleteInfo with parameters [      | salida        | Santafe de Bogotá, Colombia |&#10;      | llegada       | Madrid, España              |&#10;      | fecha_salida  | Mon Aug 08                  |&#10;      | fecha_regreso | 0                           |&#10;      | adultos       | 2                           |&#10;      | jovenes       | 2                           |&#10;      | edad_jovenes  | 4-6                         |&#10;      | viejos        | 0                           |&#10;      | edad_viejos   |                             |&#10;]" type="java.lang.IllegalArgumentException">Could not find a matching constructor for class class com.sophos.semillero.task.OmioCompleteInfo with parameters [      | salida        | Santafe de Bogotá, Colombia |
+      | llegada       | Madrid, España              |
+      | fecha_salida  | Mon Aug 08                  |
+      | fecha_regreso | 0                           |
+      | adultos       | 2                           |
+      | jovenes       | 2                           |
+      | edad_jovenes  | 4-6                         |
+      | viejos        | 0                           |
+      | edad_viejos   |                             |
+]</error><system-err>Could not find a matching constructor for class class com.sophos.semillero.task.OmioCompleteInfo with parameters [      | salida        | Santafe de Bogotá, Colombia |
+      | llegada       | Madrid, España              |
+      | fecha_salida  | Mon Aug 08                  |
+      | fecha_regreso | 0                           |
+      | adultos       | 2                           |
+      | jovenes       | 2                           |
+      | edad_jovenes  | 4-6                         |
+      | viejos        | 0                           |
+      | edad_viejos   |                             |
+]&#13;
+com.sophos.semillero.task.OmioCompleteInfo.completeTheInfo(OmioCompleteInfo.java:46)&#13;
+com.sophos.semillero.stepdefinitions.OmioSearchFlightStepDefinition.iWantToSearchForAFlightOnPage(OmioSearchFlightStepDefinition.java:32)&#13;
+✽.I want to search for a flight(file:///C:/Users/juan.henaor/Desktop/Semillero/git/Semillero2022/MiTrabajo%20Juan%20Esteban%20Henao/TallerFinal/lib/src/test/resources/com/sophos/semillero/features/omio_search_flight.feature:6)&#13;
+</system-err></testcase></testsuite>

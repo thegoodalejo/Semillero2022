@@ -1,0 +1,1524 @@
+<html lang="es" class=""><head><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta name="google" content="notranslate">
+    <!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+	 dyn-cs:* URIs are resolved using the values within the 'wp_dynamicContentSpots_85' theme module. -->
+    <link rel="icon" href="/BanistmoThemeStatic/themes/Banistmo/images/favicon-grupo.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="/BanistmoThemeStatic/themes/Banistmo/images/favicon-grupo.ico">
+    <link rel="stylesheet" href="/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/sp/mashup:ra:collection?soffset=0&amp;eoffset=15&amp;themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fcss&amp;lm=1647633794000&amp;entry=bco_fonts__1.0%3Ahead_css&amp;entry=bco_transversal_css__1.0%3Ahead_css&amp;entry=wp_toolbar_common__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css&amp;entry=wp_toolbar_projectmenu__0.0%3Ahead_css&amp;entry=wp_toolbar_common_actionbar__0.0%3Ahead_css&amp;entry=wp_toolbar_sitepreview__0.0%3Ahead_css&amp;entry=css_wcm_custom__0.0%3Ahead_css&amp;entry=wp_toolbar_logo__0.0%3Ahead_css&amp;entry=wp_simple_contextmenu_css__0.0%3Ahead_css&amp;entry=wp_toolbar_actionbar__0.0%3Ahead_css&amp;entry=wp_theme_portal_edit_85__0.0%3Ahead_css&amp;entry=wp_theme_portal_85__0.0%3Ahead_css&amp;entry=wp_toolbar_moremenu__0.0%3Ahead_css" type="text/css"><link rel="alternate" id="head_css_deferred" href="/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/sp/mashup:ra:collection?soffset=0&amp;eoffset=7&amp;themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fcss&amp;lm=1647468430000&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=wp_contextmenu_css__0.0%3Ahead_css&amp;entry=wp_federated_documents_picker__0.0%3Ahead_css&amp;entry=wcm_inplaceEdit__0.0%3Ahead_css&amp;entry=wp_dnd_css__0.0%3Ahead_css&amp;entry=wp_content_targeting_cam__0.0%3Ahead_css&amp;deferred=true"><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/signals/config/3047638578854949?v=2.9.71&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/config/1638640773132669?v=2.9.71&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.71" async=""></script><script type="text/javascript" async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://static.hotjar.com/c/hotjar-751516.js?sv=7"></script><script type="text/javascript" async="" src="https://snap.licdn.com/li.lms-analytics/insight.min.js"></script><script gtm="GTM-5DTRK5N" type="text/javascript" async="" src="https://www.google-analytics.com/gtm/optimize.js?id=OPT-KVNCFBZ"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-5DTRK5N"></script><script type="text/javascript">var djConfig={"baseUrl":"/wps/portal_dojo/v1.9/dojo/","locale":"es","isDebug":false,"debugAtAllCosts":false,"parseOnLoad":false,"afterOnLoad":false,"has":{"dojo-bidi":true},"modulePaths":{"com":"/wps/themeModules/js/com","ibm":"/wps/themeModules/js/ibm","pagebuilder":"/wps/themeModules/modules/pagebuilder/js","portalclient":"/wps/themeModules/modules/portalclient/js","asa":"/wps/themeModules/modules/asa/js","contentmapping":"/wps/themeModules/modules/contentmapping/js","federation":"/wps/themeModules/modules/federation/js"}};djConfig.locale=djConfig.locale.replace(/_/g, "-").replace(/iw/, "he").toLowerCase();(function(){if (typeof(wpModules) == 'undefined') wpModules = {}; if (typeof(wpModules.state) == 'undefined') wpModules.state = {}; if (typeof(wpModules.state.page) == 'undefined') wpModules.state.page = {};wpModules.state.page._initial=[{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"selection","value":["Z6_8252I1C0M0O260A72B17TR28Q6"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"labelMappings","value":["Z6_000000000000000000000000A0","Z6_8252I1C0M0O260A72B17TR28Q6","Z6_8252I1C0M0O260A72B17TR28Q6","Z6_000000000000000000000000A0"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"expansions","value":["Z6_000000000000000000000000A0","Z6_2G9I1K41NO8490QLEAGI8QBKK7","Z6_38G2HA80N87M00AB62GT7520B5","Z6_8252I1C0M07RC0ARVBRB240GQ5","Z6_8252I1C0M0O260A72B17TR28C0"]}];wpModules.state.page.selectionPath=['Z6_000000000000000000000000A0','Z6_38G2HA80N87M00AB62GT7520B5','Z6_2G9I1K41NO8490QLEAGI8QBKK7','Z6_8252I1C0M07RC0ARVBRB240GQ5','Z6_8252I1C0M0O260A72B17TR28C0','Z6_8252I1C0M0O260A72B17TR28Q6'];wpModules.state.page.supportsEditMode=true;wpModules.state.page.supportsToolbar=true;wpModules.state.page.path='/wps/portal';wpModules.state.page.protectedPath='/wps/myportal';wpModules.state.page.publicPath='/wps/portal';})();</script><script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!OFDFfhPHsZwvGO-EVRA2Gw/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1647468430000&amp;entry=wp_client_main__0.0%3Ahead_js&amp;entry=wp_client_ext__0.0%3Ahead_js&amp;entry=wp_client_logging__0.0%3Ahead_js&amp;entry=wp_client_tracing__0.0%3Ahead_js&amp;entry=wp_modules__0.0%3Ahead_js&amp;entry=wp_state_page__0.0%3Ahead_js&amp;entry=wp_photon_dom__0.0%3Ahead_js&amp;entry=wp_dialog_util__0.0%3Ahead_js&amp;entry=wp_toolbar_common__0.0%3Ahead_js&amp;entry=wp_a11y__0.0%3Ahead_js&amp;entry=wp_dialog_draggable__0.0%3Ahead_js&amp;entry=wp_dialog_main__0.0%3Ahead_js&amp;entry=wp_theme_utils__0.0%3Ahead_js&amp;entry=wp_toolbar_viewframe_validator__0.0%3Ahead_js&amp;entry=wp_theme_portal_85__0.0%3Ahead_js"></script><link rel="alternate" id="head_js_deferred" href="/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1512160368000&amp;entry=dojo_19__0.0%3Ahead_js&amp;entry=dojo_app_19__0.0%3Ahead_js&amp;entry=dojo_dom_19__0.0%3Ahead_js&amp;entry=dojo_dnd_basic_19__0.0%3Ahead_js&amp;entry=dojo_fx_19__0.0%3Ahead_js&amp;entry=dojo_data_19__0.0%3Ahead_js&amp;entry=dojo_dnd_ext_19__0.0%3Ahead_js&amp;entry=dojo_selector_lite_19__0.0%3Ahead_js&amp;entry=dijit_19__0.0%3Ahead_js&amp;entry=dijit_layout_basic_19__0.0%3Ahead_js&amp;entry=dojox_layout_basic_19__0.0%3Ahead_js&amp;entry=dijit_menu_19__0.0%3Ahead_js&amp;entry=dojo_fmt_19__0.0%3Ahead_js&amp;entry=dijit_form_19__0.0%3Ahead_js&amp;entry=wp_client_selector__0.0%3Ahead_js&amp;entry=dijit_tree_19__0.0%3Ahead_js&amp;entry=dijit_layout_ext_19__0.0%3Ahead_js&amp;entry=wp_dnd_namespace__0.0%3Ahead_js&amp;entry=wp_dnd_source__0.0%3Ahead_js&amp;entry=wp_dnd_util__0.0%3Ahead_js&amp;entry=wp_contextmenu_js__0.0%3Ahead_js&amp;entry=wcm_inplaceEdit__0.0%3Ahead_js&amp;entry=wp_client_dnd__0.0%3Ahead_js&amp;entry=wp_dnd_target__0.0%3Ahead_js&amp;deferred=true"><link id="WUGlrWTku06" rel="alternate" href="https://www.banistmo.com/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/!ut/p/z1/jc7BCsIwDAbgR2oatzY7tkNqmdtomW72MnaSgk4P4vM7ZJ7EYm6BL_8fFtjAwjw943l6xNs8XZb9FMRImKPlJdTQogAlUXPZeSQnWP8G8GMUsPDPfQKEdHzPQrKihC8gfQnKH7XXmIFx-QrQFJZXGW9aygpw-60ylpyuKrmCDRncKYKGZL10a4GmkzmC_iQk3rxfDwNEG19HJ7NN/"><script type="text/javascript">(function() {
+	var element = document.getElementById("WUGlrWTku06");
+	if (element) {
+		wpModules.theme.WindowUtils.baseURL.resolve(element.href);
+	}
+}());</script><base href="https://www.banistmo.com/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/!ut/p/z1/jc7BCsIwDAbgR2oatzY7tkNqmdtomW72MnaSgk4P4vM7ZJ7EYm6BL_8fFtjAwjw943l6xNs8XZb9FMRImKPlJdTQogAlUXPZeSQnWP8G8GMUsPDPfQKEdHzPQrKihC8gfQnKH7XXmIFx-QrQFJZXGW9aygpw-60ylpyuKrmCDRncKYKGZL10a4GmkzmC_iQk3rxfDwNEG19HJ7NN/">
+<title>FATCA  &amp; CRS Banco Banistmo</title>
+
+<meta content="solicitar seguro para hogar,cobrar seguro de hogar,asegurar hogar,asegurar muebles,proteger vivienda de incendios,asegurar gasodomesticos,Asegurar electrodomesticos,atencion domiciliaria,atencion 24 horas,asegurar vivienda,plan hogar bancolombia,quiero asegurar mi casa,tarifas para asegurar mi casa,como solicitar plan hogar,como asegurar mi casa,como solicitar asistencia domiciliaria,como obtener plan hogar,quiero proteger mi casa,seguro de inmueble,seguro de enseres." name="keywords"><meta content="index, follow" name="robots"><meta content="Aprende sobre FATCA &amp; CRS una ley estadounidense que permite la transferencia de la información para beneficio y tranquilidad de nuestros clientes." name="description">
+<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/!ut/p/z1/jc7BCsIwDAbgR2oatzY7tkNqmdtomW72MnaSgk4P4vM7ZJ7EYm6BL_8fFtjAwjw943l6xNs8XZb9FMRImKPlJdTQogAlUXPZeSQnWP8G8GMUsPDPfQKEdHzPQrKihC8gfQnKH7XXmIFx-QrQFJZXGW9aygpw-60ylpyuKrmCDRncKYKGZL10a4GmkzmC_iQk3rxfDwNEG19HJ7NN/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2XzgyNTJJMUMwTTBPMjYwQTcyQjE3VFIyOFE2/">
+
+
+<link href="/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/BanistmoThemeStatic/themes/Banistmo/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<base href="https://www.banistmo.com/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/!ut/p/z1/jc7BCsIwDAbgR2oatzY7tkNqmdtomW72MnaSgk4P4vM7ZJ7EYm6BL_8fFtjAwjw943l6xNs8XZb9FMRImKPlJdTQogAlUXPZeSQnWP8G8GMUsPDPfQKEdHzPQrKihC8gfQnKH7XXmIFx-QrQFJZXGW9aygpw-60ylpyuKrmCDRncKYKGZL10a4GmkzmC_iQk3rxfDwNEG19HJ7NN/">
+<title>FATCA  &amp; CRS Banco Banistmo</title>
+
+<meta content="solicitar seguro para hogar,cobrar seguro de hogar,asegurar hogar,asegurar muebles,proteger vivienda de incendios,asegurar gasodomesticos,Asegurar electrodomesticos,atencion domiciliaria,atencion 24 horas,asegurar vivienda,plan hogar bancolombia,quiero asegurar mi casa,tarifas para asegurar mi casa,como solicitar plan hogar,como asegurar mi casa,como solicitar asistencia domiciliaria,como obtener plan hogar,quiero proteger mi casa,seguro de inmueble,seguro de enseres." name="keywords"><meta content="index, follow" name="robots"><meta content="Aprende sobre FATCA &amp; CRS una ley estadounidense que permite la transferencia de la información para beneficio y tranquilidad de nuestros clientes." name="description">
+	
+	<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca">
+		
+	<link rel="bookmark" title="FATCA" href="/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca" hreflang="es">
+		
+
+
+<link href="/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/BanistmoThemeStatic/themes/Banistmo/images/favicon-grupo.ico" rel="shortcut icon" type="image/x-icon"><script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/jquery-1.11.3.ui.min.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/angular-1.8.2.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeAcercaDeStatic/themes/Banistmo/js/ui-bootstrap-0.12.0.tpls.min.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/modules/jquery.basictable.min.js" defer=""></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/modules/wow.min.js" defer=""></script>
+
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+    </script>
+
+    <!-- anti-flicker snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-5DTRK5N':true});
+    </script>
+    <!-- End - anti-flicker snippet (recommended) -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5DTRK5N" height="0" width="0" style="display:none;visibility:hidden" title=""></iframe></noscript>
+
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5DTRK5N');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".close").click(function() {
+                $(".btn-chat").toggle();
+                $(this).toggleClass("open");
+            });
+        });
+    </script>
+
+<script async="" src="https://script.hotjar.com/modules.0e32ccb9bfd67090f5ca.js" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+<body class="toolbar-closed">
+
+    <div class="wpthemeFrame">
+        <header role="banner" tabindex="-1" aria-label="Main header">
+            </header>
+    </div>
+
+    
+
+<portletapi:init>
+<link href="/wps/wcm/connect/www.banistmo.com11237/51f5d153-4fa7-481c-8930-fd0aef663207/styles-header.css?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-51f5d153-4fa7-481c-8930-fd0aef663207-nqbCdrx" type="text/css" rel="stylesheet">
+<link href="/wps/wcm/connect/www.banistmo.com11237/f2859605-6218-4539-b609-0bb9784ae5d3/styles-footer.css?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-f2859605-6218-4539-b609-0bb9784ae5d3-npE4anZ" type="text/css" rel="stylesheet">
+<link href="/wps/wcm/connect/www.banistmo.com11237/92e2a500-1006-469d-8143-32bbc0609026/styles-general_act_03_08_2021.css?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-92e2a500-1006-469d-8143-32bbc0609026-nIOact6" type="text/css" rel="stylesheet">
+<link href="/wps/wcm/connect/www.banistmo.com11237/92e2a500-1006-469d-8143-32bbc0609026/styles-general_act_03_08_2021.css?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-92e2a500-1006-469d-8143-32bbc0609026-nIOact6" type="text/css" rel="stylesheet">
+
+
+  <nav class="navbar bg-black" id="menu-top">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li><a href="/wps/portal/banistmo/personas/" class="active">Personas</a></li>
+            <li><a href="/wps/portal/banistmo/pymes/">Pymes</a></li>
+            <li><a href="/wps/portal/banistmo/empresas/">Empresas</a></li>
+            <li><a href="/wps/portal/banistmo/acerca-de/">Acerca de nosotros</a></li>
+        </ul>
+
+<ul class="nav navbar-nav" style="float: right;">
+<li style="background-color:#FDDA24;">
+
+<a href="https://vinculacion.banistmo.com/welcome/welcome" target="_blank" style="color:#292929;" id="Abre tu cuenta"> <b style="font-family:OpenSans-bold;">Abre tu cuenta</b></a></li>
+
+
+<li>
+
+<a href="/wps/portal/banistmo/personas/productos-y-servicios/canales-de-atencion/" id="Canales de atención">  Canales de atención</a></li>
+</ul>
+
+
+    </div>
+</nav>
+
+<div id="main-menu">
+
+    <div class="row-fluid">
+        <div class="navbar navbar-default menu">
+
+            <!-- icon-bar responsive -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-grid">
+                    <span class="icon-bar"></span><span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- icon-bar responsive -->
+
+            <div class="navbar-collapse collapse" id="navbar-collapse-grid">
+
+                <!-- menú -->
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="navbar-brand" href="/wps/portal/banistmo/personas/">
+                            <img src="/wps/wcm/connect/www.banistmo.com11237/f0f014f2-9c5f-44c4-b47a-114aa6f7d6ad/logo-banistmo-menu.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-f0f014f2-9c5f-44c4-b47a-114aa6f7d6ad-nzwptVu" alt="" width="135" height="23">
+                        </a>
+                    </li>
+
+                    <li class="dropdown menu-fw"><a href="/wps/portal/banistmo/personas/"><strong>Inicio</strong></a>
+                    </li>
+
+                    <li class="dropdown menu-fw"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Productos &amp;
+                            Servicios</a>
+                        <ul class="dropdown-menu">
+                            <li class="drop-submenu">
+                                <div class="col-sm-6">
+                                    <h2>Productos &amp; Servicios</h2>
+                                   
+ <div class="col-sm-6">
+ <ul>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/depositos/">Depósitos</a>
+                                        </li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/tarjetas-debito/">Tarjetas de Débito</a></li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/tarjetas-credito/">Tarjetas
+                                                de Crédito</a></li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/prestamos/">Préstamos</a>
+                                        </li>
+                                      
+                                    </ul>
+</div>
+
+ <div class="col-sm-6">
+                                    <ul>
+
+  <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/pagos/codigoqr">QR Banistmo</a></li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/seguros-personales/">Seguros y Asistencias</a></li>
+                                       
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/galeria-inmobiliaria/">Galería
+                                                Inmobiliaria</a></li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/transferencias-internacionales">Transferencias
+                                                Internacionales</a></li>
+                                       
+                                    </ul>
+
+</div>
+                                </div>
+
+
+<div class="col-sm-3">
+                                    <h2>Programas &amp; Beneficios</h2>
+                                    <ul>
+                                        
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/catalogo-regalate/">Puntos Regálate</a></li>
+                                        <li><a href="/wps/portal/banistmo/personas/impulsa">Impulsa</a></li>
+
+
+ <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/promociones">Promociones</a></li>
+
+<li><a href="/wps/portal/banistmo/personas/productos-y-servicios/beneficios-de-planilla">Planilla</a></li>
+
+                                    </ul>
+                                </div>
+
+
+
+
+                                <div class="col-sm-3">
+                                    <h2>Segmentos</h2>
+                                    <ul>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/banikids/">Banikids</a>
+                                        </li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/plus/">Plus</a>
+                                        </li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/preferencial/">Preferencial</a>
+                                        </li>
+                                        <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/banca-privada/">Banca
+                                                Privada</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-12 shortcut">
+                                    <h2>Canales para tu servicio</h2>
+                                    <ul>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/cajeros/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/97d66c78-2962-4304-a5b6-8866b569be7a/icon-withdraw-cash.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-97d66c78-2962-4304-a5b6-8866b569be7a-nmQ8rVV" alt="" width="48" height="48"> Cajeros
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/banistmo-app/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/9378dc01-73ba-41e3-89f3-f3d96393fcae/icon-smartphone.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-9378dc01-73ba-41e3-89f3-f3d96393fcae-nmQ8kQo" alt="" width="48" height="48"> Banistmo App <span>Personas</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/sucursal-virtual-personas/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/39a50d57-bdcf-422a-b8f6-b8e63b2a9f27/icon-laptop.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-39a50d57-bdcf-422a-b8f6-b8e63b2a9f27-nmQ8pc3" alt="" width="48" height="48"> Banca en Línea <span>Personas</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/sucursal-telefonica-personas/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/a44949b7-622c-4c1b-a040-3ab7485711ac/icon-contact-center.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-a44949b7-622c-4c1b-a040-3ab7485711ac-nmQ7-1c" alt="" width="48" height="48"> Sucursal Telefónica <span>Personas</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/sucursal-fisica/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/1f188819-a31e-4573-9f2c-d95e51857fee/icon-office.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-1f188819-a31e-4573-9f2c-d95e51857fee-nmQ8xie" alt="" width="48" height="48"> Surcursales
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/wps/portal/banistmo/personas/productos-y-servicios/canales/comercios-autorizados/">
+                                                <img src="/wps/wcm/connect/www.banistmo.com11237/c95e502c-788b-40e4-a43b-a523fdc8b1e2/icon-store.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-c95e502c-788b-40e4-a43b-a523fdc8b1e2-nmQ8Eud" alt="" width="48" height="48"> Comercios Autorizados
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- end menú -->
+
+                <!-- search , buttons -->
+                <div class="navbar-right">
+                    <form class="navbar-form" action="/wps/portal/banistmo/acerca-de/buscador-de-contenido">
+                        <div class="search-component">
+                            <img src="/wps/wcm/connect/www.banistmo.com11237/fb15b3f5-ccc8-45f7-8e85-6e90ba3e0ffb/icon-search.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-fb15b3f5-ccc8-45f7-8e85-6e90ba3e0ffb-npk06fo" alt="" width="24" height="24">
+                            <input type="text" id="termino" name="termino" class="form-control btn-search" placeholder="Buscar">
+                        </div>
+                        <a href="/wps/portal/banistmo/personas/productos-y-servicios/servicios-digitales/" class="btn btn-default">Servicios Digitales <img src="/wps/wcm/connect/www.banistmo.com11237/42209645-2696-4a41-9055-b31c5e9981da/hand-button.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-42209645-2696-4a41-9055-b31c5e9981da-nmUlctF" alt="" width="24" height="24"> </a>
+                        <a href="#" target="null" onclick="open(&quot;https://personas.banistmo.com&quot;, &quot;Banistmo&quot;, &quot;status=yes,scrollbars=yes,resizable=yes,fullscreen=yes&quot;);" class="btn btn-primary">Banca en Línea Personas <img src="/wps/wcm/connect/www.banistmo.com11237/bca10970-b270-49c3-b359-7051a6020a21/lock.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-bca10970-b270-49c3-b359-7051a6020a21-nmUk-Ay" alt="" width="24" height="24"> </a>
+                    </form>
+                </div>
+                <!-- end search , buttons -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+	<div class="breadcrumbs" id="breadcrumbs">
+		
+            <div class="container container-max">
+                <ul itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
+                    
+                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                                
+                                <a itemprop="item" href="/wps/portal/banistmo">
+                                        <span class="titlebreadcrumb" itemprop="name">Banistmo</span>
+                                        <span class="separator"> | </span>
+                                        <meta itemprop="position" content="1">
+                                </a>
+                            </li>
+                    
+                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                                
+                                <a itemprop="item" href="/wps/portal/banistmo/personas">
+                                        <span class="titlebreadcrumb" itemprop="name">Personas</span>
+                                        <span class="separator"> | </span>
+                                        <meta itemprop="position" content="2">
+                                </a>
+                            </li>
+                    
+                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                                
+                                <a itemprop="item" href="/wps/portal/banistmo/personas/aprender-es-facil">
+                                        <span class="titlebreadcrumb" itemprop="name">Aprender es fácil</span>
+                                        <span class="separator"> | </span>
+                                        <meta itemprop="position" content="3">
+                                </a>
+                            </li>
+                    
+                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                                
+                                <a itemprop="item" href="/wps/portal/banistmo/personas/aprender-es-facil/legales">
+                                        <span class="titlebreadcrumb" itemprop="name">Legales</span>
+                                        <span class="separator"> | </span>
+                                        <meta itemprop="position" content="4">
+                                </a>
+                            </li>
+                    
+                        <li itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+                                
+                                <a itemprop="item" href="/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca">
+                                        <span class="titlebreadcrumb" itemprop="name">FATCA</span>
+                                        <span class="separator"> | </span>
+                                        <meta itemprop="position" content="5">
+                                </a>
+                            </li>
+                    
+                </ul>
+            </div>
+		
+	</div>
+
+<link href="/wps/wcm/connect/www.banistmo.com11237/b831385c-7cca-42c9-9973-d731533ef78d/styles-chat.css?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b831385c-7cca-42c9-9973-d731533ef78d-nnCUOmV" type="text/css" rel="stylesheet">
+  <a href="https://chat.banistmo.com/chat/ChatQuestion.aspx?ModeSource=CHECKSCHEDULE" target="_blank" class="btn-chat">
+    <img src="/wps/wcm/connect/www.banistmo.com11237/787a4ed0-8cd2-4561-9421-1a2ee4e153d2/icono-chat.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-787a4ed0-8cd2-4561-9421-1a2ee4e153d2-nnC9urI" alt="" width="26" height="26">
+  </a>
+
+<!-- end frame -->
+    <div role="main" tabindex="-1" aria-label="IBM WebSphere Portal" id="main-content">
+        <!-- required - do not remove -->
+        <div style="display:none" id="portletState">{}</div><div id="layoutContainers" class="wpthemeLayoutContainers wpthemeLayoutContainersHidden">
+            <div class="wpthemeInner">
+                
+
+ 
+
+
+
+
+
+		
+
+ 
+
+
+
+
+	
+		<div class="component-control id-Z7_8252I1C0M0O260A72B17TR28M2"><span id="Z7_8252I1C0M0O260A72B17TR28M2"></span><section class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget" role="region">
+
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_8252I1C0M0O260A72B17TR28M2" style="display:none;">
+		<span class="asa.portlet.id">Z7_8252I1C0M0O260A72B17TR28M2</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader" role="banner" aria-label="Skin header">
+		<div class="wpthemeInner">
+			<h2>
+				<img class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this.parentNode, 30, 0);" ondragend="wpModules.dnd.util.portletDragEnd(event);" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+ 				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="es" dir="ltr">Visor de contenido web</span></span>
+			</h2>
+			<a aria-haspopup="true" aria-label="Mostrar menú de contenido" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus contextMenuInSkinIcon" style="display:none" tabindex="0">
+				<span title="Mostrar menú de contenido"><img aria-label="Mostrar menú de contenido" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Menú de acciones de componente</span>
+				<!-- start CAM template -->
+				<span class="wpthemeMenu" data-positioning-handler="horizontallyCenteredBelow">
+					<div class="wpthemeMenuBorder">
+						<!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span></li>
+						</ul>
+						<div class="verticalMenuPointer pointer"></div>
+					</div> <!-- Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+					<!-- Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu">
+								<li role="menuitem" tabindex="-1"></li>
+							</ul>
+						</div>
+					</div>
+				</span>
+				<!-- end CAM template -->
+			</a>
+			<a aria-haspopup="true" aria-label="Mostrar menú de portlet" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus" tabindex="0" onclick="if (typeof wptheme != 'undefined') wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});" onkeydown="javascript:if (typeof i$ != 'undefined' &amp;&amp; typeof wptheme != 'undefined') {if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}}">
+				<span title="Mostrar menú de portlet"><img aria-label="Mostrar menú de portlet" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Acciones</span>
+			</a>
+		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay"></div>
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            
+<style>
+#main-content {
+  background: rgba(0, 0, 0, 0) url("") repeat scroll center bottom;
+}
+
+@media screen and (max-width: 768px) {
+    .encabezado>.fondo {
+        position:relative;
+        background-position: center;
+        height: 250px
+    }
+}
+</style>
+
+<link rel="stylesheet" href="" type="text/css">
+
+<div class="encabezado titulo-contenido-boton">
+  <div class="fondo" style="background-image: url(&quot;/wps/wcm/connect/www.banistmo.com11237/020967d4-cd8f-4907-92d1-723dc0e01610/FATCA+%26+CRS_Banner+Web+Producto.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-020967d4-cd8f-4907-92d1-723dc0e01610-nqI5y67&quot;); background-position: 50% 50%;">
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-xs-12">
+        <h1>FATCA &amp; CRS</h1>
+        <p dir="ltr">El Estándar Común de Reporte y la Ley de Cumplimiento Fiscal de Cuentas en el Extranjero (CRS y FATCA, respectivamente por sus siglas en inglés) fueron iniciados por la Organización para la Cooperación y el Desarrollo Económicos (OCDE) y el gobierno de Estados Unidos, respectivamente, para fomentar mayor cooperación fiscal, aumentar la transparencia y mejorar la comunicación.</p>
+
+<p dir="ltr">Los gobiernos del mundo han adoptado en general ambas iniciativas, las cuales requieren que las instituciones documenten la situación fiscal de los clientes y, de ser necesario, reporten información sobre la cuenta financiera a las autoridades fiscales pertinentes.</p>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+<div class="wpthemeClear"></div>
+	</div>
+</section>
+</div>
+	
+		<div class="component-control id-Z7_8252I1C0M0O260A72B17TR28M1"><span id="Z7_8252I1C0M0O260A72B17TR28M1"></span><section class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget" role="region">
+
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_8252I1C0M0O260A72B17TR28M1" style="display:none;">
+		<span class="asa.portlet.id">Z7_8252I1C0M0O260A72B17TR28M1</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader" role="banner" aria-label="Skin header">
+		<div class="wpthemeInner">
+			<h2>
+				<img class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this.parentNode, 30, 0);" ondragend="wpModules.dnd.util.portletDragEnd(event);" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+ 				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="es" dir="ltr">Visor de contenido web</span></span>
+			</h2>
+			<a aria-haspopup="true" aria-label="Mostrar menú de contenido" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus contextMenuInSkinIcon" style="display:none" tabindex="0">
+				<span title="Mostrar menú de contenido"><img aria-label="Mostrar menú de contenido" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Menú de acciones de componente</span>
+				<!-- start CAM template -->
+				<span class="wpthemeMenu" data-positioning-handler="horizontallyCenteredBelow">
+					<div class="wpthemeMenuBorder">
+						<!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span></li>
+						</ul>
+						<div class="verticalMenuPointer pointer"></div>
+					</div> <!-- Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+					<!-- Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu">
+								<li role="menuitem" tabindex="-1"></li>
+							</ul>
+						</div>
+					</div>
+				</span>
+				<!-- end CAM template -->
+			</a>
+			<a aria-haspopup="true" aria-label="Mostrar menú de portlet" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus" tabindex="0" onclick="if (typeof wptheme != 'undefined') wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});" onkeydown="javascript:if (typeof i$ != 'undefined' &amp;&amp; typeof wptheme != 'undefined') {if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}}">
+				<span title="Mostrar menú de portlet"><img aria-label="Mostrar menú de portlet" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Acciones</span>
+			</a>
+		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay"></div>
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            <div class="container-fluid none">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="tabs-verticales container-fluid tabs-horizontal">
+        <div class="row">
+          <ul id="filialTabs" class="nav nav-tabs responsive col-sm-3 hidden-xs hidden-sm"><li class="active"><a href="#tab1">FATCA &amp; CRS</a></li><li class="none"><a href="#tab2">¿Cómo se define residencia fiscal para Panamá? </a></li><li class="none"><a href="#tab3">¿Cómo se está implementando FATCA/CRS en Banistmo?</a></li><li class="none"><a href="#tab4">¿A quién aplica los reportes de FATCA/CRS?</a></li><li class="none"><a href="#tab5">¿Quién o qué se entiende por Persona de EE.UU.?</a></li><li class="none"><a href="#tab6">¿Cómo me aplica FATCA?</a></li><li class="none"><a href="#tab7">¿Cómo me afecta FATCA?</a></li><li class="none"><a href="#tab8">¿Cuándo entra FATCA y CRS en vigencia?</a></li><li class="none"><a href="#tab9">Documentos de Referencia</a></li><li class="none"><a href="#tab10">Disclaimer</a></li></ul>
+          <div class="tab-content responsive col-sm-9 hidden-xs hidden-sm" style="min-height: 570px;"><div id="tab1" class="tab-pane active">
+<h2>¿Qué son FATCA y CRS?</h2>
+<h3 dir="ltr">¿Qué es FATCA?</h3>
+
+<p dir="ltr">FATCA es una ley estadounidense denominada Foreign Account Tax Compliance Act ("FATCA" por sus siglas en inglés). Esta ley busca la cooperación entre los países para el intercambio de información de cuentahabientes que tengan obligaciones fiscales en los Estados Unidos. Para cumplir con FATCA, los países, como Panamá, han firmado acuerdos Intergubernamentales que luego han incorporado a la legislación local.<br>
+La Ley 47 de 24 de octubre de 2016 y la Ley 51 del 27 de octubre de 2016, conforman el marco legal que regula el tema de FATCA en nuestro país.<br>
+&nbsp;</p>
+
+<h3 dir="ltr">¿Qué es el Common Reporting Standard (CRS)?&nbsp;</h3>
+
+<p dir="ltr">En español conocido como el Estándar Común de Reporte, es el estándar global para el Intercambio Automático de Información sobre Cuentas Financieras (AEOI, por sus siglas en inglés) elaborado por la Organización para la Cooperación y el Desarrollo Económico (OCDE).&nbsp;<br>
+La República de Panamá, en el año 2016 se comprometió oficialmente con el intercambio automático de información financiera para fines fiscales, a través de este reporte, &nbsp;que es promovido por el Foro Global de Transparencia e Intercambio de Información para fines fiscales. &nbsp;La Ley 51 de 27 de octubre de 2017 estableció obligaciones principales para las instituciones financieras, entre otros aspectos.</p>
+
+<p dir="ltr">&nbsp;</p>
+
+<h3 dir="ltr">Documentos para descargar:</h3>
+
+<table class="table-responsive" dir="ltr">
+	<thead>
+		<tr>
+			<th style="width: 358px;">Documento</th>
+			<th style="width: 78px;">PDF</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PN - Self-Certification - Fatca &amp; CRS.docx</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/cf18c85b-046d-4d51-b754-50940a5601e2/PN+-+Self-Certification+-+Fatca-CRS-English_version.pdf?MOD=AJPERES&amp;CVID=mAHsmvF" title="PN - Self-Certification - Fatca" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PN- Autocertificación - Fatca y CRS.docx</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/09bbd5ca-2348-4fac-9a36-0260da331281/PN-+Autocertificacio%CC%81n+-+Fatca+y+CRS.pdf?MOD=AJPERES&amp;CVID=mAHsg8E" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PJ-Autocertificación unificado- Fatca y CRS</strong><strong>.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/ad2e205d-52e5-477f-8eaa-26fc66d73509/PJ+Autocertificacion+unificado-+Fatca+y+CRS.pdf?MOD=AJPERES&amp;CVID=mCx33X-" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>Tax Self-Certification Legal Entity.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/a972fee5-07b5-49e6-b12d-bc88f6e228f4/Tax+Self-Certification+Legal+Entity.pdf?MOD=AJPERES&amp;CVID=mCCcUYC" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr">&nbsp;</p>
+
+</div><div id="tab2" class="tab-pane">
+<h2>¿Cómo se define residencia fiscal para Panamá? </h2>
+<h3 dir="ltr">¿Cómo se define residencia fiscal para Panamá?&nbsp;</h3>
+
+<p dir="ltr">De acuerdo al Código Fiscal y la definición que nos da &nbsp;el Artículo 762-N. (adicionado según artículo 1, ley 33 de 2010) Residencia fiscal. Se consideran domiciliados en la República de Panamá, para los efectos tributarios, las personas naturales que permanezcan por más de ciento ochenta y tres (183) días corridos o alternos en el año fiscal en el territorio nacional, y perciban o devenguen rentas sujetas al Impuesto, deberán determinar el mismo de acuerdo con las reglas establecidas en este Código.<br>
+Igualmente se consideran domiciliados en el país, para los efectos tributarios, las personas naturales que hayan establecido su residencia o lugar de habitación en el territorio de la República de Panamá, salvo que en el año calendario permanezcan en otro país por un periodo de más de ciento ochenta y tres (183) días corridos o alternos, y acrediten haber adquirido la residencia para efectos fiscales en ese otro país. En estos casos, la residencia en el extranjero se acreditará ante la Dirección General de Ingresos del Ministerio de Economía y Finanzas, mediante constancia expedida por las autoridades competentes del Estado del cual son residentes.</p>
+
+<p dir="ltr">Los beneficios de los Tratados para Evitar la Doble Tributación suscritos por la República de Panamá con otros países y que hayan entrado en vigencia, solo serán aplicables cuando el contribuyente demuestre, en cualquier momento, que es residente en el país del que se trate, y se cumpla con las disposiciones del Tratado respectivo. A los efectos de probar la residencia, las constancias expedidas por autoridades extranjeras harán fe, previa traducción oficial y legalización.&nbsp;</p>
+
+</div><div id="tab3" class="tab-pane">
+<h2>¿Cómo se está implementando FATCA/CRS en Banistmo?</h2>
+<h3 dir="ltr">¿Cómo se está implementando FATCA/CRS en Banistmo?</h3>
+
+<p dir="ltr">Banistmo se compromete al cumplimiento de las regulaciones tanto locales como internacionales, manteniendo de esta forma la confianza de nuestros clientes.<br>
+Hemos realizado cambios en nuestros sistemas y procesos, con el objetivo de cumplir con FATCA, sin afectar la tranquilidad de nuestros clientes. Consideramos que el impacto será mínimo, sin embargo, en caso de que alguno de nuestros clientes le sea aplicable esta ley, le estaremos contactando a través de nuestros ejecutivos, para solicitarle la información necesaria.&nbsp;</p>
+
+</div><div id="tab4" class="tab-pane">
+<h2>¿A quién aplica los reportes de FATCA/CRS?</h2>
+<h3 dir="ltr">¿A quién aplica los reportes de FATCA/CRS?</h3>
+
+<h3 dir="ltr">FACTA&nbsp;</h3>
+
+<ul dir="ltr">
+	<li>Persona de EE.UU.</li>
+	<li>Sociedad con accionistas/ beneficiarios estadounidenses.</li>
+</ul>
+
+<h3 dir="ltr">CRS</h3>
+
+<ul dir="ltr">
+	<li>Personas físicas residentes para propósitos fiscales de una jurisdicción participante.</li>
+	<li>Personas jurídicas residentes para propósitos fiscales de una jurisdicción participante.&nbsp;</li>
+</ul>
+
+</div><div id="tab5" class="tab-pane">
+<h2>¿Quién o qué se entiende por Persona de EE.UU.?</h2>
+<h3 dir="ltr">¿Quién o qué se entiende por Persona de EE.UU.?</h3>
+
+<p dir="ltr">Es una persona con condición de ciudadano o residente de Estados Unidos de América, las sociedades de personas o sociedades de capital constituida en los Estados Unidos o conforme con la legislación de los Estados Unidos o de uno de los Estados que los integran.</p>
+
+</div><div id="tab6" class="tab-pane">
+<h2>¿Cómo me aplica FATCA?</h2>
+<h3 dir="ltr">¿Cómo me aplica FATCA si no soy una persona estadounidense o una sociedad con accionistas/ beneficiarios estadounidenses?</h3>
+
+<p dir="ltr">Para las personas que no son consideradas como estadounidenses bajo la norma y que han suministrado la información requerida para ser clasificadas bajo FATCA, la norma no genera ningún impacto.</p>
+
+</div><div id="tab7" class="tab-pane">
+<h2>¿Cómo me afecta FATCA?</h2>
+<h3 dir="ltr">¿Cómo me afecta FATCA si soy una persona estadounidense o una sociedad con accionistas/ beneficiarios estadounidenses?</h3>
+
+<p dir="ltr">El banco solicitará documentación necesaria para asegurar que sus datos están correctos y completos. Una vez obtenida la información solicitada, aplicaremos los procesos descritos, en la ley, para estos casos.</p>
+
+</div><div id="tab8" class="tab-pane">
+<h2>¿Cuándo entra FATCA y CRS en vigencia?</h2>
+<h3 dir="ltr">¿Cuándo entra FATCA y CRS en vigencia?</h3>
+
+<p dir="ltr">Los principales cambios establecidos en la norma entraron en vigencia el 1 de julio de 2014. Posteriormente, tal como mencionamos anteriormente, entraron en vigencia la Ley 47 de octubre de 2016 y la Ley 51 de octubre 2016.</p>
+
+<p dir="ltr">Para más información sobre FATCA puede consultar:</p>
+
+<p dir="ltr"><a href="http://www.irs.gov/">http://www.irs.gov/</a></p>
+
+<p dir="ltr"><a href="http://www.treasury.gov/resource-center/tax-policy/treaties/Pages/FATCA.aspx">http://www.treasury.gov/resource-center/tax-policy/treaties/Pages/FATCA.aspx</a></p>
+
+</div><div id="tab9" class="tab-pane">
+<h2>Documentos de Referencia</h2>
+<h3 dir="ltr">Documentos para descargar:</h3>
+
+<table class="table-responsive" dir="ltr">
+	<thead>
+		<tr>
+			<th style="width: 358px;">Documento</th>
+			<th style="width: 78px;">PDF</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>Definiciones FATCA y CRS.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/474decaa-ed0e-4e71-a62c-2111e6cf4f18/Definiciones+FATCA+y+CRS.pdf?MOD=AJPERES&amp;CVID=mRG99yS" title="PN - Self-Certification - Fatca" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+	</tbody>
+</table>
+
+</div><div id="tab10" class="tab-pane">
+<h2>Disclaimer</h2>
+<p dir="ltr">El presente texto, que se publica exclusivamente para fines informativos, es un resumen&nbsp; de algunos aspectos generales de FATCA/CRS y no incluye, ni pretende incluir todos los aspectos relevantes de la regulación. La información aquí contenida está sujeta, entre otros a: (i) cambios normativos en Panamá y en Estados Unidos, (ii) un cambio de interpretación de las normas locales o extranjeras por parte de las autoridades o las entidades financieras en Panamá o en Estados Unidos. Este artículo no pretende brindar asesoría o formular recomendaciones con relación a FATCA.</p>
+
+</div></div><div class="acordeon  visible-xs visible-sm" id="collapse-22"><h3 class="titulo_acordeon">FATCA &amp; CRS<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab1" class="col-xs-12 collapse in" aria-expanded="true" style="">
+<h2>¿Qué son FATCA y CRS?</h2>
+<h3 dir="ltr">¿Qué es FATCA?</h3>
+
+<p dir="ltr">FATCA es una ley estadounidense denominada Foreign Account Tax Compliance Act ("FATCA" por sus siglas en inglés). Esta ley busca la cooperación entre los países para el intercambio de información de cuentahabientes que tengan obligaciones fiscales en los Estados Unidos. Para cumplir con FATCA, los países, como Panamá, han firmado acuerdos Intergubernamentales que luego han incorporado a la legislación local.<br>
+La Ley 47 de 24 de octubre de 2016 y la Ley 51 del 27 de octubre de 2016, conforman el marco legal que regula el tema de FATCA en nuestro país.<br>
+&nbsp;</p>
+
+<h3 dir="ltr">¿Qué es el Common Reporting Standard (CRS)?&nbsp;</h3>
+
+<p dir="ltr">En español conocido como el Estándar Común de Reporte, es el estándar global para el Intercambio Automático de Información sobre Cuentas Financieras (AEOI, por sus siglas en inglés) elaborado por la Organización para la Cooperación y el Desarrollo Económico (OCDE).&nbsp;<br>
+La República de Panamá, en el año 2016 se comprometió oficialmente con el intercambio automático de información financiera para fines fiscales, a través de este reporte, &nbsp;que es promovido por el Foro Global de Transparencia e Intercambio de Información para fines fiscales. &nbsp;La Ley 51 de 27 de octubre de 2017 estableció obligaciones principales para las instituciones financieras, entre otros aspectos.</p>
+
+<p dir="ltr">&nbsp;</p>
+
+<h3 dir="ltr">Documentos para descargar:</h3>
+
+<table class="table-responsive" dir="ltr">
+	<thead>
+		<tr>
+			<th style="width: 358px;">Documento</th>
+			<th style="width: 78px;">PDF</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PN - Self-Certification - Fatca &amp; CRS.docx</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/cf18c85b-046d-4d51-b754-50940a5601e2/PN+-+Self-Certification+-+Fatca-CRS-English_version.pdf?MOD=AJPERES&amp;CVID=mAHsmvF" title="PN - Self-Certification - Fatca" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PN- Autocertificación - Fatca y CRS.docx</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/09bbd5ca-2348-4fac-9a36-0260da331281/PN-+Autocertificacio%CC%81n+-+Fatca+y+CRS.pdf?MOD=AJPERES&amp;CVID=mAHsg8E" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>PJ-Autocertificación unificado- Fatca y CRS</strong><strong>.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/ad2e205d-52e5-477f-8eaa-26fc66d73509/PJ+Autocertificacion+unificado-+Fatca+y+CRS.pdf?MOD=AJPERES&amp;CVID=mCx33X-" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>Tax Self-Certification Legal Entity.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/a972fee5-07b5-49e6-b12d-bc88f6e228f4/Tax+Self-Certification+Legal+Entity.pdf?MOD=AJPERES&amp;CVID=mCCcUYC" title="PN- Autocertificación - Fatca y CRS" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p dir="ltr">&nbsp;</p>
+
+<p dir="ltr">&nbsp;</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿Cómo se define residencia fiscal para Panamá? <li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab2" class="col-xs-12">
+<h2>¿Cómo se define residencia fiscal para Panamá? </h2>
+<h3 dir="ltr">¿Cómo se define residencia fiscal para Panamá?&nbsp;</h3>
+
+<p dir="ltr">De acuerdo al Código Fiscal y la definición que nos da &nbsp;el Artículo 762-N. (adicionado según artículo 1, ley 33 de 2010) Residencia fiscal. Se consideran domiciliados en la República de Panamá, para los efectos tributarios, las personas naturales que permanezcan por más de ciento ochenta y tres (183) días corridos o alternos en el año fiscal en el territorio nacional, y perciban o devenguen rentas sujetas al Impuesto, deberán determinar el mismo de acuerdo con las reglas establecidas en este Código.<br>
+Igualmente se consideran domiciliados en el país, para los efectos tributarios, las personas naturales que hayan establecido su residencia o lugar de habitación en el territorio de la República de Panamá, salvo que en el año calendario permanezcan en otro país por un periodo de más de ciento ochenta y tres (183) días corridos o alternos, y acrediten haber adquirido la residencia para efectos fiscales en ese otro país. En estos casos, la residencia en el extranjero se acreditará ante la Dirección General de Ingresos del Ministerio de Economía y Finanzas, mediante constancia expedida por las autoridades competentes del Estado del cual son residentes.</p>
+
+<p dir="ltr">Los beneficios de los Tratados para Evitar la Doble Tributación suscritos por la República de Panamá con otros países y que hayan entrado en vigencia, solo serán aplicables cuando el contribuyente demuestre, en cualquier momento, que es residente en el país del que se trate, y se cumpla con las disposiciones del Tratado respectivo. A los efectos de probar la residencia, las constancias expedidas por autoridades extranjeras harán fe, previa traducción oficial y legalización.&nbsp;</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿Cómo se está implementando FATCA/CRS en Banistmo?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab3" class="col-xs-12">
+<h2>¿Cómo se está implementando FATCA/CRS en Banistmo?</h2>
+<h3 dir="ltr">¿Cómo se está implementando FATCA/CRS en Banistmo?</h3>
+
+<p dir="ltr">Banistmo se compromete al cumplimiento de las regulaciones tanto locales como internacionales, manteniendo de esta forma la confianza de nuestros clientes.<br>
+Hemos realizado cambios en nuestros sistemas y procesos, con el objetivo de cumplir con FATCA, sin afectar la tranquilidad de nuestros clientes. Consideramos que el impacto será mínimo, sin embargo, en caso de que alguno de nuestros clientes le sea aplicable esta ley, le estaremos contactando a través de nuestros ejecutivos, para solicitarle la información necesaria.&nbsp;</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿A quién aplica los reportes de FATCA/CRS?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab4" class="col-xs-12">
+<h2>¿A quién aplica los reportes de FATCA/CRS?</h2>
+<h3 dir="ltr">¿A quién aplica los reportes de FATCA/CRS?</h3>
+
+<h3 dir="ltr">FACTA&nbsp;</h3>
+
+<ul dir="ltr">
+	<li>Persona de EE.UU.</li>
+	<li>Sociedad con accionistas/ beneficiarios estadounidenses.</li>
+</ul>
+
+<h3 dir="ltr">CRS</h3>
+
+<ul dir="ltr">
+	<li>Personas físicas residentes para propósitos fiscales de una jurisdicción participante.</li>
+	<li>Personas jurídicas residentes para propósitos fiscales de una jurisdicción participante.&nbsp;</li>
+</ul>
+
+</div></div></div><h3 class="titulo_acordeon">¿Quién o qué se entiende por Persona de EE.UU.?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab5" class="col-xs-12">
+<h2>¿Quién o qué se entiende por Persona de EE.UU.?</h2>
+<h3 dir="ltr">¿Quién o qué se entiende por Persona de EE.UU.?</h3>
+
+<p dir="ltr">Es una persona con condición de ciudadano o residente de Estados Unidos de América, las sociedades de personas o sociedades de capital constituida en los Estados Unidos o conforme con la legislación de los Estados Unidos o de uno de los Estados que los integran.</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿Cómo me aplica FATCA?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab6" class="col-xs-12">
+<h2>¿Cómo me aplica FATCA?</h2>
+<h3 dir="ltr">¿Cómo me aplica FATCA si no soy una persona estadounidense o una sociedad con accionistas/ beneficiarios estadounidenses?</h3>
+
+<p dir="ltr">Para las personas que no son consideradas como estadounidenses bajo la norma y que han suministrado la información requerida para ser clasificadas bajo FATCA, la norma no genera ningún impacto.</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿Cómo me afecta FATCA?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab7" class="col-xs-12">
+<h2>¿Cómo me afecta FATCA?</h2>
+<h3 dir="ltr">¿Cómo me afecta FATCA si soy una persona estadounidense o una sociedad con accionistas/ beneficiarios estadounidenses?</h3>
+
+<p dir="ltr">El banco solicitará documentación necesaria para asegurar que sus datos están correctos y completos. Una vez obtenida la información solicitada, aplicaremos los procesos descritos, en la ley, para estos casos.</p>
+
+</div></div></div><h3 class="titulo_acordeon">¿Cuándo entra FATCA y CRS en vigencia?<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab8" class="col-xs-12">
+<h2>¿Cuándo entra FATCA y CRS en vigencia?</h2>
+<h3 dir="ltr">¿Cuándo entra FATCA y CRS en vigencia?</h3>
+
+<p dir="ltr">Los principales cambios establecidos en la norma entraron en vigencia el 1 de julio de 2014. Posteriormente, tal como mencionamos anteriormente, entraron en vigencia la Ley 47 de octubre de 2016 y la Ley 51 de octubre 2016.</p>
+
+<p dir="ltr">Para más información sobre FATCA puede consultar:</p>
+
+<p dir="ltr"><a href="http://www.irs.gov/">http://www.irs.gov/</a></p>
+
+<p dir="ltr"><a href="http://www.treasury.gov/resource-center/tax-policy/treaties/Pages/FATCA.aspx">http://www.treasury.gov/resource-center/tax-policy/treaties/Pages/FATCA.aspx</a></p>
+
+</div></div></div><h3 class="titulo_acordeon">Documentos de Referencia<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab9" class="col-xs-12">
+<h2>Documentos de Referencia</h2>
+<h3 dir="ltr">Documentos para descargar:</h3>
+
+<table class="table-responsive" dir="ltr">
+	<thead>
+		<tr>
+			<th style="width: 358px;">Documento</th>
+			<th style="width: 78px;">PDF</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-th="Documento" style="width: 358px;"><span class="bt-content"><strong>Definiciones FATCA y CRS.pdf</strong></span></td>
+			<td data-th="PDF" style="width: 78px;"><span class="bt-content"><a href="/wps/wcm/connect/www.banistmo.com11237/474decaa-ed0e-4e71-a62c-2111e6cf4f18/Definiciones+FATCA+y+CRS.pdf?MOD=AJPERES&amp;CVID=mRG99yS" title="PN - Self-Certification - Fatca" target="_blank"><img src="/wps/wcm/connect/www.banistmo.com11237/b5812573-aa98-42f4-8ee1-f2a4bd15e467/pdf-icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b5812573-aa98-42f4-8ee1-f2a4bd15e467-m1cIl8g" alt="Descargar PDF" width="45" height="57" title=""></a></span></td>
+		</tr>
+	</tbody>
+</table>
+
+</div></div></div><h3 class="titulo_acordeon">Disclaimer<li class="pull-right glyphicon glyphicon-plus"></li></h3><div class="pane"><div class="row"><div id="collapse-tab10" class="col-xs-12">
+<h2>Disclaimer</h2>
+<p dir="ltr">El presente texto, que se publica exclusivamente para fines informativos, es un resumen&nbsp; de algunos aspectos generales de FATCA/CRS y no incluye, ni pretende incluir todos los aspectos relevantes de la regulación. La información aquí contenida está sujeta, entre otros a: (i) cambios normativos en Panamá y en Estados Unidos, (ii) un cambio de interpretación de las normas locales o extranjeras por parte de las autoridades o las entidades financieras en Panamá o en Estados Unidos. Este artículo no pretende brindar asesoría o formular recomendaciones con relación a FATCA.</p>
+
+</div></div></div></div>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>
+
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+<div class="wpthemeClear"></div>
+	</div>
+</section>
+</div>
+	
+		<div class="component-control id-Z7_8252I1C0M0O260A72B17TR28M3"><span id="Z7_8252I1C0M0O260A72B17TR28M3"></span><section class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget" role="region">
+
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_8252I1C0M0O260A72B17TR28M3" style="display:none;">
+		<span class="asa.portlet.id">Z7_8252I1C0M0O260A72B17TR28M3</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader" role="banner" aria-label="Skin header">
+		<div class="wpthemeInner">
+			<h2>
+				<img class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this.parentNode, 30, 0);" ondragend="wpModules.dnd.util.portletDragEnd(event);" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+ 				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="es" dir="ltr">Visor de contenido web</span></span>
+			</h2>
+			<a aria-haspopup="true" aria-label="Mostrar menú de contenido" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus contextMenuInSkinIcon" style="display:none" tabindex="0">
+				<span title="Mostrar menú de contenido"><img aria-label="Mostrar menú de contenido" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Menú de acciones de componente</span>
+				<!-- start CAM template -->
+				<span class="wpthemeMenu" data-positioning-handler="horizontallyCenteredBelow">
+					<div class="wpthemeMenuBorder">
+						<!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span></li>
+						</ul>
+						<div class="verticalMenuPointer pointer"></div>
+					</div> <!-- Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+					<!-- Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu">
+								<li role="menuitem" tabindex="-1"></li>
+							</ul>
+						</div>
+					</div>
+				</span>
+				<!-- end CAM template -->
+			</a>
+			<a aria-haspopup="true" aria-label="Mostrar menú de portlet" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus" tabindex="0" onclick="if (typeof wptheme != 'undefined') wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});" onkeydown="javascript:if (typeof i$ != 'undefined' &amp;&amp; typeof wptheme != 'undefined') {if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}}">
+				<span title="Mostrar menú de portlet"><img aria-label="Mostrar menú de portlet" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Acciones</span>
+			</a>
+		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay"></div>
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+            <div class="row-fluid categorias-relacionadas">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <h2>Otras Categorías</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/a5aa6637-0810-4830-b97f-5406056534fc/como_usar_banco.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-a5aa6637-0810-4830-b97f-5406056534fc-nzof16r" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Banca en línea y App</h3>
+        <p></p><p dir="ltr">Conoce cómo utilizar tus canales digitales y sacarles el mayor provecho.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/banca-en-linea-y-app/" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/8b265979-e632-4ce5-b136-4f9b4002747f/educacion_financiera.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-8b265979-e632-4ce5-b136-4f9b4002747f-nUR9C0M" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Financiera-Mente</h3>
+        <p></p><p dir="ltr">Descubre como mantener tu seguridad bancaria y cómo manejar tu dinero saludablemente.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="Descubre más" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/financiera-mente" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/b30866ca-de3e-45a9-830a-46d7a361f137/Wompi_Icono.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-b30866ca-de3e-45a9-830a-46d7a361f137-o7LpKiL" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">WOMPI</h3>
+        <p></p><p dir="ltr">Conoce los paso a paso de la pasarela de pagos de Banistmo.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="Descubre más" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/wompi" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/9934665b-de90-4357-bd9d-b22ea1a2cfb3/mpos.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-9934665b-de90-4357-bd9d-b22ea1a2cfb3-nzoeQBE" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">MPOS Banistmo</h3>
+        <p></p><p dir="ltr">Aquí podrás conocer los detalles de las transacciones más relevantes del MPOS Banistmo e información importante acerca de su uso.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="Descubre más" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/conoce-tu-mpos" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/1b72f23f-bb2e-4f64-9435-911c28ca09ad/pagos.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-1b72f23f-bb2e-4f64-9435-911c28ca09ad-nzof98Q" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Pagos</h3>
+        <p></p><p dir="ltr">Conoce los servicios&nbsp;de Banistmo que te facilitan tus pagos y giros.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/pagos/" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/d13de376-9444-45d7-ba42-5c743edaada4/legales.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-d13de376-9444-45d7-ba42-5c743edaada4-nzodKpE" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Legales</h3>
+        <p></p><p dir="ltr">Encuentra aquí temas&nbsp;legales importantes, relacionados con la banca.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/legales/" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/ac72865a-4446-41ac-8093-0f03673ab76f/seguridad.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-ac72865a-4446-41ac-8093-0f03673ab76f-nzokTWb" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Seguridad y privacidad</h3>
+        <p></p><p dir="ltr">La seguridad en las transacciones, un compromiso de Banistmo y sus clientes.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="Descubre más" target="" href="/wps/portal/banistmo/acerca-de/seguridad" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div><div class="col-sm-4">
+  <div class="row-fluid destacados-categoria">
+    <div class="row-fluid clearfix">
+      <div class="col-xs-12 clearfix img-click"><img alt="Ícono" src="/wps/wcm/connect/www.banistmo.com11237/e10ff254-adc5-42fa-9c02-b8343c2806f2/Union+%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-e10ff254-adc5-42fa-9c02-b8343c2806f2-nNXCiPy" class="center-block"></div>
+      <div class="col-xs-12 clearfix" style="height: 155px;">
+        <h3 style="color: #292929;">Actualización de datos</h3>
+        <p></p><p dir="ltr">Aquí podrás conocer porqué es necesario actualizar tus datos una vez al año.</p>
+<p></p>
+      </div>
+      <div class="col-xs-12 clearfix link"><a title="Descubre más" target="" href="/wps/portal/banistmo/personas/aprender-es-facil/actualizacion-de-datos/" class="center-block btn btn-primary">Descubre más</a></div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+<div class="wpthemeClear"></div>
+	</div>
+</section>
+</div>
+	
+		<div class="component-control id-Z7_8252I1C0M0O260A72B17TR28E0"><span id="Z7_8252I1C0M0O260A72B17TR28E0"></span><section class="ibmPortalControl wpthemeControl wpthemeHidden a11yRegionTarget" role="region">
+
+	
+	
+
+	<div class="asa.portlet" id="asa.portlet.Z7_8252I1C0M0O260A72B17TR28E0" style="display:none;">
+		<span class="asa.portlet.id">Z7_8252I1C0M0O260A72B17TR28E0</span>
+
+		
+
+	</div>
+	
+<!-- start header markup -->
+	<header class="wpthemeControlHeader" role="banner" aria-label="Skin header">
+		<div class="wpthemeInner">
+			<h2>
+				<img class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this.parentNode, 30, 0);" ondragend="wpModules.dnd.util.portletDragEnd(event);" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
+				<!-- lm-dynamic-title node marks location for dynamic title support -->
+ 				<span class="lm-dynamic-title asa.portlet.title a11yRegionLabel"><span lang="es" dir="ltr">Visor de contenido web</span></span>
+			</h2>
+			<a aria-haspopup="true" aria-label="Mostrar menú de contenido" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus contextMenuInSkinIcon" style="display:none" tabindex="0">
+				<span title="Mostrar menú de contenido"><img aria-label="Mostrar menú de contenido" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Menú de acciones de componente</span>
+				<!-- start CAM template -->
+				<span class="wpthemeMenu" data-positioning-handler="horizontallyCenteredBelow">
+					<div class="wpthemeMenuBorder">
+						<!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+						<ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+							<li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span></li>
+						</ul>
+						<div class="verticalMenuPointer pointer"></div>
+					</div> <!-- Template for loading -->
+					<div class="wpthemeMenuLoading wpthemeTemplateLoading">${loading}</div>
+					<!-- Template for submenu -->
+					<div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+						<div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+							<ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu">
+								<li role="menuitem" tabindex="-1"></li>
+							</ul>
+						</div>
+					</div>
+				</span>
+				<!-- end CAM template -->
+			</a>
+			<a aria-haspopup="true" aria-label="Mostrar menú de portlet" role="button" href="javascript:;" class="wpthemeIcon wpthemeMenuFocus" tabindex="0" onclick="if (typeof wptheme != 'undefined') wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});" onkeydown="javascript:if (typeof i$ != 'undefined' &amp;&amp; typeof wptheme != 'undefined') {if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}}">
+				<span title="Mostrar menú de portlet"><img aria-label="Mostrar menú de portlet" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"></span>
+				<span class="wpthemeAltText">Acciones</span>
+			</a>
+		</div>
+	</header>
+	
+	<div class="wpthemeControlBody wpthemeOverflowAuto wpthemeClear"> <!-- lm:control dynamic spot injects markup of layout control -->
+	<!-- asa.overlay marks the node that the AsaOverlayWidget will be placed in -->
+		<div style="position:relative; z-index: 1;">
+			<div class="analytics.overlay"></div>
+		</div>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+            
+                      <style>
+#footer-content .shortcuts {
+    background: #fff;
+    padding: 50px 0 0px 0;
+    text-align: center;
+}
+
+        .wptheme1Col .wpthemeCol, .wpthemeInner {width: 100%;float: inherit !important;margin: inherit;}.wpthemeCol {margin-left: 0px !important;}body .wpthemeOverflowAuto {overflow: unset !important;}body .wpthemeClear {clear: none !important;}.wpthemeControl, .wpthemeRow, .wpthemeLayoutContainers {margin: 0 !important;padding: 0 !important;}
+    </style>
+<script>
+  $(document).ready(function(){
+    $(window).resize(function() {
+        if ($(window).width() <= 767) {
+          $('footer .check-list').hide();
+          $('.title').on('click', function(e) {
+            e.preventDefault();
+              $(".title").removeClass('active');
+              $(this).addClass('active');
+                $(this).nextUntil('.active').slideDown('slow');
+                $(".title").not(".active").nextUntil('.title').slideUp('slow');
+          });
+        }else {
+              $('footer .check-list').show();
+          };
+    });
+  });
+</script>
+   
+<footer id="footer-content">
+  <div class="row-fluid shortcuts">
+    <div class="container">
+        <div class="row">
+
+<h4>¿Necesitas contactarnos? </h4>
+<br>
+
+          <div class="col-sm-3 block">
+              <a href="https://chat.banistmo.com/chat/ChatQuestion.aspx?ModeSource=CHECKSCHEDULE" title="Chat en línea"> <img src="/wps/wcm/connect/www.banistmo.com11237/f77e637a-115c-493e-9031-f5bc82db8c06/chat.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-f77e637a-115c-493e-9031-f5bc82db8c06-nu3xpR7" alt="Ícono Chat" title="Chat en línea"></a>
+            <div class="txt">
+           <h3 dir="ltr">Chat en línea</h3>
+              <p dir="ltr">Déjanos ayudarte a encontrar lo que buscas.</p>
+            </div>          
+          </div>
+          <div class="col-sm-3 block">
+              <a target="_blank" href="/wps/portal/banistmo/personas/productos-y-servicios/canales/sucursal-telefonica-personas/"><img src="/wps/wcm/connect/www.banistmo.com11237/69233c16-83ee-4391-8cd0-7c02d7a938d0/phone.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-69233c16-83ee-4391-8cd0-7c02d7a938d0-nu3xTdf" alt="Ícono Llámanos"></a>
+            <div class="txt">
+                 <h3 dir="ltr">Llámanos</h3>
+              <p dir="ltr">Al <a href="tel:5073064700" style="color:#2c2a29;"><u>306-4700</u></a>. </p>
+            </div>
+          </div>
+          <div class="col-sm-3 block">
+              <a title="Déjanos Llamarte" target="" href="/wps/portal/banistmo/personas/productos-y-servicios/canales/dejanos-llamarte"><img src="/wps/wcm/connect/www.banistmo.com11237/682d4335-5b69-4619-818e-918fa94fde9d/call.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-682d4335-5b69-4619-818e-918fa94fde9d-nu3yfBU" alt="Ícono Déjanos Llamarte" title=""></a>
+            <div class="txt">
+             <h3 dir="ltr">Déjanos llamarte</h3>
+              <p dir="ltr">Déjanos tus datos para que te contactemos.</p>
+            </div>
+          </div>
+          <div class="col-sm-3 block last">
+              <a title="Visítanos" target="" href="/wps/portal/banistmo/personas/buscador-sucursales/"><img src="/wps/wcm/connect/www.banistmo.com11237/20953d95-d783-4f42-8e26-9252954e138d/location.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-20953d95-d783-4f42-8e26-9252954e138d-nu3z8eI" alt="Ícono Visítanos" title="Visitanos"></a>
+            <div class="txt">
+                   <h3 dir="ltr">Visítanos</h3>
+              <p dir="ltr">Busca nuestro próximo lugar de encuentro.</p>
+            </div>
+          </div>
+<br><br>
+<div>
+<a href="/wps/portal/banistmo/personas/productos-y-servicios/canales-de-atencion" target="_blank" class="btn btn-primary">OTROS CANALES DE ATENCIÓN &nbsp; &nbsp;  <img src="/wps/wcm/connect/www.banistmo.com11237/eb4dc497-23f5-46db-ad7a-6d4d9f756736/Mask.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-eb4dc497-23f5-46db-ad7a-6d4d9f756736-nUM6b-E" style="height:17px;margin-bottom:5px;"></a>
+
+
+</div>
+<br><br>
+
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid links">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="row">
+            <h3 class="title">Comunícate con nosotros</h3>
+            <ul class="check-list" dir="ltr">
+                <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/canales-de-atencion/" target="" title="">Contáctanos</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/informacion-corporativa/trabaja-con-nosotros/" target="" title="">Trabaja con nosotros</a></li>
+            </ul>            
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <h3 class="title">Accesos rápidos</h3>
+            <ul class="check-list" dir="ltr">
+                <li><a href="/wps/portal/banistmo/acerca-de/glosario-de-terminos" target="" title="">Glosario</a></li>
+                <li><a href="/wps/portal/banistmo/personas/productos-y-servicios/simuladores" target="" title="">Simuladores</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/informacion-corporativa/sostenibilidad/" target="" title="">Sostenibilidad</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/mapa-del-sitio/" target="" title="">Mapa del sitio</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/tarifario/" target="" title="">Tarifario</a></li>
+                <li><a href="https://personas.banistmo.com/">Transacciones</a></li>
+                <li><a href="/wps/portal/banistmo/personas/aprender-es-facil/" target="" title="">Aprender es Fácil</a></li>
+                <li><a href="/wps/portal/banistmo/personas/impulsa" target="" title="">Impulsa</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/innovacion" target="" title="">Innovación</a></li>
+            </ul>            
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row">
+            <h3 class="title">Legales</h3>
+            <ul class="check-list" dir="ltr">
+                <li><a href="/wps/portal/banistmo/acerca-de/seguridad" target="" title="">Seguridad&nbsp;y&nbsp;Privacidad</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/condiciones-generales/" target="" title="">Condiciones generales</a></li>
+                <li><a href="/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/" target="" title="">FATCA &amp; CRS</a></li>
+                <li><a href="/wps/portal/banistmo/empresas/productos-y-servicios/itbms/" target="" title="">ITBMS</a></li>
+                <li><a href="/wps/wcm/connect/www.banistmo.com11237/c4d78b09-894e-4a17-b8c8-624a706daf80/ProhibicionesSuperIntendenciaDeBancosSIB.pdf?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-c4d78b09-894e-4a17-b8c8-624a706daf80-noplGiy" download="ProhibicionesSuperIntendenciaDeBancosSIB" target="" title="">Prohibiciones</a></li>
+                <li><a href="/wps/portal/banistmo/personas/aprender-es-facil/legales/laft/" target="" title="">Prevención de lavado de activos</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/gestion-2021" target="" title="">Gestión 2021</a></li>
+                <li><a href="/wps/portal/banistmo/acerca-de/sala-de-prensa/todos-los-articulos/comunicaciones-corporativas/retencion-de-impuestos-de-inmuebles" target="" title="">Retención Impuesto de Inmuebles</a></li>
+            </ul>            
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="row social">
+            <h3>Síguenos en redes:</h3>
+            <ul class="networks" dir="ltr">
+                <li class="facebook"><a href="https://www.facebook.com/Banistmo">Facebook</a></li>
+                <li class="twitter"><a href="https://twitter.com/banistmo">Twitter</a></li>
+                <li class="instagram"><a href="https://www.instagram.com/banistmo/">Instagram</a></li>
+                <li class="youtube"><a href="https://www.youtube.com/banistmoPanama">YouTube</a></li>
+                <li class="linkedin"><a href="https://www.linkedin.com/company/banistmo">LinkedIn</a></li>
+            </ul>
+            <img src="/wps/wcm/connect/www.banistmo.com11237/ffbb836a-cf33-427d-a86c-e3a9081228d9/Logo-para-bancos-SBP-2018.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-ffbb836a-cf33-427d-a86c-e3a9081228d9-nopjkle" alt="Superintendencia de Bancos de Panamá" width="66" height="66">
+          </div>
+        </div>        
+      </div>   
+    </div>
+  </div>
+
+  <div class="row-fluid copy">
+    <div class="container">
+      <div class="col-sm-5 logo-banistmo-footer-bco">
+        <a href="/wps/portal/banistmo/personas/" class="logo-banistmo">
+           <img src="/wps/wcm/connect/www.banistmo.com11237/de872b1a-fb3b-4e45-a0f1-7850820269bf/logo-banistmo-footer.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-de872b1a-fb3b-4e45-a0f1-7850820269bf-nopjwDV" alt="" width="155" height="26">
+        </a>
+      </div>
+      <div class="col-sm-7">
+        <p dir="ltr" style="color: #FFFFFF;">Copyright © 2022 Banistmo</p>
+        <a href="https://www.grupobancolombia.com/personas" class="logo-bancolombia">
+           <img src="/wps/wcm/connect/www.banistmo.com11237/144957fa-bd42-441e-a29b-ef21e673b9a9/logo-bancolombia-footer.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE.Z18_7O9GHBG0O0M4A0Q3JGMS8408B6-144957fa-bd42-441e-a29b-ef21e673b9a9-nopjrG1" alt="" width="128" height="30">
+        </a>
+      </div>            
+    </div> 
+  </div>
+
+</footer>
+        
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+<div class="wpthemeClear"></div>
+	</div>
+</section>
+</div>
+	 
+
+	 
+<div class="wpthemeClear"></div>
+            </div>
+        </div>
+    </div>
+    <!--end main content-->
+
+    <!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+    <div class="wpthemeComplementaryContent" id="wpthemeComplementaryContent" role="region" tabindex="-1" aria-labelledby="wpthemeComplementaryContentText">
+        <span class="wpthemeAltText" id="wpthemeComplementaryContentText"></span>
+        <script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!gwTp21ty2ecY9GBRnIpZDg/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1653676383685&amp;entry=wp_portal__0.0%3Aconfig_config_static&amp;entry=wcm_config__0.0%3Aconfig_config_static&amp;entry=wcm_inplaceEdit__0.0%3Aconfig_config_static"></script><script type="text/javascript">i$.merge({"ibmCfg":{"themeConfig":{"themeUniqueName":"BanistmoTheme","themeRootURI":"/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/war/BanistmoThemeStatic/themes/Banistmo","themeWebAppBaseURI":"/BanistmoThemeDynamic/themes/html/dynamicSpots","themeWebDAVBaseURI":"war:BanistmoThemeStatic/themes/Banistmo/","modulesWebAppBaseURI":"/wps/themeModules","commonResourcesRootURI":"/wps/contenthandler/!ut/p/digest!gwTp21ty2ecY9GBRnIpZDg/dav/fs-type1/common-resources","isRTL":false,"isPageRenderModeCSA":false,"portletOverridePageTitle":"FATCA  &amp; CRS Banco Banistmo","currentContentNodeOID":"Z6_8252I1C0M0O260A72B17TR28Q6","loadingImage":"css/images/loading.gif","dndSourceDefinitions":[],"categorySources":[],"styleSources":[],"layoutSources":[]},"portalConfig":{"locale":"es","portalURI":"/wps/portal","contentHandlerURI":"/wps/contenthandler/!ut/p/digest!gtougamrQBuTprdXxkC6yA/","pocURI":"/wps/portal/!ut/p/z0/0wcA1NLTeQ!!/","isVirtualPortal":true,"canImpersonate":false,"themeRootURI":"/BanistmoThemeDynamic/themes/html/dynamicSpots","parentPageID":"Z6_8252I1C0M0O260A72B17TR28C0","currentPageOID":"Z6_8252I1C0M0O260A72B17TR28Q6","canAnonymousUserViewCurrentPage":true,"bootstrapState":"&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state type=&#034;navigational&#034;&gt;&lt;selection selection-node=&#034;Z6_8252I1C0M0O260A72B17TR28Q6&#034;&gt;&lt;mapping src=&#034;Z6_000000000000000000000000A0&#034; dst=&#034;Z6_8252I1C0M0O260A72B17TR28Q6&#034;/&gt;&lt;mapping src=&#034;Z6_8252I1C0M0O260A72B17TR28Q6&#034; dst=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node id=&#034;Z6_8252I1C0M0O260A72B17TR28C0&#034;/&gt;&lt;node id=&#034;Z6_8252I1C0M07RC0ARVBRB240GQ5&#034;/&gt;&lt;node id=&#034;Z6_2G9I1K41NO8490QLEAGI8QBKK7&#034;/&gt;&lt;node id=&#034;Z6_38G2HA80N87M00AB62GT7520B5&#034;/&gt;&lt;node id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/expansions&gt;&lt;/state&gt;&lt;/root&gt;","isUserLoggedIn":false,"currentUser":"anonymous portal user","currentUserOID":"","aggregatedStyle":null,"isCurrentPageEditable":true,"wcmPageMetadata":{"contentRoot":null,"sharingScope":null},"projectUUID":null},"userName":""},"com_ibm_theme_capabilities":{"wp_toolbar_viewframe_validator":"0.0","toolbar":"8.5","wp_dynamicContentSpots_85":"0.0","wp_theme_portal_85":"0.0","wp_client_ext":"0.0","wp_a11y":"0.0","wp_custom_page_style":"0.0","wp_simple_contextmenu_main":"0.0","bco_fonts":"1.0","wp_client_tracing":"0.0","css_wcm_custom":"0.0","wp_toolbar85":"0.0","wp_theme_utils":"0.0","bco_transversal_js":"1.0","wp_toolbar_common":"0.0","photon.dom":"1.0","wp_toolbar_sitepreview_menuactions":"0.0","wp_dialog_draggable":"0.0","wp_themeDynBanistmo":"0.0","wp_toolbar_common_actionbar":"0.0","wp_simple_contextmenu_css":"0.0","hasBaseURL":"true","wp_client_logging":"0.0","wp_portal":"0.0","wp_toolbar_contextmenu":"0.0","wp_toolbar_logo":"0.0","wp_toolbar_menuactions":"0.0","bco_transversal_css":"1.0","wp_dialog_css":"0.0","wp_simple_contextmenu_ext":"0.0","wp_photon_dom":"0.0","wp_simple_contextmenu_templates":"0.0","wp_state_page_modes":"0.0","wp_toolbar_sitepreview":"0.0","wp_toolbar_projectmenu":"0.0","wp_toolbar_actionbar":"0.0","wp_searchbar":"0.0","wp_toolbar_moremenu":"0.0","wp_dialog_main":"0.0","wp_modules":"0.0","wp_hiddenpages":"0.0","wp_client_main":"0.0","wp_hiddencontent":"0.0","wp_theme_portal_edit_85":"0.0","wp_portlet_css":"0.0","wp_toolbar_utils":"0.0","a11y":"1.0","wp_toolbar_host_view":"0.0","wp_dialog_util":"0.0","wp_state_page":"0.0","simple-contextmenu":"1.1","modules":"0.1","wp_simple_contextmenu_js":"0.0"},"com_ibm_device_class":[]});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"").replace(/&lt;/gm, '<').replace(/&gt;/gm, '>').replace(/&amp;/gm, '&').replace(/&#039;/gm, "'").replace(/&#034;/gm, '"');i$.merge({"ibmCfg":{"portalConfig":{"asaConfig":{"canViewAsaReports":"false","canViewAsaSitePromotions":"false","canCreateAsaSitePromotions":"false","canDeleteAsaSitePromotions":"false","reportConfig":{"scopes":[]}}}}});i$.merge({"ibmCfg":{"portalConfig":{"isShowHiddenPages":false}}});</script><script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1647468430000&amp;entry=wp_toolbar_utils__0.0%3Aconfig_js&amp;entry=wp_toolbar_menuactions__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_ext__0.0%3Aconfig_js&amp;entry=wp_toolbar_actionbar__0.0%3Aconfig_js&amp;entry=wp_state_page_modes__0.0%3Aconfig_js&amp;entry=wp_dialog_main__0.0%3Aconfig_js&amp;entry=bco_transversal_js__1.0%3Aconfig_js&amp;entry=wp_toolbar_projectmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview_menuactions__0.0%3Aconfig_js&amp;entry=wp_toolbar_contextmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview__0.0%3Aconfig_js"></script><a rel="alternate" id="config_js_deferred" href="/wps/contenthandler/!ut/p/digest!AVpjyN-eMXoHdj8JKNHpMA/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1653676383000&amp;entry=wp_portal_ui_utils__0.0%3Aconfig_js&amp;entry=wp_federated_documents_picker__0.0%3Aconfig_js&amp;entry=wp_liveobject_framework_core__0.0%3Aconfig_js&amp;entry=wp_dnd_main__0.0%3Aconfig_js&amp;entry=wp_contextmenu_config_lof__0.0%3Aconfig_js&amp;entry=wp_status_bar__0.0%3Aconfig_js&amp;entry=wp_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_content_targeting_cam__0.0%3Aconfig_js&amp;entry=wp_analytics_tags__0.0%3Aconfig_js&amp;entry=wp_movecontrols__0.0%3Aconfig_js&amp;entry=wp_toolbar_controlactions__0.0%3Aconfig_js&amp;deferred=true" style="display:none"></a><span id="simpleMenuTemplate" class="wpthemeMenuLeft">
+    <div class="wpthemeMenuBorder">
+        <div class="wpthemeMenuNotchBorder"></div>
+        <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+        <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+            <li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span>${badge}</li>
+        </ul>
+    </div>
+    <!-- Template for loading -->
+    <div class="wpthemeMenuLoading wpthemeMenuLoadingText wpthemeTemplateLoading">${loading}</div>
+    <!-- Template for submenu -->
+    <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+        <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+            <ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu"><li role="menuitem" tabindex="-1"></li></ul>
+        </div>
+    </div>
+</span><a rel="alternate" id="config_markup_deferred" href="/wps/contenthandler/!ut/p/digest!EvT-dhQlE2oXeXITNcY4-Q/mashup/ra:collection?themeID=ZJ_P95CH9G00HNEA0QLPCUGUH1004&amp;locale=es&amp;locale=en&amp;mime-type=text%2Fplain&amp;entry=wp_dnd_main__0.0%3Aconfig_markup&amp;entry=wp_contextmenu_templates__0.0%3Aconfig_markup&amp;deferred=true" style="display:none"></a></div>
+
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/angular-sanitize-1.8.2.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/angular-animate-1.8.2.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/app.js"></script>
+    <script type="text/javascript" src="/BanistmoThemeStatic/themes/Banistmo/js/modules/modules.min.js" defer=""></script>
+
+
+
+
+</portletapi:init><link rel="alternate" href="https://www.banistmo.com/wps/portal/banistmo/personas/aprender-es-facil/legales/fatca/" hreflang="es-pa"><iframe id="_hjSafeContext_22426073" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-54d18b2ccd1c7fa42c71f18525ba4ad0.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>

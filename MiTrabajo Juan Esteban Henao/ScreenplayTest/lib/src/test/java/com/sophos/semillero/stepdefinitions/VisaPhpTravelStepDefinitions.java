@@ -7,6 +7,8 @@ import static com.sophos.semillero.userinterfaces.PhpTravelsVisaPage.TAB_VISA;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
+import org.junit.Assert;
+
 import com.sophos.semillero.interactions.CompleteInfoVisa;
 import com.sophos.semillero.runners.VisaPhpTravelsTest;
 import com.sophos.semillero.task.PhpTravelsVisa;
@@ -42,6 +44,8 @@ public class VisaPhpTravelStepDefinitions {
 	@Then("{string} saw the message {string}")
 	public void sawTheMessage(String string, String message) {
 		theActorInTheSpotlight().attemptsTo(PhpTravelsVisaValidateMessage.validateMessage(message));
+
+	//	Assert.assertEquals(message, PhpTravelsVisaPage.FINALMESSAGE);
 	}
 
 }

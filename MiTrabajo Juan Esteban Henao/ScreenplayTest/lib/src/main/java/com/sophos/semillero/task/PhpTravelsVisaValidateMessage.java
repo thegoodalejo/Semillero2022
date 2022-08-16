@@ -19,7 +19,8 @@ public class PhpTravelsVisaValidateMessage implements Task {
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		actor.asksFor(IsVisibleMessageVisa.message(PhpTravelsVisaPage.FINALMESSAGE, message));
-		
+		//String mensaje = PhpTravelsVisaPage.FINALMESSAGE.resolveFor(actor).getValue();
+		//System.out.println(mensaje);
 		
 	}
 	public static PhpTravelsVisaValidateMessage validateMessage (String message) {
